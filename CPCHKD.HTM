@@ -1,0 +1,388 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="CP CP0049 CPCHKD CPCHKD" />
+<title>Cheque Details</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Cheque Details</h1>
+<b>Table:</b> CPCHKD<br />
+<b>View:</b> <a href="CP0049.HTM" title="View: Cheque Details">CP0049</a><br />
+<b>Record length:</b> 481<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 2</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Employee&nbsp;</td>
+         <td></td>
+
+         <td><a href="#EMPLOYEE">EMPLOYEE</a>, <a href="#PEREND">PEREND</a>, <a href="#ENTRYSEQ">ENTRYSEQ</a>, <a href="#CATEGORY">CATEGORY</a>, <a href="#EARNDED">EARNDED</a>, <a href="#LINETYPE">LINETYPE</a>, <a href="#LINENO">LINENO</a></td>
+      </tr>
+      <tr align="left">
+         <td>Print Order&nbsp;</td>
+         <td></td>
+
+         <td><a href="#EMPLOYEE">EMPLOYEE</a>, <a href="#PEREND">PEREND</a>, <a href="#ENTRYSEQ">ENTRYSEQ</a>, <a href="#PCATEGORY">PCATEGORY</a>, <a href="#PLINETYPE">PLINETYPE</a>, <a href="#EARNDED">EARNDED</a>, <a href="#LINETYPE">LINETYPE</a>, <a href="#LINENO">LINENO</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 55</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="EMPLOYEE">EMPLOYEE</a>&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">Employee&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PEREND">PEREND</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Period End Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ENTRYSEQ">ENTRYSEQ</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Entry Sequence&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CATEGORY">CATEGORY</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Category&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 10 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Accrual</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Earning</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Advance</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Deduction</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Expense Reimbursement</td></tr><tr valign="top"><td align="right">6</td><td>=</td><td align="left" style="white-space: nowrap">Benefit</td></tr><tr valign="top"><td align="right">7</td><td>=</td><td align="left" style="white-space: nowrap">Federal Tax</td></tr><tr valign="top"><td align="right">8</td><td>=</td><td align="left" style="white-space: nowrap">Provincial Tax</td></tr><tr valign="top"><td align="right">9</td><td>=</td><td align="left" style="white-space: nowrap">Local Tax</td></tr><tr valign="top"><td align="right">10</td><td>=</td><td align="left" style="white-space: nowrap">User Tax</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EARNDED">EARNDED</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Earning/Deduction-Tax&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LINETYPE">LINETYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 9 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Payment</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Accrual</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Regular</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Overtime</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Shift Differential</td></tr><tr valign="top"><td align="right">6</td><td>=</td><td align="left" style="white-space: nowrap">n/a</td></tr><tr valign="top"><td align="right">7</td><td>=</td><td align="left" style="white-space: nowrap">Normal Withholding</td></tr><tr valign="top"><td align="right">8</td><td>=</td><td align="left" style="white-space: nowrap">Backup Withholding</td></tr><tr valign="top"><td align="right">9</td><td>=</td><td align="left" style="white-space: nowrap">Supplemental Withholding</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LINENO">LINENO</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Line Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EARDEDTYPE">EARDEDTYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Earning/Deduction-Tax Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 16 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Salary & Wages</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Reported Tips</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Allocated Tips</td></tr><tr valign="top"><td align="right">7</td><td>=</td><td align="left" style="white-space: nowrap">Vacation</td></tr><tr valign="top"><td align="right">8</td><td>=</td><td align="left" style="white-space: nowrap">Sick</td></tr><tr valign="top"><td align="right">9</td><td>=</td><td align="left" style="white-space: nowrap">Banked Time</td></tr><tr valign="top"><td align="right">10</td><td>=</td><td align="left" style="white-space: nowrap"></td></tr><tr valign="top"><td align="right">13</td><td>=</td><td align="left" style="white-space: nowrap">Cash</td></tr><tr valign="top"><td align="right">14</td><td>=</td><td align="left" style="white-space: nowrap">Noncash</td></tr><tr valign="top"><td align="right">18</td><td>=</td><td align="left" style="white-space: nowrap">Insurance Tax</td></tr><tr valign="top"><td align="right">19</td><td>=</td><td align="left" style="white-space: nowrap">Income Tax</td></tr><tr valign="top"><td align="right">20</td><td>=</td><td align="left" style="white-space: nowrap">Employment Tax</td></tr><tr valign="top"><td align="right">21</td><td>=</td><td align="left" style="white-space: nowrap">Pension Plan Tax</td></tr><tr valign="top"><td align="right">22</td><td>=</td><td align="left" style="white-space: nowrap">Health Tax</td></tr><tr valign="top"><td align="right">23</td><td>=</td><td align="left" style="white-space: nowrap">Other Tax</td></tr><tr valign="top"><td align="right">25</td><td>=</td><td align="left" style="white-space: nowrap">n/a</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EARDEDDATE">EARDEDDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Earning/Deduction Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HOURS">HOURS</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ECNTBASE">ECNTBASE</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Employee Pieces/Sales/Base&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ERATE">ERATE</a>&nbsp;</td>
+         <td>BCD*9.5&nbsp;</td>
+         <td style="white-space: nowrap">Employee Rate/Amt/Pct&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EEXTEND">EEXTEND</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Employee Extended Amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EREGRATE">EREGRATE</a>&nbsp;</td>
+         <td>BCD*9.5&nbsp;</td>
+         <td style="white-space: nowrap">Regular Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RCNTBASE">RCNTBASE</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Employer Pieces/Base&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RRATE">RRATE</a>&nbsp;</td>
+         <td>BCD*9.5&nbsp;</td>
+         <td style="white-space: nowrap">Employer Amt/Pct&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="REXTEND">REXTEND</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Employer Extended Amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EXPACCT">EXPACCT</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Regular Pay Expense G/L Account&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ELIABACCT">ELIABACCT</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Employee Liability G/L Account&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RLIABACCT">RLIABACCT</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Employer Liability G/L Account&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="WCC">WCC</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Workers' Compensation Code&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLSEG1">GLSEG1</a>&nbsp;</td>
+         <td>String*15&nbsp;</td>
+         <td style="white-space: nowrap">Cost Center Segment One&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLSEG2">GLSEG2</a>&nbsp;</td>
+         <td>String*15&nbsp;</td>
+         <td style="white-space: nowrap">Cost Center Segment Two&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLSEG3">GLSEG3</a>&nbsp;</td>
+         <td>String*15&nbsp;</td>
+         <td style="white-space: nowrap">Cost Center Segment Three&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PARTIAL">PARTIAL</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Detail Was Partially Taken or Not&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXWEEKS">TAXWEEKS</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - US Only&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXEARNS">TAXEARNS</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">No Ceiling Wage&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXEARNCEIL">TXEARNCEIL</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Ceiling Wage&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXTIPS">TAXTIPS</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - US Only&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXTIPSCEIL">TXTIPSCEIL</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - US Only&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXONTIPS">TAXONTIPS</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - US Only&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UNCOLLTAX">UNCOLLTAX</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - US Only&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PCATEGORY">PCATEGORY</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Print Category&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 5 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Earnings</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Deductions</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Taxes</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Other</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Benefits</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PLINETYPE">PLINETYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Print Line Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 42 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Regular Line</td></tr><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Overtime Line</td></tr><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Shift Diff Line</td></tr><tr valign="top"><td align="right">14</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Disbursed Tips</td></tr><tr valign="top"><td align="right">15</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Vacation Payment</td></tr><tr valign="top"><td align="right">16</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Sick Payment</td></tr><tr valign="top"><td align="right">17</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Comp. Time Payment</td></tr><tr valign="top"><td align="right">21</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Deduction Entry</td></tr><tr valign="top"><td align="right">31</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Federal Income Entry</td></tr><tr valign="top"><td align="right">32</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Federal Insurance Entry</td></tr><tr valign="top"><td align="right">33</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Federal EI Entry</td></tr><tr valign="top"><td align="right">34</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Federal Pension Entry</td></tr><tr valign="top"><td align="right">35</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Federal Health Entry</td></tr><tr valign="top"><td align="right">36</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Federal Other Entry</td></tr><tr valign="top"><td align="right">41</td><td>=</td><td align="left" style="white-space: nowrap">CHKD State Income Entry</td></tr><tr valign="top"><td align="right">42</td><td>=</td><td align="left" style="white-space: nowrap">CHKD State Insurance Entry</td></tr><tr valign="top"><td align="right">43</td><td>=</td><td align="left" style="white-space: nowrap">CHKD State EI Entry</td></tr><tr valign="top"><td align="right">44</td><td>=</td><td align="left" style="white-space: nowrap">CHKD State Pension Entry</td></tr><tr valign="top"><td align="right">45</td><td>=</td><td align="left" style="white-space: nowrap">CHKD State Health Entry</td></tr><tr valign="top"><td align="right">46</td><td>=</td><td align="left" style="white-space: nowrap">CHKD State Other Entry</td></tr><tr valign="top"><td align="right">51</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Local Income Entry</td></tr><tr valign="top"><td align="right">52</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Local Insurance Entry</td></tr><tr valign="top"><td align="right">53</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Local EI Entry</td></tr><tr valign="top"><td align="right">54</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Local Pension Entry</td></tr><tr valign="top"><td align="right">55</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Local Health Entry</td></tr><tr valign="top"><td align="right">56</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Local Other Entry</td></tr><tr valign="top"><td align="right">61</td><td>=</td><td align="left" style="white-space: nowrap">CHKD User Income Entry</td></tr><tr valign="top"><td align="right">62</td><td>=</td><td align="left" style="white-space: nowrap">CHKD User Insurance Entry</td></tr><tr valign="top"><td align="right">63</td><td>=</td><td align="left" style="white-space: nowrap">CHKD User EI Entry</td></tr><tr valign="top"><td align="right">64</td><td>=</td><td align="left" style="white-space: nowrap">CHKD User Pension Entry</td></tr><tr valign="top"><td align="right">65</td><td>=</td><td align="left" style="white-space: nowrap">CHKD User Health Entry</td></tr><tr valign="top"><td align="right">66</td><td>=</td><td align="left" style="white-space: nowrap">CHKD User Other Entry</td></tr><tr valign="top"><td align="right">71</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Exp Reimbursement</td></tr><tr valign="top"><td align="right">72</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Cash Advance</td></tr><tr valign="top"><td align="right">73</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Reported Tips</td></tr><tr valign="top"><td align="right">74</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Allocated Tips</td></tr><tr valign="top"><td align="right">75</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Noncash Advance</td></tr><tr valign="top"><td align="right">76</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Vac Accrual</td></tr><tr valign="top"><td align="right">77</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Sick Accrual</td></tr><tr valign="top"><td align="right">78</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Comp Accrual</td></tr><tr valign="top"><td align="right">81</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Cash Benefit</td></tr><tr valign="top"><td align="right">82</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Noncash Benefit</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PCONTENTS">PCONTENTS</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Print Line Contents&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 5 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Employee Only</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Both EmpE And EmpR</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Employer Only</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Historical Entry</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">CHKD Tax Info Only Entry</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXNONPER">TAXNONPER</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Non-periodic Payment&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXEARNBD">TAXEARNBD</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Earnings before Deductions&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POOLEDTIPS">POOLEDTIPS</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Pooled Tips&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DETAILDATE">DETAILDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Detail Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STARTTIME">STARTTIME</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Start Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STOPTIME">STOPTIME</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Stop Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="WCCGROUP">WCCGROUP</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Workers Comp. Group&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="VALUES">VALUES</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Number of Optional Fields&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWFLSA">SWFLSA</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Included in Regular Rate OT Calc&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DAYS">DAYS</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Days Worked&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OTSCHED">OTSCHED</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Overtime Schedule&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OTHOURS">OTHOURS</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Overtime Hours Override&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STAMOUNT">STAMOUNT</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Straight Time Earnings&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PREMIUMRT">PREMIUMRT</a>&nbsp;</td>
+         <td>BCD*5.5&nbsp;</td>
+         <td style="white-space: nowrap">Overtime Rate Multiplier&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="JOBS">JOBS</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Jobs&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="WORKCODE">WORKCODE</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Work Classification Code&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

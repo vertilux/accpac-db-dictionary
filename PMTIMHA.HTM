@@ -1,0 +1,424 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="PM PM0042 PMTIMHA PMTIMHA" />
+<title>Timecard Audit</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Timecard Audit</h1>
+<b>Table:</b> PMTIMHA<br />
+<b>View:</b> <a href="PM0042.HTM" title="View: Timecard Audit">PM0042</a><br />
+<b>Record length:</b> 615<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 5</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Posting Sequence&nbsp;</td>
+         <td></td>
+
+         <td><a href="#POSTSEQNO">POSTSEQNO</a></td>
+      </tr>
+      <tr align="left">
+         <td>Sequence/Posting Sequence&nbsp;</td>
+         <td></td>
+
+         <td><a href="#SEQ">SEQ</a>, <a href="#POSTSEQNO">POSTSEQNO</a></td>
+      </tr>
+      <tr align="left">
+         <td>Payroll Updated/Transaction Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#PAYUPDATED">PAYUPDATED</a>, <a href="#TRANSDATE">TRANSDATE</a></td>
+      </tr>
+      <tr align="left">
+         <td>Payroll Updated/Transaction Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#PAYUPDATED">PAYUPDATED</a>, <a href="#PAYTYPE">PAYTYPE</a>, <a href="#ENDDATE">ENDDATE</a></td>
+      </tr>
+      <tr align="left">
+         <td>Timecard Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;</td>
+
+         <td><a href="#TIMECARDNO">TIMECARDNO</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 58</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="POSTSEQNO">POSTSEQNO</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Posting Sequence&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SEQ">SEQ</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Sequence&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POSTDATE">POSTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Posting Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TIMECARDNO">TIMECARDNO</a>&nbsp;</td>
+         <td>String*16&nbsp;</td>
+         <td style="white-space: nowrap">Time Card Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRANSDATE">TRANSDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FISCALYEAR">FISCALYEAR</a>&nbsp;</td>
+         <td>String*4&nbsp;</td>
+         <td style="white-space: nowrap">Fiscal Year&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %04D</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FISCALPER">FISCALPER</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Fiscal Period&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 13 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">1</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">2</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">3</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">4</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">5</td></tr><tr valign="top"><td align="right">6</td><td>=</td><td align="left" style="white-space: nowrap">6</td></tr><tr valign="top"><td align="right">7</td><td>=</td><td align="left" style="white-space: nowrap">7</td></tr><tr valign="top"><td align="right">8</td><td>=</td><td align="left" style="white-space: nowrap">8</td></tr><tr valign="top"><td align="right">9</td><td>=</td><td align="left" style="white-space: nowrap">9</td></tr><tr valign="top"><td align="right">10</td><td>=</td><td align="left" style="white-space: nowrap">10</td></tr><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">11</td></tr><tr valign="top"><td align="right">12</td><td>=</td><td align="left" style="white-space: nowrap">12</td></tr><tr valign="top"><td align="right">13</td><td>=</td><td align="left" style="white-space: nowrap">13</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STAFFCODE">STAFFCODE</a>&nbsp;</td>
+         <td>String*16&nbsp;</td>
+         <td style="white-space: nowrap">Employee Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-16N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NAME">NAME</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Name&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="REFERENCE">REFERENCE</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Reference&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DESC">DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BEGINDATE">BEGINDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Begin Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ENDDATE">ENDDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">End Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOTCOSTSR">TOTCOSTSR</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Total Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOTCOSTHM">TOTCOSTHM</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Total Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOTBILLSR">TOTBILLSR</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Total Billable&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOTBILLHM">TOTBILLHM</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Total Billable&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOTQTY">TOTQTY</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Total Quantity&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ETOTCOSTSR">ETOTCOSTSR</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Expenses Total Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ETOTCOSTHM">ETOTCOSTHM</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Expenses Total Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ETOTBILLSR">ETOTBILLSR</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Expenses Total Billable&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ETOTBILLHM">ETOTBILLHM</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Expenses Total Billable&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ETOTQTY">ETOTQTY</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Expenses Total Quantity&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CCY">CCY</a>&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Currency&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-3N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RATE">RATE</a>&nbsp;</td>
+         <td>BCD*8.7&nbsp;</td>
+         <td style="white-space: nowrap">Exchange Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RATETYPE">RATETYPE</a>&nbsp;</td>
+         <td>String*2&nbsp;</td>
+         <td style="white-space: nowrap">Rate Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-2N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RATEDATE">RATEDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Rate Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RATEOP">RATEOP</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Rate Operator&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Multiply</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Divide</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RATESPREAD">RATESPREAD</a>&nbsp;</td>
+         <td>BCD*8.7&nbsp;</td>
+         <td style="white-space: nowrap">Rate Spread&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRINTSTAT">PRINTSTAT</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Printed&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">False</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">True</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRANSTAT">TRANSTAT</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Status&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Entered</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Imported</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Generated</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Posted</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PAYUPDATED">PAYUPDATED</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Payroll Updated ?&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PAYROLLTC">PAYROLLTC</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Payroll Timecard Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PAYTYPE">PAYTYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Payroll Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">None</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">US Payroll</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Canadian Payroll</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HMON">HMON</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Monday Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HTUE">HTUE</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Tuesday Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HWED">HWED</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Wednesday Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HTHU">HTHU</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Thursday Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HFRI">HFRI</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Friday Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HSAT">HSAT</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Saturday Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HSUN">HSUN</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Sunday Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HWEEK">HWEEK</a>&nbsp;</td>
+         <td>BCD*10.2&nbsp;</td>
+         <td style="white-space: nowrap">Weekly Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="VALUES">VALUES</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Optional Fields&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CREATEBY">CREATEBY</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Created By&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CREATEDT">CREATEDT</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Created On&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CREATETM">CREATETM</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">Created At&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="APPROVEBY">APPROVEBY</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Approved By&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="APPROVEDT">APPROVEDT</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Approved On&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="APPROVETM">APPROVETM</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">Approved At&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POSTEDBY">POSTEDBY</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Posted By&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POSTEDDT">POSTEDDT</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Posted On&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POSTEDTM">POSTEDTM</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">Posted At&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLHDESC">GLHDESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">G/L Entry Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DATEBUS">DATEBUS</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Posting Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

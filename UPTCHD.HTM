@@ -1,0 +1,280 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="UP UP0031 UPTCHD UPTCHD" />
+<title>Timecard Header</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Timecard Header</h1>
+<b>Table:</b> UPTCHD<br />
+<b>View:</b> <a href="UP0031.HTM" title="View: Timecard Header">UP0031</a><br />
+<b>Record length:</b> 208<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 2</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Employee Timecard&nbsp;</td>
+         <td></td>
+
+         <td><a href="#EMPLOYEE">EMPLOYEE</a>, <a href="#PEREND">PEREND</a>, <a href="#TIMECARD">TIMECARD</a></td>
+      </tr>
+      <tr align="left">
+         <td>Timecard&nbsp;</td>
+         <td></td>
+
+         <td><a href="#TIMECARD">TIMECARD</a>, <a href="#EMPLOYEE">EMPLOYEE</a>, <a href="#PEREND">PEREND</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 37</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="EMPLOYEE">EMPLOYEE</a>&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">Employee&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PEREND">PEREND</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Period End Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TIMECARD">TIMECARD</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Timecard&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TCARDDESC">TCARDDESC</a>&nbsp;</td>
+         <td>String*15&nbsp;</td>
+         <td style="white-space: nowrap">Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TIMESLATE">TIMESLATE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Times late&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="REUSECARD">REUSECARD</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Reusable&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ACTIVE">ACTIVE</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Active flag&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SEPARATECK">SEPARATECK</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Separate Check flag&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PROCESSED">PROCESSED</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Processed Flag&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CREGHRS">CREGHRS</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Regular Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CSHIFTHRS">CSHIFTHRS</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Shift Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CVACHRSP">CVACHRSP</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Vacation Hours Paid&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CVACHRSA">CVACHRSA</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Vacation Hours Accrued&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CSICKHRSP">CSICKHRSP</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Sick Hours Paid&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CSICKHRSA">CSICKHRSA</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Sick Hours Accrued&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CCOMPHRSP">CCOMPHRSP</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Compensatory Time Hours Paid&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CCOMPHRSA">CCOMPHRSA</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Comp. Time Hours Accrued&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CVACAMTP">CVACAMTP</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Vacation Dollars Paid&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CVACAMTA">CVACAMTA</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Vacation Dollars Accrued&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CSICKAMTP">CSICKAMTP</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Sick Time Dollars Paid&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CSICKAMTA">CSICKAMTA</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Sick Time Dollars Accrued&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CCOMPAMTP">CCOMPAMTP</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Comp. Time Dollars Paid&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CCOMPAMTA">CCOMPAMTA</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Comp. Time Dollars Accrued&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CDISIHRSP">CDISIHRSP</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CDISIHRSA">CDISIHRSA</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CDISIAMTP">CDISIAMTP</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CDISIAMTA">CDISIAMTA</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="VALUES">VALUES</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Number of Optional Fields&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OTOVERRIDE">OTOVERRIDE</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Overtime Override&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COTHOURS">COTHOURS</a>&nbsp;</td>
+         <td>BCD*4.3&nbsp;</td>
+         <td style="white-space: nowrap">Overtime Hours&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TCDLINES">TCDLINES</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Timecard Lines&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWJOB">SWJOB</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Job Related&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SRCEAPPL">SRCEAPPL</a>&nbsp;</td>
+         <td>String*2&nbsp;</td>
+         <td style="white-space: nowrap">Source Application&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-2A</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

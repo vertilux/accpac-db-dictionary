@@ -1,0 +1,874 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="PO PO0631 POPORM POPORM" />
+<title>Purchase Order Posting Lines</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Purchase Order Posting Lines</h1>
+<b>Table:</b> POPORM<br />
+<b>View:</b> <a href="PO0631.HTM" title="View: Purchase Order Posting Lines">PO0631</a><br />
+<b>Record length:</b> 1338<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 1</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Detail Key&nbsp;</td>
+         <td></td>
+
+         <td><a href="#PORISEQ">PORISEQ</a>, <a href="#PORHSEQ">PORHSEQ</a>, <a href="#PORLSEQ">PORLSEQ</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 137</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="PORISEQ">PORISEQ</a>&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Sequence Key&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PORHSEQ">PORHSEQ</a>&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Sequence Key&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PORLSEQ">PORLSEQ</a>&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Line Sequence&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OPERATION">OPERATION</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Operation To Post&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RQNHSEQ">RQNHSEQ</a>&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Requisition Sequence Key&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RQNLSEQ">RQNLSEQ</a>&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Requisition Line Sequence&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AGENTLSEQ">AGENTLSEQ</a>&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Agent Line Sequence&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ISCOMPLETE">ISCOMPLETE</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Completed&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ISRECEIVED">ISRECEIVED</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Received&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOPOSTTOIC">TOPOSTTOIC</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">To Post to I/C&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ITEMEXISTS">ITEMEXISTS</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Item Exists&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ITEMNO">ITEMNO</a>&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Item Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LOCATION">LOCATION</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Location&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ITEMDESC">ITEMDESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Item Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STOCKITEM">STOCKITEM</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Stock Item&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ORDERUNIT">ORDERUNIT</a>&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Unit of Measure&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ORDERCONV">ORDERCONV</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Order Unit Conversion&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ORDERDECML">ORDERDECML</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Order Unit Decimals&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STOCKUNIT">STOCKUNIT</a>&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Unit of Measure&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SQORDERED">SQORDERED</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Stocking Quantity Ordered&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SQRECEIVED">SQRECEIVED</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Stocking Quantity Received&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SQCANCELED">SQCANCELED</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Stocking Quantity Canceled&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SQOUTSTAND">SQOUTSTAND</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Stocking Quantity Outstanding&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OQORDERED">OQORDERED</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Ordered Quantity Ordered&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OQRECEIVED">OQRECEIVED</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Ordered Quantity Received&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OQCANCELED">OQCANCELED</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Ordered Quantity Canceled&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OQOUTSTAND">OQOUTSTAND</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Ordered Quantity Outstanding&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UNITWEIGHT">UNITWEIGHT</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Unit Weight&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EXTWEIGHT">EXTWEIGHT</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Extended Weight&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UNITCOST">UNITCOST</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Unit Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EXTENDED">EXTENDED</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Extended Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXBASE1">TAXBASE1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Base 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXBASE2">TAXBASE2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Base 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXBASE3">TAXBASE3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Base 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXBASE4">TAXBASE4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Base 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXBASE5">TAXBASE5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Base 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXCLASS1">TAXCLASS1</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Tax Class 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXCLASS2">TAXCLASS2</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Tax Class 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXCLASS3">TAXCLASS3</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Tax Class 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXCLASS4">TAXCLASS4</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Tax Class 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXCLASS5">TAXCLASS5</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Tax Class 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXRATE1">TAXRATE1</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Tax Rate 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXRATE2">TAXRATE2</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Tax Rate 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXRATE3">TAXRATE3</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Tax Rate 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXRATE4">TAXRATE4</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Tax Rate 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXRATE5">TAXRATE5</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Tax Rate 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXINCLUD1">TAXINCLUD1</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Tax Includable 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXINCLUD2">TAXINCLUD2</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Tax Includable 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXINCLUD3">TAXINCLUD3</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Tax Includable 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXINCLUD4">TAXINCLUD4</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Tax Includable 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXINCLUD5">TAXINCLUD5</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Tax Includable 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXBASEALLO">TXBASEALLO</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Net of Tax&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXINCLUDE1">TXINCLUDE1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Included Tax Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXINCLUDE2">TXINCLUDE2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Included Tax Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXINCLUDE3">TXINCLUDE3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Included Tax Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXINCLUDE4">TXINCLUDE4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Included Tax Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXINCLUDE5">TXINCLUDE5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Included Tax Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRECVAMT1">TXRECVAMT1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Recoverable Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRECVAMT2">TXRECVAMT2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Recoverable Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRECVAMT3">TXRECVAMT3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Recoverable Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRECVAMT4">TXRECVAMT4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Recoverable Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRECVAMT5">TXRECVAMT5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Recoverable Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXEXPSAMT1">TXEXPSAMT1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Expense Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXEXPSAMT2">TXEXPSAMT2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Expense Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXEXPSAMT3">TXEXPSAMT3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Expense Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXEXPSAMT4">TXEXPSAMT4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Expense Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXEXPSAMT5">TXEXPSAMT5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Expense Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXALLOAMT1">TXALLOAMT1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Allocated Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXALLOAMT2">TXALLOAMT2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Allocated Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXALLOAMT3">TXALLOAMT3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Allocated Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXALLOAMT4">TXALLOAMT4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Allocated Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXALLOAMT5">TXALLOAMT5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Allocated Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFBASEALLO">TFBASEALLO</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Net of Tax&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFINCLUDE1">TFINCLUDE1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Included Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFINCLUDE2">TFINCLUDE2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Included Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFINCLUDE3">TFINCLUDE3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Included Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFINCLUDE4">TFINCLUDE4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Included Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFINCLUDE5">TFINCLUDE5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Included Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFALLOAMT1">TFALLOAMT1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Allocated Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFALLOAMT2">TFALLOAMT2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Allocated Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFALLOAMT3">TFALLOAMT3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Allocated Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFALLOAMT4">TFALLOAMT4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Allocated Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFALLOAMT5">TFALLOAMT5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Allocated Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFRECVAMT1">TFRECVAMT1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Recoverable Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFRECVAMT2">TFRECVAMT2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Recoverable Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFRECVAMT3">TFRECVAMT3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Recoverable Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFRECVAMT4">TFRECVAMT4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Recoverable Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFRECVAMT5">TFRECVAMT5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Recoverable Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFEXPSAMT1">TFEXPSAMT1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Expense Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFEXPSAMT2">TFEXPSAMT2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Expense Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFEXPSAMT3">TFEXPSAMT3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Expense Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFEXPSAMT4">TFEXPSAMT4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Expense Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TFEXPSAMT5">TFEXPSAMT5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Tax Expense Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLACEXPENS">GLACEXPENS</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Expense Account&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLNONSTKCR">GLNONSTKCR</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Non-Stock Clearing Account&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DISCPCT">DISCPCT</a>&nbsp;</td>
+         <td>BCD*5.5&nbsp;</td>
+         <td style="white-space: nowrap">Discount Percentage&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DISCOUNT">DISCOUNT</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Discount Amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DISCOUNTF">DISCOUNTF</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Func. Discount Amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OEONUMBER">OEONUMBER</a>&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Order Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CONTRACT">CONTRACT</a>&nbsp;</td>
+         <td>String*16&nbsp;</td>
+         <td style="white-space: nowrap">Contract&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PROJECT">PROJECT</a>&nbsp;</td>
+         <td>String*16&nbsp;</td>
+         <td style="white-space: nowrap">Project&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CCATEGORY">CCATEGORY</a>&nbsp;</td>
+         <td>String*16&nbsp;</td>
+         <td style="white-space: nowrap">(Cost) Category&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COSTCLASS">COSTCLASS</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Cost Class&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BILLTYPE">BILLTYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Billing Type&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BILLRATE">BILLRATE</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Billing Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BILLCURR">BILLCURR</a>&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Billing Currency&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ARITEMNO">ARITEMNO</a>&nbsp;</td>
+         <td>String*16&nbsp;</td>
+         <td style="white-space: nowrap">A/R Item Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ARUNIT">ARUNIT</a>&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">A/R Unit of Measure&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRINCLUDE1">TRINCLUDE1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Included Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRINCLUDE2">TRINCLUDE2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Included Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRINCLUDE3">TRINCLUDE3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Included Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRINCLUDE4">TRINCLUDE4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Included Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRINCLUDE5">TRINCLUDE5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Included Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRRECVAMT1">TRRECVAMT1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Recoverable Amt. 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRRECVAMT2">TRRECVAMT2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Recoverable Amt. 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRRECVAMT3">TRRECVAMT3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Recoverable Amt. 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRRECVAMT4">TRRECVAMT4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Recoverable Amt. 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRRECVAMT5">TRRECVAMT5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Recoverable Amt. 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TREXPSAMT1">TREXPSAMT1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Expense Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TREXPSAMT2">TREXPSAMT2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Expense Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TREXPSAMT3">TREXPSAMT3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Expense Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TREXPSAMT4">TREXPSAMT4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Expense Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TREXPSAMT5">TREXPSAMT5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Expense Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRALLOAMT1">TRALLOAMT1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Allocated Amount 1&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRALLOAMT2">TRALLOAMT2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Allocated Amount 2&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRALLOAMT3">TRALLOAMT3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Allocated Amount 3&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRALLOAMT4">TRALLOAMT4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Allocated Amount 4&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRALLOAMT5">TRALLOAMT5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Tax Reporting Allocated Amount 5&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="WEIGHTUNIT">WEIGHTUNIT</a>&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Weight Unit of Measure&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="WEIGHTCONV">WEIGHTCONV</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Weight Conversion&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DEFUWEIGHT">DEFUWEIGHT</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Default Unit Weight&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DEFEXTWGHT">DEFEXTWGHT</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Default Extended Weight&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="QTYPOSTED">QTYPOSTED</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Is Quantity Posted?&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

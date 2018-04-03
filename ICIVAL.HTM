@@ -1,0 +1,328 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="IC IC0352 ICIVAL ICIVAL" />
+<title>Item Valuation</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Item Valuation</h1>
+<b>Table:</b> ICIVAL<br />
+<b>View:</b> <a href="IC0352.HTM" title="View: Item Valuation">IC0352</a><br />
+<b>Record length:</b> 328<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 5</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Account Set Code&nbsp;</td>
+         <td></td>
+
+         <td><a href="#ACCTSET">ACCTSET</a>, <a href="#LOCATION">LOCATION</a>, <a href="#ITEMNO">ITEMNO</a>, <a href="#FISCYEAR">FISCYEAR</a>, <a href="#FISCPERIOD">FISCPERIOD</a>, <a href="#TRANSDATE">TRANSDATE</a>, <a href="#DAYENDSEQ">DAYENDSEQ</a>, <a href="#ENTRYSEQ">ENTRYSEQ</a>, <a href="#LINENO">LINENO</a></td>
+      </tr>
+      <tr align="left">
+         <td>Location/Item Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#LOCATION">LOCATION</a>, <a href="#ITEMNO">ITEMNO</a></td>
+      </tr>
+      <tr align="left">
+         <td>Dayend Sequence&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#DAYENDSEQ">DAYENDSEQ</a>, <a href="#ENTRYSEQ">ENTRYSEQ</a>, <a href="#LINENO">LINENO</a></td>
+      </tr>
+      <tr align="left">
+         <td>Item Number/Location&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#ITEMNO">ITEMNO</a>, <a href="#LOCATION">LOCATION</a>, <a href="#FISCYEAR">FISCYEAR</a>, <a href="#FISCPERIOD">FISCPERIOD</a></td>
+      </tr>
+      <tr align="left">
+         <td>Account Set Code/Trans. Type&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#ACCTSET">ACCTSET</a>, <a href="#LOCATION">LOCATION</a>, <a href="#ITEMNO">ITEMNO</a>, <a href="#FISCYEAR">FISCYEAR</a>, <a href="#FISCPERIOD">FISCPERIOD</a>, <a href="#TRANSTYPE">TRANSTYPE</a>, <a href="#TRANSDATE">TRANSDATE</a>, <a href="#DOCNUM">DOCNUM</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 42</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="ACCTSET">ACCTSET</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Account Set Code&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LOCATION">LOCATION</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Location&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ITEMNO">ITEMNO</a>&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Item Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-24C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FISCYEAR">FISCYEAR</a>&nbsp;</td>
+         <td>String*4&nbsp;</td>
+         <td style="white-space: nowrap">Fiscal Year&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %4D</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FISCPERIOD">FISCPERIOD</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Fiscal Period&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRANSDATE">TRANSDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DAYENDSEQ">DAYENDSEQ</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Day End Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ENTRYSEQ">ENTRYSEQ</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Sequence&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LINENO">LINENO</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Line Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CATEGORY">CATEGORY</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Category&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DOCNUM">DOCNUM</a>&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Document Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRANSTYPE">TRANSTYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 20 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Receipt</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Receipt Adjustment</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Receipt Return</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Shipment</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Shipment Return</td></tr><tr valign="top"><td align="right">6</td><td>=</td><td align="left" style="white-space: nowrap">Adjustment Quantity Increase</td></tr><tr valign="top"><td align="right">7</td><td>=</td><td align="left" style="white-space: nowrap">Adjustment Quantity Decrease</td></tr><tr valign="top"><td align="right">8</td><td>=</td><td align="left" style="white-space: nowrap">Adjustment Cost Increase</td></tr><tr valign="top"><td align="right">9</td><td>=</td><td align="left" style="white-space: nowrap">Adjustment Cost Decrease</td></tr><tr valign="top"><td align="right">10</td><td>=</td><td align="left" style="white-space: nowrap">Adjustment Both Increase</td></tr><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">Adjustment Both Decrease</td></tr><tr valign="top"><td align="right">12</td><td>=</td><td align="left" style="white-space: nowrap">Stock Transfer From</td></tr><tr valign="top"><td align="right">13</td><td>=</td><td align="left" style="white-space: nowrap">Stock Transfer To</td></tr><tr valign="top"><td align="right">14</td><td>=</td><td align="left" style="white-space: nowrap">Master Item Assembly</td></tr><tr valign="top"><td align="right">15</td><td>=</td><td align="left" style="white-space: nowrap">Component Item Assembly</td></tr><tr valign="top"><td align="right">16</td><td>=</td><td align="left" style="white-space: nowrap">Invoice</td></tr><tr valign="top"><td align="right">17</td><td>=</td><td align="left" style="white-space: nowrap">Credit Note</td></tr><tr valign="top"><td align="right">18</td><td>=</td><td align="left" style="white-space: nowrap">Debit Note</td></tr><tr valign="top"><td align="right">19</td><td>=</td><td align="left" style="white-space: nowrap">Shipment Adjustment</td></tr><tr valign="top"><td align="right">20</td><td>=</td><td align="left" style="white-space: nowrap">Internal Usage</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UNIT">UNIT</a>&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Unit of Measure&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-10w</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="QUANTITY">QUANTITY</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Quantity&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CONVERSION">CONVERSION</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Conversion Factor&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRANSCOST">TRANSCOST</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STKQTY">STKQTY</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Quantity in Stocking UOM&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OPTAMT">OPTAMT</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Optional Amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="APP">APP</a>&nbsp;</td>
+         <td>String*2&nbsp;</td>
+         <td style="white-space: nowrap">Application&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STOCKUNIT">STOCKUNIT</a>&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Stock Unit&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-10w</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DEFPRICLST">DEFPRICLST</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Default Price List&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOTALCOST">TOTALCOST</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Total Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RECENTCOST">RECENTCOST</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Recent Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COST1">COST1</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Cost 1 Name&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COST2">COST2</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Cost 2 Name&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LASTCOST">LASTCOST</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Last Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STDCOST">STDCOST</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Standard Cost&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COSTUNIT">COSTUNIT</a>&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Cost Unit&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-10w</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COSTCONV">COSTCONV</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Cost Conversion&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOTALQTY">TOTALQTY</a>&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Total Quantity&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRICELIST">PRICELIST</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Price List Code&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRICEDECS">PRICEDECS</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Decimals in Price&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BASEPRICE">BASEPRICE</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Base Price&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BASEUNIT">BASEUNIT</a>&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Pricing Unit of Measure&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-10w</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BASECONV">BASECONV</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Base Conversion Factor&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DETAILNUM">DETAILNUM</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COMPNUM">COMPNUM</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Detail Component Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DATEBUS">DATEBUS</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Posting Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

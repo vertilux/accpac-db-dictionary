@@ -1,0 +1,91 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="BK BK0103 BKCLEAR" />
+<title>Bank Reconciliation Clearing</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Bank Reconciliation Clearing</h1>
+<b>RotoID:</b> BK0103<br />
+<b>Protocol:</b> Superview<br />
+<b>DLL:</b> BKCLEAR
+<h2>Compositions: 0</h2>
+<h2>Keys: 0</h2>
+<h2>Fields: 7</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="OPERATION">OPERATION</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Operation&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 18 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Get Reconciliation Posting Sequence Range</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Mark Reconciliations as Printed</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Purge Printed Reconciliations</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Create G/L Batch</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Get Deferred G/L Posting Sequence Range</td></tr><tr valign="top"><td align="right">6</td><td>=</td><td align="left" style="white-space: nowrap">Restart Interrupted G/L Batch Creation</td></tr><tr valign="top"><td align="right">7</td><td>=</td><td align="left" style="white-space: nowrap">Get Transfer Posting Sequence Range</td></tr><tr valign="top"><td align="right">8</td><td>=</td><td align="left" style="white-space: nowrap">Mark Transfers as Printed</td></tr><tr valign="top"><td align="right">9</td><td>=</td><td align="left" style="white-space: nowrap">Purge Printed Transfers</td></tr><tr valign="top"><td align="right">10</td><td>=</td><td align="left" style="white-space: nowrap">Create Report Temp File</td></tr><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">Delete Report Temp File</td></tr><tr valign="top"><td align="right">12</td><td>=</td><td align="left" style="white-space: nowrap">Within Active Post Banks Range</td></tr><tr valign="top"><td align="right">13</td><td>=</td><td align="left" style="white-space: nowrap">Purge Bank Transactions</td></tr><tr valign="top"><td align="right">14</td><td>=</td><td align="left" style="white-space: nowrap">Get Bank Entry Sequence Range</td></tr><tr valign="top"><td align="right">15</td><td>=</td><td align="left" style="white-space: nowrap">Purge Bank Entries</td></tr><tr valign="top"><td align="right">16</td><td>=</td><td align="left" style="white-space: nowrap">Get Bank Entry Posting Sequence Range</td></tr><tr valign="top"><td align="right">17</td><td>=</td><td align="left" style="white-space: nowrap">Mark Bank Entry Posting Journals as Printed</td></tr><tr valign="top"><td align="right">18</td><td>=</td><td align="left" style="white-space: nowrap">Purge Printed Bank Entry Posting Journals</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SEQFROM">SEQFROM</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>BCD*5.0&nbsp;</td>
+         <td style="white-space: nowrap">Beginning Posting Sequence&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SEQTO">SEQTO</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>BCD*5.0&nbsp;</td>
+         <td style="white-space: nowrap">Ending Posting Sequence&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FILENAME">FILENAME</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>String*260&nbsp;</td>
+         <td style="white-space: nowrap">Report Temp File&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKFROM">BANKFROM</a>&nbsp;</td>
+         <td>5&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Beginning Bank Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-8N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKTO">BANKTO</a>&nbsp;</td>
+         <td>6&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Ending Bank Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-8N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="THRUDATE">THRUDATE</a>&nbsp;</td>
+         <td>7&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Through Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="AR AR0160 ARCBAL" />
+<title>Customer Balances</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Customer Balances</h1>
+<b>RotoID:</b> AR0160<br />
+<b>Protocol:</b> Superview<br />
+<b>DLL:</b> ARCBAL
+<h2>Compositions: 0</h2>
+<h2>Keys: 1</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td>Customer Number&nbsp;</td>
+         <td><a href="#IDCUST">IDCUST</a></td>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 35</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="IDCUST">IDCUST</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">Customer Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Key" title="Key">K</a>&nbsp;<a href="EndNotes.HTM#Attribute_Required" title="Required">R</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NAMECUST">NAMECUST</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Customer Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CURNCUST">CURNCUST</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Customer Currency&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-3N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWCHKCUST">SWCHKCUST</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Check Customer Credit Limit&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTLIMITC">AMTLIMITC</a>&nbsp;</td>
+         <td>5&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Customer Credit Limit&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTBALCUST">AMTBALCUST</a>&nbsp;</td>
+         <td>6&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Customer Balance&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWCHKOVERC">SWCHKOVERC</a>&nbsp;</td>
+         <td>7&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Calc. Customer Overdue&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OVERDAYSC">OVERDAYSC</a>&nbsp;</td>
+         <td>8&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Customer Days Overdue&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OVERAMTC">OVERAMTC</a>&nbsp;</td>
+         <td>9&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Customer Amount Overdue&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OVERBALC">OVERBALC</a>&nbsp;</td>
+         <td>10&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Customer Balance Overdue&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDNATACCT">IDNATACCT</a>&nbsp;</td>
+         <td>11&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">National Account Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NAMEACCT">NAMEACCT</a>&nbsp;</td>
+         <td>12&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">National Account Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CURNACCT">CURNACCT</a>&nbsp;</td>
+         <td>13&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">National Account Currency&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-3N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWCHKACCT">SWCHKACCT</a>&nbsp;</td>
+         <td>14&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Check Nat. Acct. Credit Limit&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTLIMITA">AMTLIMITA</a>&nbsp;</td>
+         <td>15&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Nat. Acct. Credit Limit&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTBALACCT">AMTBALACCT</a>&nbsp;</td>
+         <td>16&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">National Account Balance&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWCHKOVERA">SWCHKOVERA</a>&nbsp;</td>
+         <td>17&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Calc. Nat. Acct. Overdue&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OVERDAYSA">OVERDAYSA</a>&nbsp;</td>
+         <td>18&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Nat. Acct. Days Overdue&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OVERAMTA">OVERAMTA</a>&nbsp;</td>
+         <td>19&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Nat. Acct. Amount Overdue&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OVERBALA">OVERBALA</a>&nbsp;</td>
+         <td>20&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Nat. Acct. Balance Overdue&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWARPEND">SWARPEND</a>&nbsp;</td>
+         <td>21&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Include Pending A/R Trans.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWOEPEND">SWOEPEND</a>&nbsp;</td>
+         <td>22&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Include Pending O/E Trans.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWXXPEND">SWXXPEND</a>&nbsp;</td>
+         <td>23&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Include Pending Other Trans.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTARPEND">AMTARPEND</a>&nbsp;</td>
+         <td>24&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Pending A/R Amount&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTOEPEND">AMTOEPEND</a>&nbsp;</td>
+         <td>25&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Pending O/E Amount&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTXXPEND">AMTXXPEND</a>&nbsp;</td>
+         <td>26&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Pending Other Amount&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTTOTCUST">AMTTOTCUST</a>&nbsp;</td>
+         <td>27&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Customer Outstanding&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTTOTACCT">AMTTOTACCT</a>&nbsp;</td>
+         <td>28&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Nat. Acct. Outstanding&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTLEFTC">AMTLEFTC</a>&nbsp;</td>
+         <td>29&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Customer Limit Left&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTLEFTA">AMTLEFTA</a>&nbsp;</td>
+         <td>30&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Nat. Acct. Limit Left&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTOVERC">AMTOVERC</a>&nbsp;</td>
+         <td>31&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Customer Limit Exceeded&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTOVERA">AMTOVERA</a>&nbsp;</td>
+         <td>32&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Nat. Acct. Limit Exceeded&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTARINVC">AMTARINVC</a>&nbsp;</td>
+         <td>33&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Current A/R Invoice Amount&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTARPPD">AMTARPPD</a>&nbsp;</td>
+         <td>34&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Current A/R Prepayment Amount&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWNOLIMIT">SWNOLIMIT</a>&nbsp;</td>
+         <td>35&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Process Without Credit Limit&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="IC IC0167 ICASENS ICASENS" />
+<title>Assembly Serial Details</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Assembly Serial Details</h1>
+<b>Table:</b> ICASENS<br />
+<b>View:</b> <a href="IC0167.HTM" title="View: Assembly Serial Details">IC0167</a><br />
+<b>Record length:</b> 156<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 3</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Sequence/Comp/Parent Comp/Serial&nbsp;</td>
+         <td></td>
+
+         <td><a href="#ASSMENSEQ">ASSMENSEQ</a>, <a href="#COMPID">COMPID</a>, <a href="#PRNCOMPID">PRNCOMPID</a>, <a href="#SERIALNUMF">SERIALNUMF</a></td>
+      </tr>
+      <tr align="left">
+         <td>Sequence/Parent Comp/Comp/Serial&nbsp;</td>
+         <td></td>
+
+         <td><a href="#ASSMENSEQ">ASSMENSEQ</a>, <a href="#PRNCOMPID">PRNCOMPID</a>, <a href="#COMPID">COMPID</a>, <a href="#SERIALNUMF">SERIALNUMF</a></td>
+      </tr>
+      <tr align="left">
+         <td>Master Item Serial Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#ASSMENSEQ">ASSMENSEQ</a>, <a href="#PRNSERNUMF">PRNSERNUMF</a>, <a href="#COMPID">COMPID</a>, <a href="#SERIALNUMF">SERIALNUMF</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 12</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="ASSMENSEQ">ASSMENSEQ</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Sequence Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COMPID">COMPID</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Component ID&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRNCOMPID">PRNCOMPID</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Parent Component ID&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SERIALNUMF">SERIALNUMF</a>&nbsp;</td>
+         <td>String*40&nbsp;</td>
+         <td style="white-space: nowrap">Serial Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRNSERNUMF">PRNSERNUMF</a>&nbsp;</td>
+         <td>String*40&nbsp;</td>
+         <td style="white-space: nowrap">Master Item Serial Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ITEMNO">ITEMNO</a>&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Item Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-24C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BOMNO">BOMNO</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">BOM Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UNIT">UNIT</a>&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Unit of Measure&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

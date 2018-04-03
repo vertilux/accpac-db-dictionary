@@ -1,0 +1,190 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="IC IC0274 ICCUPR ICCUPR" />
+<title>Contract Pricing</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Contract Pricing</h1>
+<b>Table:</b> ICCUPR<br />
+<b>View:</b> <a href="IC0274.HTM" title="View: Contract Pricing">IC0274</a><br />
+<b>Record length:</b> 132<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 4</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Customer Number&nbsp;</td>
+         <td></td>
+
+         <td><a href="#CUSTNO">CUSTNO</a>, <a href="#PRICEBY">PRICEBY</a>, <a href="#CATEGORY">CATEGORY</a>, <a href="#ITEMNO">ITEMNO</a>, <a href="#PRICELIST">PRICELIST</a></td>
+      </tr>
+      <tr align="left">
+         <td>Price By&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#PRICEBY">PRICEBY</a>, <a href="#ITEMNO">ITEMNO</a>, <a href="#CATEGORY">CATEGORY</a>, <a href="#CUSTNO">CUSTNO</a>, <a href="#PRICELIST">PRICELIST</a></td>
+      </tr>
+      <tr align="left">
+         <td>Item Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#ITEMNO">ITEMNO</a>, <a href="#PRICEBY">PRICEBY</a>, <a href="#CUSTNO">CUSTNO</a>, <a href="#PRICELIST">PRICELIST</a></td>
+      </tr>
+      <tr align="left">
+         <td>Category&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#CATEGORY">CATEGORY</a>, <a href="#PRICEBY">PRICEBY</a>, <a href="#CUSTNO">CUSTNO</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 20</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="CUSTNO">CUSTNO</a>&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">Customer Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRICEBY">PRICEBY</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Price By&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Category Code</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Item Number</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CATEGORY">CATEGORY</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Category Code&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ITEMNO">ITEMNO</a>&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Item Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-24C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRICELIST">PRICELIST</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Price List&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EXPIRE">EXPIRE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Expiration Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRICETYPE">PRICETYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Price Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 6 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Customer Type</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Discount Percentage</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Discount Amount</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Cost Plus a Percentage</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Cost Plus Fixed Amount</td></tr><tr valign="top"><td align="right">6</td><td>=</td><td align="left" style="white-space: nowrap">Fixed Price</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CUSTTYPE">CUSTTYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Customer Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 6 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Base</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">A</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">B</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">C</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">D</td></tr><tr valign="top"><td align="right">6</td><td>=</td><td align="left" style="white-space: nowrap">E</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DISCPER">DISCPER</a>&nbsp;</td>
+         <td>BCD*5.5&nbsp;</td>
+         <td style="white-space: nowrap">Discount Percentage&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DISCAMT">DISCAMT</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Discount Amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COSTMETHOD">COSTMETHOD</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Costing Method&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 5 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Markup Cost</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Standard Cost</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Most Recent Cost</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Average Cost</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Last Unit Cost</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PLUSAMT">PLUSAMT</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Plus Amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PLUSPER">PLUSPER</a>&nbsp;</td>
+         <td>BCD*5.5&nbsp;</td>
+         <td style="white-space: nowrap">Plus Percentage&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FIXPRICE">FIXPRICE</a>&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Fixed Price&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STARTDATE">STARTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Start Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="USELOWEST">USELOWEST</a>&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Use Lowest Price&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

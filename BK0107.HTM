@@ -1,0 +1,383 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="BK BK0107 BKPRFUN" />
+<title>Bank Check Printing Functions</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Bank Check Printing Functions</h1>
+<b>RotoID:</b> BK0107<br />
+<b>Protocol:</b> Superview<br />
+<b>DLL:</b> BKPRFUN
+<h2>Compositions: 5</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Tables&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">DLL&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td><a href="BK0001.HTM" title="View: Banks">BK0001</a>&nbsp;</td>
+         <td><a href="BKACCT.HTM" title="Table: Banks">BKACCT</a>&nbsp;</td>
+         <td>Banks&nbsp;</td>
+         <td>BKACCT</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BK0845.HTM" title="View: Bank Transaction Header">BK0845</a>&nbsp;</td>
+         <td><a href="BKTRANH.HTM" title="Table: Bank Transaction Header">BKTRANH</a>&nbsp;</td>
+         <td>Bank Transaction Header&nbsp;</td>
+         <td>BKTRANH</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BK0008.HTM" title="View: Check Stocks">BK0008</a>&nbsp;</td>
+         <td><a href="BKFORM.HTM" title="Table: Check Stocks">BKFORM</a>&nbsp;</td>
+         <td>Check Stocks&nbsp;</td>
+         <td>BKFORM</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BK0840.HTM" title="View: Bank Transaction Details">BK0840</a>&nbsp;</td>
+         <td><a href="BKTRAND.HTM" title="Table: Bank Transaction Details">BKTRAND</a>&nbsp;</td>
+         <td>Bank Transaction Details&nbsp;</td>
+         <td>BKTRAND</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BK0009.HTM" title="View: Bank Check Register">BK0009</a>&nbsp;</td>
+         <td><a href="BKREG.HTM" title="Table: Bank Check Register">BKREG</a>&nbsp;</td>
+         <td>Bank Check Register&nbsp;</td>
+         <td>BKREG</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Keys: 0</h2>
+<h2>Fields: 38</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="SRCEAPP">SRCEAPP</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>String*2&nbsp;</td>
+         <td style="white-space: nowrap">Source Application&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-2N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="APPRUNNUM">APPRUNNUM</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Application Run Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANK">BANK</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Bank Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-8N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FORMID">FORMID</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Check Stock Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PHASES">PHASES</a>&nbsp;</td>
+         <td>10&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Number of Print Phases&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ADVICE">ADVICE</a>&nbsp;</td>
+         <td>11&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Advice Lines&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PREPARED">PREPARED</a>&nbsp;</td>
+         <td>12&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Check Run Prepared?&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LANGUAGE">LANGUAGE</a>&nbsp;</td>
+         <td>13&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Language&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LANGCODE">LANGCODE</a>&nbsp;</td>
+         <td>14&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Language Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;<a href="EndNotes.HTM#Attribute_Presentation" title="Presentation">P</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 8 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">-1</td><td>=</td><td align="left" style="white-space: nowrap">Show checks in all languages</td></tr><tr valign="top"><td align="right">5658</td><td>=</td><td align="left" style="white-space: nowrap">English</td></tr><tr valign="top"><td align="right">7092</td><td>=</td><td align="left" style="white-space: nowrap">French</td></tr><tr valign="top"><td align="right">5845</td><td>=</td><td align="left" style="white-space: nowrap">Spanish</td></tr><tr valign="top"><td align="right">738</td><td>=</td><td align="left" style="white-space: nowrap">Australian</td></tr><tr valign="top"><td align="right">15719</td><td>=</td><td align="left" style="white-space: nowrap">Mexican</td></tr><tr valign="top"><td align="right">2857</td><td>=</td><td align="left" style="white-space: nowrap">Chinese (Simplified)</td></tr><tr valign="top"><td align="right">2863</td><td>=</td><td align="left" style="white-space: nowrap">Chinese (Traditional)</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LANUNPRCHK">LANUNPRCHK</a>&nbsp;</td>
+         <td>15&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Unprinted Checks For This Language&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LANGPOSTED">LANGPOSTED</a>&nbsp;</td>
+         <td>16&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Checks for this Language Posted?&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STKTYPE">STKTYPE</a>&nbsp;</td>
+         <td>17&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Stock Type&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FUNCTION">FUNCTION</a>&nbsp;</td>
+         <td>20&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Function&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 11 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Any matching criteria in sub-run?</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Prepare check sub-run</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Mark range in check register for sub-run</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Mark entire check register for sub-run</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Post all checks for sub-run</td></tr><tr valign="top"><td align="right">6</td><td>=</td><td align="left" style="white-space: nowrap">Post alignment checks for sub-run</td></tr><tr valign="top"><td align="right">7</td><td>=</td><td align="left" style="white-space: nowrap">Post void checks for sub-run</td></tr><tr valign="top"><td align="right">8</td><td>=</td><td align="left" style="white-space: nowrap">Cancel check run</td></tr><tr valign="top"><td align="right">9</td><td>=</td><td align="left" style="white-space: nowrap">Check run all prepared and marked printed?</td></tr><tr valign="top"><td align="right">10</td><td>=</td><td align="left" style="white-space: nowrap">Post check run</td></tr><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">Prepare alignment sub-run</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PHASE">PHASE</a>&nbsp;</td>
+         <td>21&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Current Print Phase&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CHECKS">CHECKS</a>&nbsp;</td>
+         <td>22&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Number of Checks&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CHECKFROM">CHECKFROM</a>&nbsp;</td>
+         <td>23&nbsp;</td>
+         <td>BCD*5.0&nbsp;</td>
+         <td style="white-space: nowrap">From Check Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CHECKTO">CHECKTO</a>&nbsp;</td>
+         <td>24&nbsp;</td>
+         <td>BCD*5.0&nbsp;</td>
+         <td style="white-space: nowrap">To Check Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SERIALFROM">SERIALFROM</a>&nbsp;</td>
+         <td>25&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">From Serial Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SERIALTO">SERIALTO</a>&nbsp;</td>
+         <td>26&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">To Serial Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CRITERIA">CRITERIA</a>&nbsp;</td>
+         <td>27&nbsp;</td>
+         <td>String*255&nbsp;</td>
+         <td style="white-space: nowrap">Criteria&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STATUS">STATUS</a>&nbsp;</td>
+         <td>28&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Check Status&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">-2</td><td>=</td><td align="left" style="white-space: nowrap">Not Printed</td></tr><tr valign="top"><td align="right">-1</td><td>=</td><td align="left" style="white-space: nowrap">Advice Not Printed</td></tr><tr valign="top"><td align="right">9</td><td>=</td><td align="left" style="white-space: nowrap">Printed</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="REPRINT">REPRINT</a>&nbsp;</td>
+         <td>29&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Reprinting&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LANGCOOKIE">LANGCOOKIE</a>&nbsp;</td>
+         <td>75&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Current Language For This Bank&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Presentation" title="Presentation">P</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 8 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">-1</td><td>=</td><td align="left" style="white-space: nowrap">Show checks in all languages</td></tr><tr valign="top"><td align="right">5658</td><td>=</td><td align="left" style="white-space: nowrap">English</td></tr><tr valign="top"><td align="right">7092</td><td>=</td><td align="left" style="white-space: nowrap">French</td></tr><tr valign="top"><td align="right">5845</td><td>=</td><td align="left" style="white-space: nowrap">Spanish</td></tr><tr valign="top"><td align="right">738</td><td>=</td><td align="left" style="white-space: nowrap">Australian</td></tr><tr valign="top"><td align="right">15719</td><td>=</td><td align="left" style="white-space: nowrap">Mexican</td></tr><tr valign="top"><td align="right">2857</td><td>=</td><td align="left" style="white-space: nowrap">Chinese (Simplified)</td></tr><tr valign="top"><td align="right">2863</td><td>=</td><td align="left" style="white-space: nowrap">Chinese (Traditional)</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LANGS">LANGS</a>&nbsp;</td>
+         <td>76&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Languages For This Bank&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UNPOSLANGS">UNPOSLANGS</a>&nbsp;</td>
+         <td>77&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Unposted Languages For This Bank&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANUNPRCHK">BANUNPRCHK</a>&nbsp;</td>
+         <td>78&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Unprinted Checks For This Bank&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKNAME">BANKNAME</a>&nbsp;</td>
+         <td>79&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Bank Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKCUR">BANKCUR</a>&nbsp;</td>
+         <td>80&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Statement Currency&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKCURDES">BANKCURDES</a>&nbsp;</td>
+         <td>81&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Statement Currency Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKPOSTED">BANKPOSTED</a>&nbsp;</td>
+         <td>82&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Checks for this Bank Posted?&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MODE">MODE</a>&nbsp;</td>
+         <td>90&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Mode of Operation&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Select language mode</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">By any language</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">By each language</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HIDEPRINT">HIDEPRINT</a>&nbsp;</td>
+         <td>91&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Hide Printed Checks&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKCOOKIE">BANKCOOKIE</a>&nbsp;</td>
+         <td>92&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Banks&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Presentation" title="Presentation">P</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 1 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">BANK</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKS">BANKS</a>&nbsp;</td>
+         <td>93&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Banks For This Run&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UNPOSBANKS">UNPOSBANKS</a>&nbsp;</td>
+         <td>94&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Unposted Banks For This Run&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOTUNPRCHK">TOTUNPRCHK</a>&nbsp;</td>
+         <td>95&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Unprinted Check Count Total&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CHECKFORM">CHECKFORM</a>&nbsp;</td>
+         <td>96&nbsp;</td>
+         <td>String*260&nbsp;</td>
+         <td style="white-space: nowrap">Check Form&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ADVISEFORM">ADVISEFORM</a>&nbsp;</td>
+         <td>97&nbsp;</td>
+         <td>String*260&nbsp;</td>
+         <td style="white-space: nowrap">Advice Form&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

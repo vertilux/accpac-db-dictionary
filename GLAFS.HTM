@@ -1,0 +1,232 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="GL GL0103 GLAFS GLAFS" />
+<title>Account Fiscal Sets</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Account Fiscal Sets</h1>
+<b>Table:</b> GLAFS<br />
+<b>View:</b> <a href="GL0103.HTM" title="View: Account Fiscal Sets">GL0103</a><br />
+<b>Record length:</b> 249<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 2</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Account Fiscal Set&nbsp;</td>
+         <td></td>
+
+         <td><a href="#ACCTID">ACCTID</a>, <a href="#FSCSYR">FSCSYR</a>, <a href="#FSCSDSG">FSCSDSG</a>, <a href="#FSCSCURN">FSCSCURN</a>, <a href="#CURNTYPE">CURNTYPE</a></td>
+      </tr>
+      <tr align="left">
+         <td>Fiscal Set Designator&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#FSCSDSG">FSCSDSG</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 29</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="ACCTID">ACCTID</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Account Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-45C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FSCSYR">FSCSYR</a>&nbsp;</td>
+         <td>String*4&nbsp;</td>
+         <td style="white-space: nowrap">Fiscal set year&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %04D</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FSCSDSG">FSCSDSG</a>&nbsp;</td>
+         <td>String*1&nbsp;</td>
+         <td style="white-space: nowrap">Fiscal set Designator&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 11 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right"> A</td><td>=</td><td align="left" style="white-space: nowrap">Actuals</td></tr><tr valign="top"><td align="right"> Q</td><td>=</td><td align="left" style="white-space: nowrap">Quantity</td></tr><tr valign="top"><td align="right"> R</td><td>=</td><td align="left" style="white-space: nowrap">Reporting</td></tr><tr valign="top"><td align="right"> P</td><td>=</td><td align="left" style="white-space: nowrap">Provisional Actuals</td></tr><tr valign="top"><td align="right"> O</td><td>=</td><td align="left" style="white-space: nowrap">Provisional Quantity</td></tr><tr valign="top"><td align="right"> T</td><td>=</td><td align="left" style="white-space: nowrap">Provisional Reporting</td></tr><tr valign="top"><td align="right"> 1</td><td>=</td><td align="left" style="white-space: nowrap">Budget 1</td></tr><tr valign="top"><td align="right"> 2</td><td>=</td><td align="left" style="white-space: nowrap">Budget 2</td></tr><tr valign="top"><td align="right"> 3</td><td>=</td><td align="left" style="white-space: nowrap">Budget 3</td></tr><tr valign="top"><td align="right"> 4</td><td>=</td><td align="left" style="white-space: nowrap">Budget 4</td></tr><tr valign="top"><td align="right"> 5</td><td>=</td><td align="left" style="white-space: nowrap">Budget 5</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FSCSCURN">FSCSCURN</a>&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Currency code&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-3N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CURNTYPE">CURNTYPE</a>&nbsp;</td>
+         <td>String*1&nbsp;</td>
+         <td style="white-space: nowrap">Currency type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right"> S</td><td>=</td><td align="left" style="white-space: nowrap">Source</td></tr><tr valign="top"><td align="right"> E</td><td>=</td><td align="left" style="white-space: nowrap">Equivalent</td></tr><tr valign="top"><td align="right"> F</td><td>=</td><td align="left" style="white-space: nowrap">Functional</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWRVL">SWRVL</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Revaluation switch&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CODERVL">CODERVL</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Revaluation code&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SCURNDEC">SCURNDEC</a>&nbsp;</td>
+         <td>String*1&nbsp;</td>
+         <td style="white-space: nowrap">Source currency decimals&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OPENBAL">OPENBAL</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Beginning balance&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD1">NETPERD1</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 01 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD2">NETPERD2</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 02 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD3">NETPERD3</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 03 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD4">NETPERD4</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 04 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD5">NETPERD5</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 05 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD6">NETPERD6</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 06 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD7">NETPERD7</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 07 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD8">NETPERD8</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 08 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD9">NETPERD9</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 09 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD10">NETPERD10</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 10 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD11">NETPERD11</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 11 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD12">NETPERD12</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 12 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD13">NETPERD13</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 13 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD14">NETPERD14</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 14 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NETPERD15">NETPERD15</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Period 15 net amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ACTIVITYSW">ACTIVITYSW</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Activity switch&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Inactive</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Periods Active</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Balance Forward Active</td></tr></table></td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

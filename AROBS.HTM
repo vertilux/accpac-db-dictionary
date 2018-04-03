@@ -1,0 +1,322 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="AR AR0037 AROBS AROBS" />
+<title>Document Sched. Payments</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Document Sched. Payments</h1>
+<b>Table:</b> AROBS<br />
+<b>View:</b> <a href="AR0037.HTM" title="View: Document Sched. Payments">AR0037</a><br />
+<b>Record length:</b> 320<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 14</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Customer/Document Number&nbsp;</td>
+         <td></td>
+
+         <td><a href="#IDCUST">IDCUST</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Document Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Order Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#IDCUST">IDCUST</a>, <a href="#IDORDRNBR">IDORDRNBR</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>PO Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#IDCUST">IDCUST</a>, <a href="#IDCUSTPO">IDCUSTPO</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Due Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#IDCUST">IDCUST</a>, <a href="#DATEDUE">DATEDUE</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Nat. Acct./Customer/Doc. No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#IDNATACCT">IDNATACCT</a>, <a href="#IDCUST">IDCUST</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Remaining Cust. Receipt Amount&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#IDCUST">IDCUST</a>, <a href="#AMTPYMRMTC">AMTPYMRMTC</a>, <a href="#DATEDUE">DATEDUE</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Paid/Doc. No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#SWPAID">SWPAID</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Document Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#IDCUST">IDCUST</a>, <a href="#DATEINVC">DATEINVC</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Paid/Prepay. No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#SWPAID">SWPAID</a>, <a href="#IDPREPAID">IDPREPAID</a></td>
+      </tr>
+      <tr align="left">
+         <td>Paid/Customer/Doc. No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#SWPAID">SWPAID</a>, <a href="#IDCUST">IDCUST</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Paid/Nat. Acct./Doc. No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#SWPAID">SWPAID</a>, <a href="#IDNATACCT">IDNATACCT</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Shipment Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#IDCUST">IDCUST</a>, <a href="#IDSHIPNBR">IDSHIPNBR</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr align="left">
+         <td>Original Doc. No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Key_Duplicates" title="Duplicates">D</a>&nbsp;<a href="EndNotes.HTM#Key_Modifiable" title="Modifiable">M</a>&nbsp;</td>
+
+         <td><a href="#IDCUST">IDCUST</a>, <a href="#RTGAPPLYTO">RTGAPPLYTO</a>, <a href="#IDINVC">IDINVC</a>, <a href="#CNTPAYM">CNTPAYM</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 32</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="IDCUST">IDCUST</a>&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">Customer Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDINVC">IDINVC</a>&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Document Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-22C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CNTPAYM">CNTPAYM</a>&nbsp;</td>
+         <td>BCD*3.0&nbsp;</td>
+         <td style="white-space: nowrap">Payment Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDRMIT">IDRMIT</a>&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-24C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DATEDUE">DATEDUE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Due Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DATEDISC">DATEDISC</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Discount Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWPAID">SWPAID</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Fully Paid Switch&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DLNQSTTS">DLNQSTTS</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Reserved&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTDUEHC">AMTDUEHC</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Original Amount (Func.)&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTDISCHC">AMTDISCHC</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Original Discount (Func.)&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTDCSRMHC">AMTDCSRMHC</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Remaining Discount (Func.)&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTPYMRMHC">AMTPYMRMHC</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Remaining Amount (Func.)&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTDUETC">AMTDUETC</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Original Amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTDISCTC">AMTDISCTC</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Original Discount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTDSCRMTC">AMTDSCRMTC</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Remaining Discount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTPYMRMTC">AMTPYMRMTC</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Remaining Amount&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDORDRNBR">IDORDRNBR</a>&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Order Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDCUSTPO">IDCUSTPO</a>&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">PO Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDNATACCT">IDNATACCT</a>&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">National Account Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDGRP">IDGRP</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Group Code&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDPREPAID">IDPREPAID</a>&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Prepay. Apply-to Doc. No.&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-22C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDTRXTYPE">IDTRXTYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 19 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Unapplied Cash - Posted</td></tr><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">Invoice - Item Issued</td></tr><tr valign="top"><td align="right">12</td><td>=</td><td align="left" style="white-space: nowrap">Invoice - Summary Entered</td></tr><tr valign="top"><td align="right">13</td><td>=</td><td align="left" style="white-space: nowrap">Invoice - Recurring Charge</td></tr><tr valign="top"><td align="right">14</td><td>=</td><td align="left" style="white-space: nowrap">Invoice - Summary Issued</td></tr><tr valign="top"><td align="right">15</td><td>=</td><td align="left" style="white-space: nowrap">Invoice - Item Entered</td></tr><tr valign="top"><td align="right">21</td><td>=</td><td align="left" style="white-space: nowrap">Debit Note - Item Issued</td></tr><tr valign="top"><td align="right">22</td><td>=</td><td align="left" style="white-space: nowrap">Debit Note - Summary Entered</td></tr><tr valign="top"><td align="right">24</td><td>=</td><td align="left" style="white-space: nowrap">Debit Note - Summary Issued</td></tr><tr valign="top"><td align="right">25</td><td>=</td><td align="left" style="white-space: nowrap">Debit Note - Item Entered</td></tr><tr valign="top"><td align="right">26</td><td>=</td><td align="left" style="white-space: nowrap">Debit Note - Advance Credit Claim</td></tr><tr valign="top"><td align="right">31</td><td>=</td><td align="left" style="white-space: nowrap">Credit Note - Item Issued</td></tr><tr valign="top"><td align="right">32</td><td>=</td><td align="left" style="white-space: nowrap">Credit Note - Summary Entered</td></tr><tr valign="top"><td align="right">34</td><td>=</td><td align="left" style="white-space: nowrap">Credit Note - Summary Issued</td></tr><tr valign="top"><td align="right">35</td><td>=</td><td align="left" style="white-space: nowrap">Credit Note - Item Entered</td></tr><tr valign="top"><td align="right">40</td><td>=</td><td align="left" style="white-space: nowrap">Interest Charge</td></tr><tr valign="top"><td align="right">50</td><td>=</td><td align="left" style="white-space: nowrap">Prepayment - Posted</td></tr><tr valign="top"><td align="right">51</td><td>=</td><td align="left" style="white-space: nowrap">Receipt - Posted</td></tr><tr valign="top"><td align="right">73</td><td>=</td><td align="left" style="white-space: nowrap">Refund - Posted</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXTTRXTYPE">TXTTRXTYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Document Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 8 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Invoice</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Debit Note</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Credit Note</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Interest</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Unapplied Cash</td></tr><tr valign="top"><td align="right">10</td><td>=</td><td align="left" style="white-space: nowrap">Prepayment</td></tr><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">Receipt</td></tr><tr valign="top"><td align="right">19</td><td>=</td><td align="left" style="white-space: nowrap">Refund</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DATEINVC">DATEINVC</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Document Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DAYSTOPAY">DAYSTOPAY</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Number of Days to Pay&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWJOB">SWJOB</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Job Related&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IDSHIPNBR">IDSHIPNBR</a>&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Shipment Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RTGAPPLYTO">RTGAPPLYTO</a>&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Original Doc. No.&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-22C</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

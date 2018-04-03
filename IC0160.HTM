@@ -1,0 +1,738 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="IC IC0160 ICASEN ICASEN" />
+<title>Assemblies</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Assemblies</h1>
+<b>RotoID:</b> IC0160<br />
+<b>Table:</b> <a href="ICASEN.HTM" title="Table: Assemblies">ICASEN</a><br />
+<b>Protocol:</b> Header, Key auto generate<br />
+<b>DLL:</b> ICASEN
+<h2>Compositions: 6</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Tables&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">DLL&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td><a href="IC0200.HTM" title="View: Bills of Material">IC0200</a>&nbsp;</td>
+         <td><a href="ICBOMH.HTM" title="Table: Bills of Material">ICBOMH</a>&nbsp;</td>
+         <td>Bills of Material&nbsp;</td>
+         <td>ICBOMH</td>
+      </tr>
+      <tr align="left">
+         <td><a href="IC0370.HTM" title="View: Locations">IC0370</a>&nbsp;</td>
+         <td><a href="ICLOC.HTM" title="Table: Locations">ICLOC</a>&nbsp;</td>
+         <td>Locations&nbsp;</td>
+         <td>ICLOC</td>
+      </tr>
+      <tr align="left">
+         <td><a href="IC0290.HTM" title="View: Location Details">IC0290</a>&nbsp;</td>
+         <td><a href="ICILOC.HTM" title="Table: Location Details">ICILOC</a>&nbsp;</td>
+         <td>Location Details&nbsp;</td>
+         <td>ICILOC</td>
+      </tr>
+      <tr align="left">
+         <td><a href="IC0165.HTM" title="View: Assembly Optional Fields">IC0165</a>&nbsp;</td>
+         <td><a href="ICASENO.HTM" title="Table: Assembly Optional Fields">ICASENO</a>&nbsp;</td>
+         <td>Assembly Optional Fields&nbsp;</td>
+         <td>ICASENO</td>
+      </tr>
+      <tr align="left">
+         <td><a href="IC0162.HTM" title="View: Assembly Lot Details">IC0162</a>&nbsp;</td>
+         <td><a href="ICASENL.HTM" title="Table: Assembly Lot Details">ICASENL</a>&nbsp;</td>
+         <td>Assembly Lot Details&nbsp;</td>
+         <td>ICASENL</td>
+      </tr>
+      <tr align="left">
+         <td><a href="IC0167.HTM" title="View: Assembly Serial Details">IC0167</a>&nbsp;</td>
+         <td><a href="ICASENS.HTM" title="Table: Assembly Serial Details">ICASENS</a>&nbsp;</td>
+         <td>Assembly Serial Details&nbsp;</td>
+         <td>ICASENS</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Keys: 10</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td>Sequence Number&nbsp;</td>
+         <td><a href="#ASSMENSEQ">ASSMENSEQ</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Transaction Number&nbsp;</td>
+         <td><a href="#TRANSNUM">TRANSNUM</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Type and Sequence Number&nbsp;</td>
+         <td><a href="#TRANSTYPE">TRANSTYPE</a>, <a href="#ASSMENSEQ">ASSMENSEQ</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Type and Document Number&nbsp;</td>
+         <td><a href="#TRANSTYPE">TRANSTYPE</a>, <a href="#DOCNUM">DOCNUM</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Record Status&nbsp;</td>
+         <td><a href="#STATUS">STATUS</a>, <a href="#TRANSNUM">TRANSNUM</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Document Number&nbsp;</td>
+         <td><a href="#DOCNUM">DOCNUM</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>IC-Unique Document Number&nbsp;</td>
+         <td><a href="#DOCUNIQ">DOCUNIQ</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Status by Document Number&nbsp;</td>
+         <td><a href="#STATUS">STATUS</a>, <a href="#DOCNUM">DOCNUM</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Master Assembly Number&nbsp;</td>
+         <td><a href="#MASTASSNUM">MASTASSNUM</a>, <a href="#DOCNUM">DOCNUM</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Master Assembly/Multilevel Seq.&nbsp;</td>
+         <td><a href="#MASTASSNUM">MASTASSNUM</a>, <a href="#MULTSEQ">MULTSEQ</a></td>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 75</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="ASSMENSEQ">ASSMENSEQ</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Sequence Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Key" title="Key">K</a>&nbsp;<a href="EndNotes.HTM#Attribute_Required" title="Required">R</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRANSNUM">TRANSNUM</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DOCNUM">DOCNUM</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Assembly Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-22C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRANSDATE">TRANSDATE</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FISCYEAR">FISCYEAR</a>&nbsp;</td>
+         <td>5&nbsp;</td>
+         <td>String*4&nbsp;</td>
+         <td style="white-space: nowrap">Fiscal Year&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %4D</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FISCPERIOD">FISCPERIOD</a>&nbsp;</td>
+         <td>6&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Fiscal Period&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Presentation" title="Presentation">P</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 12 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">1 </td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">2 </td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">3 </td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">4 </td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">5 </td></tr><tr valign="top"><td align="right">6</td><td>=</td><td align="left" style="white-space: nowrap">6 </td></tr><tr valign="top"><td align="right">7</td><td>=</td><td align="left" style="white-space: nowrap">7 </td></tr><tr valign="top"><td align="right">8</td><td>=</td><td align="left" style="white-space: nowrap">8 </td></tr><tr valign="top"><td align="right">9</td><td>=</td><td align="left" style="white-space: nowrap">9 </td></tr><tr valign="top"><td align="right">10</td><td>=</td><td align="left" style="white-space: nowrap">10</td></tr><tr valign="top"><td align="right">11</td><td>=</td><td align="left" style="white-space: nowrap">11</td></tr><tr valign="top"><td align="right">12</td><td>=</td><td align="left" style="white-space: nowrap">12</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="REFERENCE">REFERENCE</a>&nbsp;</td>
+         <td>7&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Reference&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HDRDESC">HDRDESC</a>&nbsp;</td>
+         <td>8&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Description&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ITEMNO">ITEMNO</a>&nbsp;</td>
+         <td>9&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Item Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-24C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BOMNO">BOMNO</a>&nbsp;</td>
+         <td>10&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">BOM Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LOCATION">LOCATION</a>&nbsp;</td>
+         <td>11&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Location&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="QUANTITY">QUANTITY</a>&nbsp;</td>
+         <td>12&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Quantity&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UNIT">UNIT</a>&nbsp;</td>
+         <td>13&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Unit of Measure&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TRANSTYPE">TRANSTYPE</a>&nbsp;</td>
+         <td>14&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Type&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Assembly</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Disassembly</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DOCUNIQ">DOCUNIQ</a>&nbsp;</td>
+         <td>15&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">IC-Unique Document Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="STATUS">STATUS</a>&nbsp;</td>
+         <td>16&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Record Status&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Entered</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Posted</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Costed</td></tr><tr valign="top"><td align="right">20</td><td>=</td><td align="left" style="white-space: nowrap">Day End Completed</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DELETED">DELETED</a>&nbsp;</td>
+         <td>17&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Record Deleted&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MANITEMNO">MANITEMNO</a>&nbsp;</td>
+         <td>18&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Manufacturer's Item Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-24C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UNITCOST">UNITCOST</a>&nbsp;</td>
+         <td>19&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Unit Cost&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FROMASSNUM">FROMASSNUM</a>&nbsp;</td>
+         <td>20&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">From Assembly Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-22C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FROMASSQTY">FROMASSQTY</a>&nbsp;</td>
+         <td>21&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">From Assembly Quantity&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DISASSCOST">DISASSCOST</a>&nbsp;</td>
+         <td>22&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Disassembly Cost&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRINTED">PRINTED</a>&nbsp;</td>
+         <td>23&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Record Printed&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="VALUES">VALUES</a>&nbsp;</td>
+         <td>24&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Optional Fields&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MASTASSNUM">MASTASSNUM</a>&nbsp;</td>
+         <td>25&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Master Assembly Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-22C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COMPASSMTD">COMPASSMTD</a>&nbsp;</td>
+         <td>26&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Component Assembly Method&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Presentation" title="Presentation">P</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">None</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">All Component Master Items</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Component Master Items with Insufficient Quantity</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="USEDQTY">USEDQTY</a>&nbsp;</td>
+         <td>27&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Quantity Used&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NEEDQTYSTK">NEEDQTYSTK</a>&nbsp;</td>
+         <td>28&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Qty Needed (Stocking UOM)&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MULTLEVEL">MULTLEVEL</a>&nbsp;</td>
+         <td>29&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Multilevel Level&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MULTSEQ">MULTSEQ</a>&nbsp;</td>
+         <td>30&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Multilevel Seq. No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRNMULTSEQ">PRNMULTSEQ</a>&nbsp;</td>
+         <td>31&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Multilevel Parent Seq. No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRNASSNUM">PRNASSNUM</a>&nbsp;</td>
+         <td>32&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Multilevel Parent Assembly No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-22C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CMPMASTITM">CMPMASTITM</a>&nbsp;</td>
+         <td>33&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Component's Master Item No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-24C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ENTEREDBY">ENTEREDBY</a>&nbsp;</td>
+         <td>34&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Entered By&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-8N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DATEBUS">DATEBUS</a>&nbsp;</td>
+         <td>35&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Posting Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SITEMCOUNT">SITEMCOUNT</a>&nbsp;</td>
+         <td>36&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Serial Items in Assembly&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LITEMCOUNT">LITEMCOUNT</a>&nbsp;</td>
+         <td>37&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Lot Items in Assembly&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="REMAINASSD">REMAINASSD</a>&nbsp;</td>
+         <td>38&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Assembly Quantity Remaining&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CONVERSION">CONVERSION</a>&nbsp;</td>
+         <td>41&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Conversion Factor&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IPCID">IPCID</a>&nbsp;</td>
+         <td>42&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Inter-process Comm. ID&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ESTIMACOST">ESTIMACOST</a>&nbsp;</td>
+         <td>43&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Estimated Cost&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FORCEPOPSN">FORCEPOPSN</a>&nbsp;</td>
+         <td>44&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Force Pop-up SN&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POPUPSN">POPUPSN</a>&nbsp;</td>
+         <td>45&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Pop-up SN&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CLOSESN">CLOSESN</a>&nbsp;</td>
+         <td>46&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Close SN&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LTSETID">LTSETID</a>&nbsp;</td>
+         <td>47&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">LT Set ID&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FORCEPOPLT">FORCEPOPLT</a>&nbsp;</td>
+         <td>48&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Force Pop-up LT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POPUPLT">POPUPLT</a>&nbsp;</td>
+         <td>49&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Pop-up LT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CLOSELT">CLOSELT</a>&nbsp;</td>
+         <td>50&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Close LT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CDOCNUM">CDOCNUM</a>&nbsp;</td>
+         <td>51&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Assembly Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POSTSEQNUM">POSTSEQNUM</a>&nbsp;</td>
+         <td>52&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Post Sequence Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FROMASSSEQ">FROMASSSEQ</a>&nbsp;</td>
+         <td>53&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">From Assembly Seq.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PROCESSCMD">PROCESSCMD</a>&nbsp;</td>
+         <td>54&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Process Command&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 8 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Nothing to Process</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Insert Optional Fields</td></tr><tr valign="top"><td align="right">21</td><td>=</td><td align="left" style="white-space: nowrap">Auto-generate Serials</td></tr><tr valign="top"><td align="right">22</td><td>=</td><td align="left" style="white-space: nowrap">Auto-generate Lots</td></tr><tr valign="top"><td align="right">23</td><td>=</td><td align="left" style="white-space: nowrap">Auto-allocate Serials</td></tr><tr valign="top"><td align="right">24</td><td>=</td><td align="left" style="white-space: nowrap">Auto-allocate Lots</td></tr><tr valign="top"><td align="right">25</td><td>=</td><td align="left" style="white-space: nowrap">Clear Serials</td></tr><tr valign="top"><td align="right">26</td><td>=</td><td align="left" style="white-space: nowrap">Clear Lots</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FMTITEMNO">FMTITEMNO</a>&nbsp;</td>
+         <td>55&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Formatted Item Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FMTCMPMAST">FMTCMPMAST</a>&nbsp;</td>
+         <td>56&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Formatted Comp. Master Item No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ITEMDESC">ITEMDESC</a>&nbsp;</td>
+         <td>57&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Item Description&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLBATCHID">GLBATCHID</a>&nbsp;</td>
+         <td>58&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">G/L Batch ID&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %06D</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XGENALCQTY">XGENALCQTY</a>&nbsp;</td>
+         <td>59&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Serial/Lot Quantity to Process&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XLOTMAKQTY">XLOTMAKQTY</a>&nbsp;</td>
+         <td>60&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Number of Lots to Generate&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XPERLOTQTY">XPERLOTQTY</a>&nbsp;</td>
+         <td>61&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Quantity per Lot&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="THISCOMPID">THISCOMPID</a>&nbsp;</td>
+         <td>62&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Comp ID Currently Processed&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XPRNCOMPID">XPRNCOMPID</a>&nbsp;</td>
+         <td>63&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Parent Serial/Lot Component ID&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XITEM">XITEM</a>&nbsp;</td>
+         <td>64&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Serial/Lot Item&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XBOMNO">XBOMNO</a>&nbsp;</td>
+         <td>65&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Serial/Lot BOM Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XUNIT">XUNIT</a>&nbsp;</td>
+         <td>66&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Serial/Lot Item Unit of Measure&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XPRNITEM">XPRNITEM</a>&nbsp;</td>
+         <td>67&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Serial Master Item&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SQTYNEEDED">SQTYNEEDED</a>&nbsp;</td>
+         <td>68&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Serial Quantity Required&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LQTYNEEDED">LQTYNEEDED</a>&nbsp;</td>
+         <td>69&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Lot Quantity Required&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SQTYGENALC">SQTYGENALC</a>&nbsp;</td>
+         <td>70&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Serial Quantity&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LQTYGENALC">LQTYGENALC</a>&nbsp;</td>
+         <td>71&nbsp;</td>
+         <td>BCD*10.4&nbsp;</td>
+         <td style="white-space: nowrap">Lot Quantity&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XPRNSERNUM">XPRNSERNUM</a>&nbsp;</td>
+         <td>72&nbsp;</td>
+         <td>String*40&nbsp;</td>
+         <td style="white-space: nowrap">Master Serial Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="XPRNSACTN">XPRNSACTN</a>&nbsp;</td>
+         <td>73&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Master Serial Process Action&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 5 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">None</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Add Master Serial</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Delete Master Serial</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Verify Master Serial</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Assign Master Serials to Comps</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SALLOCFROM">SALLOCFROM</a>&nbsp;</td>
+         <td>74&nbsp;</td>
+         <td>String*40&nbsp;</td>
+         <td style="white-space: nowrap">Allocate from Serial&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LALLOCFROM">LALLOCFROM</a>&nbsp;</td>
+         <td>75&nbsp;</td>
+         <td>String*40&nbsp;</td>
+         <td style="white-space: nowrap">Allocate from Lot&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="METERHWND">METERHWND</a>&nbsp;</td>
+         <td>76&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Serial/Lot Window Handle&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NOUPDATE">NOUPDATE</a>&nbsp;</td>
+         <td>77&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Disallow save/post&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

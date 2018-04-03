@@ -1,0 +1,764 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="BK 56A" />
+<title>Bank Services</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Application: Bank Services 5.6A</h1>
+<a href="#Views">Views</a><br />
+<a href="#Tables">Tables</a><br />
+<a href="#Objects">Objects</a>
+<h2 align="left"><a name="Views">Views: 58</a></h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Tables&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">DLL&nbsp;</th>
+         <th class="aom">Compositions</th>
+      </tr>
+      <tr><td colspan="5"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left" valign="top">
+         <td><a href="BK0001.HTM" title="View: Banks">BK0001</a>&nbsp;</td>
+         <td><a href="BKACCT.HTM" title="Table: Banks">BKACCT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Banks&nbsp;</td>
+         <td>BKACCT&nbsp;</td>
+         <td><a href="BK0002.HTM" title="Bank Currencies">BK0002</a>, <a href="BK0999.HTM" title="">BK0999</a>, <a href="BK0845.HTM" title="Bank Transaction Header">BK0845</a>, <a href="BK0999.HTM" title="">BK0999</a>, <a href="BK0999.HTM" title="">BK0999</a>, <a href="BK0008.HTM" title="Check Stocks">BK0008</a>, <a href="BK0003.HTM" title="Bank Distribution Codes">BK0003</a>, <a href="GL0001.HTM" title="Accounts">GL0001</a>, <a href="CS0003.HTM" title="Currency Codes">CS0003</a>, <a href="BK0870.HTM" title="OFX Transactions">BK0870</a>, <a href="BK0840.HTM" title="Bank Transaction Details">BK0840</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0002.HTM" title="View: Bank Currencies">BK0002</a>&nbsp;</td>
+         <td><a href="BKCUR.HTM" title="Table: Bank Currencies">BKCUR</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Currencies&nbsp;</td>
+         <td>BKCUR&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="CS0003.HTM" title="Currency Codes">CS0003</a>, <a href="CS0004.HTM" title="Rate Types">CS0004</a>, <a href="GL0001.HTM" title="Accounts">GL0001</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0003.HTM" title="View: Bank Distribution Codes">BK0003</a>&nbsp;</td>
+         <td><a href="BKTT.HTM" title="Table: Bank Distribution Codes">BKTT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Distribution Codes&nbsp;</td>
+         <td>BKTT&nbsp;</td>
+         <td><a href="GL0001.HTM" title="Accounts">GL0001</a>, <a href="BK0860.HTM" title="Bank Distribution Codes Tax Details">BK0860</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0004.HTM" title="View: Bank Checks">BK0004</a>&nbsp;</td>
+         <td><a href="BKCHK.HTM" title="Table: Bank Checks">BKCHK</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Checks&nbsp;</td>
+         <td>BKCHK&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0008.HTM" title="Check Stocks">BK0008</a>, <a href="CS0004.HTM" title="Rate Types">CS0004</a>, <a href="BK0002.HTM" title="Bank Currencies">BK0002</a>, <a href="BK0003.HTM" title="Bank Distribution Codes">BK0003</a>, <a href="BK0240.HTM" title="Credit Card Types">BK0240</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0006.HTM" title="View: Returned Customer Checks">BK0006</a>&nbsp;</td>
+         <td><a href="BKNSF.HTM" title="Table: Returned Customer Checks">BKNSF</a>&nbsp;</td>
+         <td style="white-space: nowrap">Returned Customer Checks&nbsp;</td>
+         <td>BKNSF&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0026.HTM" title="Returned Customer Checks">BK0026</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0007.HTM" title="View: Bank Entries">BK0007</a>&nbsp;</td>
+         <td><a href="BKENT.HTM" title="Table: Bank Entries">BKENT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Entries&nbsp;</td>
+         <td>BKENT&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0003.HTM" title="Bank Distribution Codes">BK0003</a>, <a href="CS0004.HTM" title="Rate Types">CS0004</a>, <a href="BK0002.HTM" title="Bank Currencies">BK0002</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0008.HTM" title="View: Check Stocks">BK0008</a>&nbsp;</td>
+         <td><a href="BKFORM.HTM" title="Table: Check Stocks">BKFORM</a>&nbsp;</td>
+         <td style="white-space: nowrap">Check Stocks&nbsp;</td>
+         <td>BKFORM&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0009.HTM" title="View: Bank Check Register">BK0009</a>&nbsp;</td>
+         <td><a href="BKREG.HTM" title="Table: Bank Check Register">BKREG</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Check Register&nbsp;</td>
+         <td>BKREG&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0010.HTM" title="View: Bank Options">BK0010</a>&nbsp;</td>
+         <td><a href="BKOPT.HTM" title="Table: Bank Options">BKOPT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Options&nbsp;</td>
+         <td>BKOPT&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0011.HTM" title="View: Bank Posting Journal">BK0011</a>&nbsp;</td>
+         <td><a href="BKJRNL.HTM" title="Table: Bank Posting Journal">BKJRNL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Posting Journal&nbsp;</td>
+         <td>BKJRNL&nbsp;</td>
+         <td><a href="BK0020.HTM" title="Bank Posting Journal Control">BK0020</a>, <a href="BK0655.HTM" title="Bank Journal Transaction Header">BK0655</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0012.HTM" title="View: Bank Posting Error Journal">BK0012</a>&nbsp;</td>
+         <td><a href="BKJERR.HTM" title="Table: Bank Posting Error Journal">BKJERR</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Posting Error Journal&nbsp;</td>
+         <td>BKJERR&nbsp;</td>
+         <td><a href="BK0020.HTM" title="Bank Posting Journal Control">BK0020</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0014.HTM" title="View: Bank Check Posting Journal">BK0014</a>&nbsp;</td>
+         <td><a href="BKJCHK.HTM" title="Table: Bank Check Posting Journal">BKJCHK</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Check Posting Journal&nbsp;</td>
+         <td>BKJCHK&nbsp;</td>
+         <td><a href="BK0011.HTM" title="Bank Posting Journal">BK0011</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0016.HTM" title="View: Bank Chk. Returns Posting Jrnl.">BK0016</a>&nbsp;</td>
+         <td><a href="BKJNSF.HTM" title="Table: Bank Chk. Returns Posting Jrnl.">BKJNSF</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Chk. Returns Posting Jrnl.&nbsp;</td>
+         <td>BKJNSF&nbsp;</td>
+         <td><a href="BK0011.HTM" title="Bank Posting Journal">BK0011</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0017.HTM" title="View: Bank Entry Posting Journal">BK0017</a>&nbsp;</td>
+         <td><a href="BKJENT.HTM" title="Table: Bank Entry Posting Journal">BKJENT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Entry Posting Journal&nbsp;</td>
+         <td>BKJENT&nbsp;</td>
+         <td><a href="BK0011.HTM" title="Bank Posting Journal">BK0011</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0018.HTM" title="View: G/L Audit Summary">BK0018</a>&nbsp;</td>
+         <td><a href="BKJZGL.HTM" title="Table: G/L Audit Summary">BKJZGL</a>&nbsp;</td>
+         <td style="white-space: nowrap">G/L Audit Summary&nbsp;</td>
+         <td>BKJZGL&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0020.HTM" title="View: Bank Posting Journal Control">BK0020</a>&nbsp;</td>
+         <td><a href="BKJCTL.HTM" title="Table: Bank Posting Journal Control">BKJCTL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Posting Journal Control&nbsp;</td>
+         <td>BKJCTL&nbsp;</td>
+         <td><a href="BK0011.HTM" title="Bank Posting Journal">BK0011</a>, <a href="BK0033.HTM" title="Transfer Audit">BK0033</a>, <a href="BK0012.HTM" title="Bank Posting Error Journal">BK0012</a>, <a href="BK0665.HTM" title="Bank Entries Journal Header">BK0665</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0021.HTM" title="View: Bank Transaction Numbers">BK0021</a>&nbsp;</td>
+         <td><a href="BKTNUM.HTM" title="Table: Bank Transaction Numbers">BKTNUM</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Transaction Numbers&nbsp;</td>
+         <td>BKTNUM&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0026.HTM" title="View: Returned Customer Checks">BK0026</a>&nbsp;</td>
+         <td><a href="BKNSFD.HTM" title="Table: Returned Customer Checks">BKNSFD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Returned Customer Checks&nbsp;</td>
+         <td>BKNSFD&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0033.HTM" title="View: Transfer Audit">BK0033</a>&nbsp;</td>
+         <td><a href="BKJTFR.HTM" title="Table: Transfer Audit">BKJTFR</a>&nbsp;</td>
+         <td style="white-space: nowrap">Transfer Audit&nbsp;</td>
+         <td>BKJTFR&nbsp;</td>
+         <td><a href="BK0020.HTM" title="Bank Posting Journal Control">BK0020</a>, <a href="BK0645.HTM" title="Transfer Audit Charge">BK0645</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0036.HTM" title="View: Transfers">BK0036</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Transfers&nbsp;</td>
+         <td>BKTFRH&nbsp;</td>
+         <td><a href="BK0835.HTM" title="Transfers">BK0835</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0100.HTM" title="View: Bank Services Integrity Check">BK0100</a>&nbsp;</td>
+         <td><a href="BKDCHK.HTM" title="Table: Bank Services Integrity Check">BKDCHK</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Services Integrity Check&nbsp;</td>
+         <td>BKDCHK&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0101.HTM" title="View: Bank Reconciliation Posting">BK0101</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Reconciliation Posting&nbsp;</td>
+         <td>BKPOST&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0102.HTM" title="View: Bank Reconciliation Returns">BK0102</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Reconciliation Returns&nbsp;</td>
+         <td>BKRTRN&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0103.HTM" title="View: Bank Reconciliation Clearing">BK0103</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Reconciliation Clearing&nbsp;</td>
+         <td>BKCLEAR&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0104.HTM" title="View: Bank Reconciliation">BK0104</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Reconciliation&nbsp;</td>
+         <td>BKDCI&nbsp;</td>
+         <td><a href="BK0999.HTM" title="">BK0999</a>, <a href="BK0004.HTM" title="Bank Checks">BK0004</a>, <a href="BK0400.HTM" title="Bank Deposit Details">BK0400</a>, <a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0420.HTM" title="Bank Deposits">BK0420</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0105.HTM" title="View: Bank Process Control">BK0105</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Process Control&nbsp;</td>
+         <td>BKPROC&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0107.HTM" title="View: Bank Check Printing Functions">BK0107</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Check Printing Functions&nbsp;</td>
+         <td>BKPRFUN&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0845.HTM" title="Bank Transaction Header">BK0845</a>, <a href="BK0008.HTM" title="Check Stocks">BK0008</a>, <a href="BK0840.HTM" title="Bank Transaction Details">BK0840</a>, <a href="BK0009.HTM" title="Bank Check Register">BK0009</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0240.HTM" title="View: Credit Card Types">BK0240</a>&nbsp;</td>
+         <td><a href="BKCCTYP.HTM" title="Table: Credit Card Types">BKCCTYP</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit Card Types&nbsp;</td>
+         <td>BKCCTYP&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0370.HTM" title="View: BK Drill Down Driver">BK0370</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">BK Drill Down Driver&nbsp;</td>
+         <td>BKDDDR&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0400.HTM" title="View: Bank Deposit Details">BK0400</a>&nbsp;</td>
+         <td><a href="BKDEPD.HTM" title="Table: Bank Deposit Details">BKDEPD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Deposit Details&nbsp;</td>
+         <td>BKDEPD&nbsp;</td>
+         <td><a href="BK0420.HTM" title="Bank Deposits">BK0420</a>, <a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="CS0004.HTM" title="Rate Types">CS0004</a>, <a href="BK0002.HTM" title="Bank Currencies">BK0002</a>, <a href="BK0003.HTM" title="Bank Distribution Codes">BK0003</a>, <a href="BK0240.HTM" title="Credit Card Types">BK0240</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0420.HTM" title="View: Bank Deposits">BK0420</a>&nbsp;</td>
+         <td><a href="BKDEPH.HTM" title="Table: Bank Deposits">BKDEPH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Deposits&nbsp;</td>
+         <td>BKDEPH&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0400.HTM" title="Bank Deposit Details">BK0400</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0430.HTM" title="View: BK Drill Down">BK0430</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">BK Drill Down&nbsp;</td>
+         <td>BKDLDN&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0440.HTM" title="View: Bank Distribution Set Detail">BK0440</a>&nbsp;</td>
+         <td><a href="BKDISTD.HTM" title="Table: Bank Distribution Set Detail">BKDISTD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Distribution Set Detail&nbsp;</td>
+         <td>BKDISTD&nbsp;</td>
+         <td><a href="BK0445.HTM" title="Bank Distribution Set Header">BK0445</a>, <a href="GL0001.HTM" title="Accounts">GL0001</a>, <a href="BK0003.HTM" title="Bank Distribution Codes">BK0003</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0445.HTM" title="View: Bank Distribution Set Header">BK0445</a>&nbsp;</td>
+         <td><a href="BKDISTH.HTM" title="Table: Bank Distribution Set Header">BKDISTH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Distribution Set Header&nbsp;</td>
+         <td>BKDISTH&nbsp;</td>
+         <td><a href="BK0440.HTM" title="Bank Distribution Set Detail">BK0440</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0450.HTM" title="View: Bank Entries Header">BK0450</a>&nbsp;</td>
+         <td><a href="BKENTH.HTM" title="Table: Bank Entries Header">BKENTH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Entries Header&nbsp;</td>
+         <td>BKENTH&nbsp;</td>
+         <td><a href="BK0460.HTM" title="Bank Entries">BK0460</a>, <a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0845.HTM" title="Bank Transaction Header">BK0845</a>, <a href="BK0840.HTM" title="Bank Transaction Details">BK0840</a>, <a href="CS0004.HTM" title="Rate Types">CS0004</a>, <a href="BK0002.HTM" title="Bank Currencies">BK0002</a>, <a href="BK0240.HTM" title="Credit Card Types">BK0240</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0460.HTM" title="View: Bank Entries">BK0460</a>&nbsp;</td>
+         <td><a href="BKENTD.HTM" title="Table: Bank Entries">BKENTD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Entries&nbsp;</td>
+         <td>BKENTD&nbsp;</td>
+         <td><a href="BK0450.HTM" title="Bank Entries Header">BK0450</a>, <a href="BK0003.HTM" title="Bank Distribution Codes">BK0003</a>, <a href="CS0004.HTM" title="Rate Types">CS0004</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0465.HTM" title="View: Bank Transaction Entry Posting">BK0465</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Transaction Entry Posting&nbsp;</td>
+         <td>BKEPOST&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0470.HTM" title="View: Bank G/L Integration">BK0470</a>&nbsp;</td>
+         <td><a href="BKGLREF.HTM" title="Table: Bank G/L Integration">BKGLREF</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank G/L Integration&nbsp;</td>
+         <td>BKGLREF&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0540.HTM" title="View: Deposit Details Posting Journal">BK0540</a>&nbsp;</td>
+         <td><a href="BKJDEPD.HTM" title="Table: Deposit Details Posting Journal">BKJDEPD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Deposit Details Posting Journal&nbsp;</td>
+         <td>BKJDEPD&nbsp;</td>
+         <td><a href="BK0550.HTM" title="Deposits Posting Journal">BK0550</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0550.HTM" title="View: Deposits Posting Journal">BK0550</a>&nbsp;</td>
+         <td><a href="BKJDEPH.HTM" title="Table: Deposits Posting Journal">BKJDEPH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Deposits Posting Journal&nbsp;</td>
+         <td>BKJDEPH&nbsp;</td>
+         <td><a href="BK0011.HTM" title="Bank Posting Journal">BK0011</a>, <a href="BK0540.HTM" title="Deposit Details Posting Journal">BK0540</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0645.HTM" title="View: Transfer Audit Charge">BK0645</a>&nbsp;</td>
+         <td><a href="BKJTFRD.HTM" title="Table: Transfer Audit Charge">BKJTFRD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Transfer Audit Charge&nbsp;</td>
+         <td>BKJTFRD&nbsp;</td>
+         <td><a href="BK0033.HTM" title="Transfer Audit">BK0033</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0650.HTM" title="View: Bank Journal Transaction Details">BK0650</a>&nbsp;</td>
+         <td><a href="BKJTRAND.HTM" title="Table: Bank Journal Transaction Details">BKJTRAND</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Journal Transaction Details&nbsp;</td>
+         <td>BKJTRAND&nbsp;</td>
+         <td><a href="BK0655.HTM" title="Bank Journal Transaction Header">BK0655</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0655.HTM" title="View: Bank Journal Transaction Header">BK0655</a>&nbsp;</td>
+         <td><a href="BKJTRANH.HTM" title="Table: Bank Journal Transaction Header">BKJTRANH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Journal Transaction Header&nbsp;</td>
+         <td>BKJTRANH&nbsp;</td>
+         <td><a href="BK0011.HTM" title="Bank Posting Journal">BK0011</a>, <a href="BK0650.HTM" title="Bank Journal Transaction Details">BK0650</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0660.HTM" title="View: Bank Entries Journal Detail">BK0660</a>&nbsp;</td>
+         <td><a href="BKJENTD.HTM" title="Table: Bank Entries Journal Detail">BKJENTD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Entries Journal Detail&nbsp;</td>
+         <td>BKJENTD&nbsp;</td>
+         <td><a href="BK0665.HTM" title="Bank Entries Journal Header">BK0665</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0665.HTM" title="View: Bank Entries Journal Header">BK0665</a>&nbsp;</td>
+         <td><a href="BKJENTH.HTM" title="Table: Bank Entries Journal Header">BKJENTH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Entries Journal Header&nbsp;</td>
+         <td>BKJENTH&nbsp;</td>
+         <td><a href="BK0020.HTM" title="Bank Posting Journal Control">BK0020</a>, <a href="BK0660.HTM" title="Bank Entries Journal Detail">BK0660</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0680.HTM" title="View: OFX Transaction Matching">BK0680</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">OFX Transaction Matching&nbsp;</td>
+         <td>BKMATCH&nbsp;</td>
+         <td><a href="BK0840.HTM" title="Bank Transaction Details">BK0840</a>, <a href="BK0870.HTM" title="OFX Transactions">BK0870</a>, <a href="BK0845.HTM" title="Bank Transaction Header">BK0845</a>, <a href="BK0001.HTM" title="Banks">BK0001</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0765.HTM" title="View: Bank Deposit Printing Functions">BK0765</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Deposit Printing Functions&nbsp;</td>
+         <td>BKPRDEP&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0790.HTM" title="View: Return Customer Checks">BK0790</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Return Customer Checks&nbsp;</td>
+         <td>BKRCC&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0006.HTM" title="Returned Customer Checks">BK0006</a>, <a href="BK0026.HTM" title="Returned Customer Checks">BK0026</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0800.HTM" title="View: Bank Transaction Entry Reconciliation Posting">BK0800</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Transaction Entry Reconciliation Posting&nbsp;</td>
+         <td>BKRECON&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0820.HTM" title="View: Bank Process Restart">BK0820</a>&nbsp;</td>
+         <td><a href="BKRSTRT.HTM" title="Table: Bank Process Restart">BKRSTRT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Process Restart&nbsp;</td>
+         <td>BKRSTRT&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0835.HTM" title="View: Transfers">BK0835</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Transfers&nbsp;</td>
+         <td>BKTFRD&nbsp;</td>
+         <td><a href="BK0036.HTM" title="Transfers">BK0036</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0840.HTM" title="View: Bank Transaction Details">BK0840</a>&nbsp;</td>
+         <td><a href="BKTRAND.HTM" title="Table: Bank Transaction Details">BKTRAND</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Transaction Details&nbsp;</td>
+         <td>BKTRAND&nbsp;</td>
+         <td><a href="BK0845.HTM" title="Bank Transaction Header">BK0845</a>, <a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="CS0004.HTM" title="Rate Types">CS0004</a>, <a href="BK0002.HTM" title="Bank Currencies">BK0002</a>, <a href="BK0003.HTM" title="Bank Distribution Codes">BK0003</a>, <a href="BK0240.HTM" title="Credit Card Types">BK0240</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0845.HTM" title="View: Bank Transaction Header">BK0845</a>&nbsp;</td>
+         <td><a href="BKTRANH.HTM" title="Table: Bank Transaction Header">BKTRANH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Transaction Header&nbsp;</td>
+         <td>BKTRANH&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0840.HTM" title="Bank Transaction Details">BK0840</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0850.HTM" title="View: Bank Transaction Portal Superview">BK0850</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Transaction Portal Superview&nbsp;</td>
+         <td>BKTRANS&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a>, <a href="BK0840.HTM" title="Bank Transaction Details">BK0840</a>, <a href="BK0845.HTM" title="Bank Transaction Header">BK0845</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0855.HTM" title="View: Bank Transaction Reversals">BK0855</a>&nbsp;</td>
+         <td><a href="BKTRANR.HTM" title="Table: Bank Transaction Reversals">BKTRANR</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Transaction Reversals&nbsp;</td>
+         <td>BKTRANR&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0860.HTM" title="View: Bank Distribution Codes Tax Details">BK0860</a>&nbsp;</td>
+         <td><a href="BKTTX.HTM" title="Table: Bank Distribution Codes Tax Details">BKTTX</a>&nbsp;</td>
+         <td style="white-space: nowrap">Bank Distribution Codes Tax Details&nbsp;</td>
+         <td>BKTTX&nbsp;</td>
+         <td><a href="BK0003.HTM" title="Bank Distribution Codes">BK0003</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0870.HTM" title="View: OFX Transactions">BK0870</a>&nbsp;</td>
+         <td><a href="BKUNMAT.HTM" title="Table: OFX Transactions">BKUNMAT</a>&nbsp;</td>
+         <td style="white-space: nowrap">OFX Transactions&nbsp;</td>
+         <td>BKUNMAT&nbsp;</td>
+         <td><a href="BK0001.HTM" title="Banks">BK0001</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="BK0900.HTM" title="View: Bank Services Activation">BK0900</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Bank Services Activation&nbsp;</td>
+         <td>BKINIT&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr><td colspan="5"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2 align="left"><a name="Tables">Tables: 30</a></h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Table&nbsp;</th>
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Title</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td><a href="BKACCT.HTM" title="Table: Banks">BKACCT</a>&nbsp;</td>
+         <td><a href="BK0001.HTM" title="View: Banks">BK0001</a>&nbsp;</td>
+         <td>Banks</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKCCTYP.HTM" title="Table: Credit Card Types">BKCCTYP</a>&nbsp;</td>
+         <td><a href="BK0240.HTM" title="View: Credit Card Types">BK0240</a>&nbsp;</td>
+         <td>Credit Card Types</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKCUR.HTM" title="Table: Bank Currencies">BKCUR</a>&nbsp;</td>
+         <td><a href="BK0002.HTM" title="View: Bank Currencies">BK0002</a>&nbsp;</td>
+         <td>Bank Currencies</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKDCHK.HTM" title="Table: Bank Services Integrity Check">BKDCHK</a>&nbsp;</td>
+         <td><a href="BK0100.HTM" title="View: Bank Services Integrity Check">BK0100</a>&nbsp;</td>
+         <td>Bank Services Integrity Check</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKDISTD.HTM" title="Table: Bank Distribution Set Detail">BKDISTD</a>&nbsp;</td>
+         <td><a href="BK0440.HTM" title="View: Bank Distribution Set Detail">BK0440</a>&nbsp;</td>
+         <td>Bank Distribution Set Detail</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKDISTH.HTM" title="Table: Bank Distribution Set Header">BKDISTH</a>&nbsp;</td>
+         <td><a href="BK0445.HTM" title="View: Bank Distribution Set Header">BK0445</a>&nbsp;</td>
+         <td>Bank Distribution Set Header</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKENTD.HTM" title="Table: Bank Entries">BKENTD</a>&nbsp;</td>
+         <td><a href="BK0460.HTM" title="View: Bank Entries">BK0460</a>&nbsp;</td>
+         <td>Bank Entries</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKENTH.HTM" title="Table: Bank Entries Header">BKENTH</a>&nbsp;</td>
+         <td><a href="BK0450.HTM" title="View: Bank Entries Header">BK0450</a>&nbsp;</td>
+         <td>Bank Entries Header</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKFORM.HTM" title="Table: Check Stocks">BKFORM</a>&nbsp;</td>
+         <td><a href="BK0008.HTM" title="View: Check Stocks">BK0008</a>&nbsp;</td>
+         <td>Check Stocks</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKGLREF.HTM" title="Table: Bank G/L Integration">BKGLREF</a>&nbsp;</td>
+         <td><a href="BK0470.HTM" title="View: Bank G/L Integration">BK0470</a>&nbsp;</td>
+         <td>Bank G/L Integration</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJCTL.HTM" title="Table: Bank Posting Journal Control">BKJCTL</a>&nbsp;</td>
+         <td><a href="BK0020.HTM" title="View: Bank Posting Journal Control">BK0020</a>&nbsp;</td>
+         <td>Bank Posting Journal Control</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJENTD.HTM" title="Table: Bank Entries Journal Detail">BKJENTD</a>&nbsp;</td>
+         <td><a href="BK0660.HTM" title="View: Bank Entries Journal Detail">BK0660</a>&nbsp;</td>
+         <td>Bank Entries Journal Detail</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJENTH.HTM" title="Table: Bank Entries Journal Header">BKJENTH</a>&nbsp;</td>
+         <td><a href="BK0665.HTM" title="View: Bank Entries Journal Header">BK0665</a>&nbsp;</td>
+         <td>Bank Entries Journal Header</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJERR.HTM" title="Table: Bank Posting Error Journal">BKJERR</a>&nbsp;</td>
+         <td><a href="BK0012.HTM" title="View: Bank Posting Error Journal">BK0012</a>&nbsp;</td>
+         <td>Bank Posting Error Journal</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJRNL.HTM" title="Table: Bank Posting Journal">BKJRNL</a>&nbsp;</td>
+         <td><a href="BK0011.HTM" title="View: Bank Posting Journal">BK0011</a>&nbsp;</td>
+         <td>Bank Posting Journal</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJTFR.HTM" title="Table: Transfer Audit">BKJTFR</a>&nbsp;</td>
+         <td><a href="BK0033.HTM" title="View: Transfer Audit">BK0033</a>&nbsp;</td>
+         <td>Transfer Audit</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJTFRD.HTM" title="Table: Transfer Audit Charge">BKJTFRD</a>&nbsp;</td>
+         <td><a href="BK0645.HTM" title="View: Transfer Audit Charge">BK0645</a>&nbsp;</td>
+         <td>Transfer Audit Charge</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJTRAND.HTM" title="Table: Bank Journal Transaction Details">BKJTRAND</a>&nbsp;</td>
+         <td><a href="BK0650.HTM" title="View: Bank Journal Transaction Details">BK0650</a>&nbsp;</td>
+         <td>Bank Journal Transaction Details</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJTRANH.HTM" title="Table: Bank Journal Transaction Header">BKJTRANH</a>&nbsp;</td>
+         <td><a href="BK0655.HTM" title="View: Bank Journal Transaction Header">BK0655</a>&nbsp;</td>
+         <td>Bank Journal Transaction Header</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKJZGL.HTM" title="Table: G/L Audit Summary">BKJZGL</a>&nbsp;</td>
+         <td><a href="BK0018.HTM" title="View: G/L Audit Summary">BK0018</a>&nbsp;</td>
+         <td>G/L Audit Summary</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKOPT.HTM" title="Table: Bank Options">BKOPT</a>&nbsp;</td>
+         <td><a href="BK0010.HTM" title="View: Bank Options">BK0010</a>&nbsp;</td>
+         <td>Bank Options</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKREG.HTM" title="Table: Bank Check Register">BKREG</a>&nbsp;</td>
+         <td><a href="BK0009.HTM" title="View: Bank Check Register">BK0009</a>&nbsp;</td>
+         <td>Bank Check Register</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKRSTRT.HTM" title="Table: Bank Process Restart">BKRSTRT</a>&nbsp;</td>
+         <td><a href="BK0820.HTM" title="View: Bank Process Restart">BK0820</a>&nbsp;</td>
+         <td>Bank Process Restart</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKTNUM.HTM" title="Table: Bank Transaction Numbers">BKTNUM</a>&nbsp;</td>
+         <td><a href="BK0021.HTM" title="View: Bank Transaction Numbers">BK0021</a>&nbsp;</td>
+         <td>Bank Transaction Numbers</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKTRAND.HTM" title="Table: Bank Transaction Details">BKTRAND</a>&nbsp;</td>
+         <td><a href="BK0840.HTM" title="View: Bank Transaction Details">BK0840</a>&nbsp;</td>
+         <td>Bank Transaction Details</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKTRANH.HTM" title="Table: Bank Transaction Header">BKTRANH</a>&nbsp;</td>
+         <td><a href="BK0845.HTM" title="View: Bank Transaction Header">BK0845</a>&nbsp;</td>
+         <td>Bank Transaction Header</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKTRANR.HTM" title="Table: Bank Transaction Reversals">BKTRANR</a>&nbsp;</td>
+         <td><a href="BK0855.HTM" title="View: Bank Transaction Reversals">BK0855</a>&nbsp;</td>
+         <td>Bank Transaction Reversals</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKTT.HTM" title="Table: Bank Distribution Codes">BKTT</a>&nbsp;</td>
+         <td><a href="BK0003.HTM" title="View: Bank Distribution Codes">BK0003</a>&nbsp;</td>
+         <td>Bank Distribution Codes</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKTTX.HTM" title="Table: Bank Distribution Codes Tax Details">BKTTX</a>&nbsp;</td>
+         <td><a href="BK0860.HTM" title="View: Bank Distribution Codes Tax Details">BK0860</a>&nbsp;</td>
+         <td>Bank Distribution Codes Tax Details</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BKUNMAT.HTM" title="Table: OFX Transactions">BKUNMAT</a>&nbsp;</td>
+         <td><a href="BK0870.HTM" title="View: OFX Transactions">BK0870</a>&nbsp;</td>
+         <td>OFX Transactions</td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2 align="left"><a name="Objects">Objects: 20</a></h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Object&nbsp;</th>
+         <th class="aom">Protocol&nbsp;</th>
+         <th class="aom">Views</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left" valign="top">
+         <td>BKACCT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORD2" title="ORD2">ORD2</a>&nbsp;</td>
+         <td>
+            <a href="BK0001.HTM" title="View: Banks">BK0001</a>,
+            <a href="BK0002.HTM" title="View: Bank Currencies">BK0002</a>,
+            <a href="BK0008.HTM" title="View: Check Stocks">BK0008</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKCCTYPE&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="BK0240.HTM" title="View: Credit Card Types">BK0240</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKCLEAR&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="BK0103.HTM" title="View: Bank Reconciliation Clearing">BK0103</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKCURRENCY&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORDERED" title="ORDERED">ORDERED</a>&nbsp;</td>
+         <td>
+            <a href="BK0001.HTM" title="View: Banks">BK0001</a>,
+            <a href="BK0002.HTM" title="View: Bank Currencies">BK0002</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKDCHK&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="BK0100.HTM" title="View: Bank Services Integrity Check">BK0100</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKDISTSET&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQUENCE" title="SEQUENCE">SEQUENCE</a>&nbsp;</td>
+         <td>
+            <a href="BK0445.HTM" title="View: Bank Distribution Set Header">BK0445</a>,
+            <a href="BK0440.HTM" title="View: Bank Distribution Set Detail">BK0440</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKEPOST&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="BK0465.HTM" title="View: Bank Transaction Entry Posting">BK0465</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKFORM&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORDERED" title="ORDERED">ORDERED</a>&nbsp;</td>
+         <td>
+            <a href="BK0001.HTM" title="View: Banks">BK0001</a>,
+            <a href="BK0008.HTM" title="View: Check Stocks">BK0008</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKGLREF&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="BK0470.HTM" title="View: Bank G/L Integration">BK0470</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKMATCH&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="BK0680.HTM" title="View: OFX Transaction Matching">BK0680</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKOPT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="BK0010.HTM" title="View: Bank Options">BK0010</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKPOST&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="BK0101.HTM" title="View: Bank Reconciliation Posting">BK0101</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKPRDEP&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="BK0765.HTM" title="View: Bank Deposit Printing Functions">BK0765</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKPROC&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="BK0105.HTM" title="View: Bank Process Control">BK0105</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKREGISTER&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="BK0009.HTM" title="View: Bank Check Register">BK0009</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKRETURN&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="BK0102.HTM" title="View: Bank Reconciliation Returns">BK0102</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKTRANSENT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQUENCE" title="SEQUENCE">SEQUENCE</a>&nbsp;</td>
+         <td>
+            <a href="BK0450.HTM" title="View: Bank Entries Header">BK0450</a>,
+            <a href="BK0460.HTM" title="View: Bank Entries">BK0460</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKTRANSFER&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORDERED" title="ORDERED">ORDERED</a>&nbsp;</td>
+         <td>
+            <a href="BK0036.HTM" title="View: Transfers">BK0036</a>,
+            <a href="BK0835.HTM" title="View: Transfers">BK0835</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKTT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="BK0003.HTM" title="View: Bank Distribution Codes">BK0003</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>BKUNMAT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQUENCE" title="SEQUENCE">SEQUENCE</a>&nbsp;</td>
+         <td>
+            <a href="BK0001.HTM" title="View: Banks">BK0001</a>,
+            <a href="BK0870.HTM" title="View: OFX Transactions">BK0870</a>
+         </td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

@@ -1,0 +1,334 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="GL GL0005 GLOPT GL01" />
+<title>General Ledger Options</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: General Ledger Options</h1>
+<b>Table:</b> GL01<br />
+<b>View:</b> <a href="GL0005.HTM" title="View: General Ledger Options">GL0005</a><br />
+<b>Record length:</b> 404<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 1</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>General Ledger Option ID&nbsp;</td>
+         <td></td>
+
+         <td><a href="#OPTIONID">OPTIONID</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 47</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="OPTIONID">OPTIONID</a>&nbsp;</td>
+         <td>String*4&nbsp;</td>
+         <td style="white-space: nowrap">GL option key&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PHONENBR">PHONENBR</a>&nbsp;</td>
+         <td>String*30&nbsp;</td>
+         <td style="white-space: nowrap">Company phone number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-30c</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FAX">FAX</a>&nbsp;</td>
+         <td>String*30&nbsp;</td>
+         <td style="white-space: nowrap">Company fax number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-30c</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COMPANYID">COMPANYID</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Organization ID&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CONTACT">CONTACT</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Client contact name&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CLOSESEG">CLOSESEG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Closing Segment Number&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %06d</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ACCTSEG">ACCTSEG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Main Acct Segment ID&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %06d</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ABRKDFLT">ABRKDFLT</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Default Structure Code&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ABRKDELM">ABRKDELM</a>&nbsp;</td>
+         <td>String*1&nbsp;</td>
+         <td style="white-space: nowrap">Structure Code delimiter&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 5 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right"> -</td><td>=</td><td align="left" style="white-space: nowrap">-</td></tr><tr valign="top"><td align="right"> /</td><td>=</td><td align="left" style="white-space: nowrap">/</td></tr><tr valign="top"><td align="right"> \</td><td>=</td><td align="left" style="white-space: nowrap">\</td></tr><tr valign="top"><td align="right"> *</td><td>=</td><td align="left" style="white-space: nowrap">*</td></tr><tr valign="top"><td align="right"> .</td><td>=</td><td align="left" style="white-space: nowrap">.</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWBTCHEDIT">SWBTCHEDIT</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Batch edit allowed&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">All Fields</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Fiscal Period, Year, Trans Date</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">No Edit</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWPROVPST">SWPROVPST</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Provisional posting allowed&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Provisional posting not allowed</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Provisional posting allowed</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWPRTPBTCH">SWPRTPBTCH</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Print Batches prior to Post&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Printing not required</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Printing required</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CODELOCK1">CODELOCK1</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Budget 1 lock&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Unlocked</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Locked</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CODELOCK2">CODELOCK2</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Budget 2 lock&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Unlocked</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Locked</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CODELOCK3">CODELOCK3</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Budget 3 lock&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Unlocked</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Locked</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CODELOCK4">CODELOCK4</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Budget 4 lock&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Unlocked</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Locked</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CODELOCK5">CODELOCK5</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Budget 5 lock&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Unlocked</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Locked</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LOCKFILL">LOCKFILL</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Space for more locks&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWQTY">SWQTY</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Quantity History allowed&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Do not allow quantities</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Quantities allowed</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="QTYDEC">QTYDEC</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">Number of decimals for qty&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="YRSHIST">YRSHIST</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">Years of Summary History Kept&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="YRACCTDEL">YRACCTDEL</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Yrs chkd for acct del&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="NEXTBTCHNO">NEXTBTCHNO</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">Last Issued Batch Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PSTSQ">PSTSQ</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">Next actual post seq #&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PROVPSTSQ">PROVPSTSQ</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">Next provisional post seq #&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PJRNLPRGTO">PJRNLPRGTO</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Prov jrnl purged to&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BTCHPSTTO">BTCHPSTTO</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Last Batch Posted&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="JRNLPRGTO">JRNLPRGTO</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Purge to batch&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="YRCLSLST">YRCLSLST</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">Last closed year&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="YRLSTACTL">YRLSTACTL</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">Oldest year of Fiscal Sets&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRDNOPSTPR">PRDNOPSTPR</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Period no post prior&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="YRNOPSTPR">YRNOPSTPR</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">Oldest year of Trans. Detail&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="REACCT">REACCT</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Default retained earning acct&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-45C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWMC">SWMC</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Multicurrency Activated Switch&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Inactive</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Active</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DFLRATETYP">DFLRATETYP</a>&nbsp;</td>
+         <td>String*2&nbsp;</td>
+         <td style="white-space: nowrap">Default currency rate type&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-2N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWACCTGRP">SWACCTGRP</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Account group switch&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Do not allow account groups</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Account groups allowed</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWPRVYRPST">SWPRVYRPST</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Allow previous year posting&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Do not allow previous yr posting</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Previous yr posting allowed</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="YRSTRANDTL">YRSTRANDTL</a>&nbsp;</td>
+         <td>BCD*4.0&nbsp;</td>
+         <td style="white-space: nowrap">Years of detail history kept&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HSTCLRACCT">HSTCLRACCT</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED Acct history clearing acct&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RPACCT">RPACCT</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Transition rounding account&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-45C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SRCETYPE">SRCETYPE</a>&nbsp;</td>
+         <td>String*2&nbsp;</td>
+         <td style="white-space: nowrap">Source Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-2N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWUSESEC">SWUSESEC</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Use GL Security&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SWDEFACCSS">SWDEFACCSS</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Default Access&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">All Accounts</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">No Accounts</td></tr></table></td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

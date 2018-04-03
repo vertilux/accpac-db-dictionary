@@ -1,0 +1,210 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="BK BK0020 BKJCTL BKJCTL" />
+<title>Bank Posting Journal Control</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Bank Posting Journal Control</h1>
+<b>RotoID:</b> BK0020<br />
+<b>Table:</b> <a href="BKJCTL.HTM" title="Table: Bank Posting Journal Control">BKJCTL</a><br />
+<b>Protocol:</b> Batch, Key auto generate<br />
+<b>DLL:</b> BKJCTL
+<h2>Compositions: 4</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Tables&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">DLL&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td><a href="BK0011.HTM" title="View: Bank Posting Journal">BK0011</a>&nbsp;</td>
+         <td><a href="BKJRNL.HTM" title="Table: Bank Posting Journal">BKJRNL</a>&nbsp;</td>
+         <td>Bank Posting Journal&nbsp;</td>
+         <td>BKJRNL</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BK0033.HTM" title="View: Transfer Audit">BK0033</a>&nbsp;</td>
+         <td><a href="BKJTFR.HTM" title="Table: Transfer Audit">BKJTFR</a>&nbsp;</td>
+         <td>Transfer Audit&nbsp;</td>
+         <td>BKJTFR</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BK0012.HTM" title="View: Bank Posting Error Journal">BK0012</a>&nbsp;</td>
+         <td><a href="BKJERR.HTM" title="Table: Bank Posting Error Journal">BKJERR</a>&nbsp;</td>
+         <td>Bank Posting Error Journal&nbsp;</td>
+         <td>BKJERR</td>
+      </tr>
+      <tr align="left">
+         <td><a href="BK0665.HTM" title="View: Bank Entries Journal Header">BK0665</a>&nbsp;</td>
+         <td><a href="BKJENTH.HTM" title="Table: Bank Entries Journal Header">BKJENTH</a>&nbsp;</td>
+         <td>Bank Entries Journal Header&nbsp;</td>
+         <td>BKJENTH</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Keys: 1</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td>Posting Sequence&nbsp;</td>
+         <td><a href="#PSTSEQ">PSTSEQ</a></td>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 15</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="PSTSEQ">PSTSEQ</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>BCD*5.0&nbsp;</td>
+         <td style="white-space: nowrap">Posting Sequence&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Key" title="Key">K</a>&nbsp;<a href="EndNotes.HTM#Attribute_Required" title="Required">R</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FROMBANK">FROMBANK</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">From Bank&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOBANK">TOBANK</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">To Bank&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POSTDATE">POSTDATE</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Date Posted to GL&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POSTUSER">POSTUSER</a>&nbsp;</td>
+         <td>5&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Posting User&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POSTSTAT">POSTSTAT</a>&nbsp;</td>
+         <td>6&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Posting Status&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 5 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Posting</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Pending print</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Printed</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Pending purge</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Purging</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRINTDATE">PRINTDATE</a>&nbsp;</td>
+         <td>7&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Last Date Journal Printed&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLDEFER">GLDEFER</a>&nbsp;</td>
+         <td>8&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Create G/L Batches&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">During Posting</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">On Request Using Create G/L Batch Icon</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLCONSOL">GLCONSOL</a>&nbsp;</td>
+         <td>9&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Consolidate G/L Batches&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Post all details</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Account/Fiscal Period/Source Code</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Account/Fiscal Period</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLAPPEND">GLAPPEND</a>&nbsp;</td>
+         <td>10&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Create G/L Transactions By&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Adding to an Existing Batch</td></tr><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Creating a New Batch</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Creating and Posting a New Batch</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLBATCH">GLBATCH</a>&nbsp;</td>
+         <td>11&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">G/L Batch Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="GLTRANS">GLTRANS</a>&nbsp;</td>
+         <td>12&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">G/L Batch Transferred&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="POSTTYPE">POSTTYPE</a>&nbsp;</td>
+         <td>13&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Posting Type&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Reconciliation</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Transfer</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Bank Entries</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKSEQ">BANKSEQ</a>&nbsp;</td>
+         <td>14&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Bank Sequence&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRINTED">PRINTED</a>&nbsp;</td>
+         <td>30&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Printed?&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="OE OE0440 OEMISC OEMISC" />
+<title>Miscellaneous Charges</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Miscellaneous Charges</h1>
+<b>RotoID:</b> OE0440<br />
+<b>Table:</b> <a href="OEMISC.HTM" title="Table: Miscellaneous Charges">OEMISC</a><br />
+<b>Protocol:</b> Header<br />
+<b>DLL:</b> OEMISC
+<h2>Compositions: 2</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Tables&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">DLL&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td><a href="OE0460.HTM" title="View: Miscellaneous Charge Taxes">OE0460</a>&nbsp;</td>
+         <td><a href="OEMISCT.HTM" title="Table: Miscellaneous Charge Taxes">OEMISCT</a>&nbsp;</td>
+         <td>Miscellaneous Charge Taxes&nbsp;</td>
+         <td>OEMISCT</td>
+      </tr>
+      <tr align="left">
+         <td><a href="OE0450.HTM" title="View: Misc. Charge Optional Fields">OE0450</a>&nbsp;</td>
+         <td><a href="OEMISCO.HTM" title="Table: Misc. Charge Optional Fields">OEMISCO</a>&nbsp;</td>
+         <td>Misc. Charge Optional Fields&nbsp;</td>
+         <td>OEMISCO</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Keys: 2</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td>Currency and Misc. Charge&nbsp;</td>
+         <td><a href="#CURRENCY">CURRENCY</a>, <a href="#MISCCHARGE">MISCCHARGE</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Miscellaneous Charge&nbsp;</td>
+         <td><a href="#MISCCHARGE">MISCCHARGE</a></td>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 15</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="CURRENCY">CURRENCY</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Currency&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Key" title="Key">K</a>&nbsp;<a href="EndNotes.HTM#Attribute_Required" title="Required">R</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-3N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MISCCHARGE">MISCCHARGE</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Miscellaneous Charge Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Key" title="Key">K</a>&nbsp;<a href="EndNotes.HTM#Attribute_Required" title="Required">R</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DESC">DESC</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Description&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MISCACCT">MISCACCT</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Misc. Charge Revenue Account&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-45C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMOUNT">AMOUNT</a>&nbsp;</td>
+         <td>5&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Amount&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="VALUES">VALUES</a>&nbsp;</td>
+         <td>6&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Optional Fields&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MISCACDESC">MISCACDESC</a>&nbsp;</td>
+         <td>7&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Account Description&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PROCESSCMD">PROCESSCMD</a>&nbsp;</td>
+         <td>8&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Process Command&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 17 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Nothing to Process</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Insert Optional Fields</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Default and Tranfer Optional Fields</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Default Opt. Fields During Record Generation</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Remove Optional Fields</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Transfer Opt. Fields from Standing Document</td></tr><tr valign="top"><td align="right">21</td><td>=</td><td align="left" style="white-space: nowrap">Auto-generate Serials</td></tr><tr valign="top"><td align="right">22</td><td>=</td><td align="left" style="white-space: nowrap">Auto-generate Lots</td></tr><tr valign="top"><td align="right">23</td><td>=</td><td align="left" style="white-space: nowrap">Auto-allocate Serials</td></tr><tr valign="top"><td align="right">24</td><td>=</td><td align="left" style="white-space: nowrap">Auto-allocate Lots</td></tr><tr valign="top"><td align="right">25</td><td>=</td><td align="left" style="white-space: nowrap">Clear Serials</td></tr><tr valign="top"><td align="right">26</td><td>=</td><td align="left" style="white-space: nowrap">Clear Lots</td></tr><tr valign="top"><td align="right">27</td><td>=</td><td align="left" style="white-space: nowrap">Auto-assign Serials</td></tr><tr valign="top"><td align="right">28</td><td>=</td><td align="left" style="white-space: nowrap">Auto-assign Lots</td></tr><tr valign="top"><td align="right">29</td><td>=</td><td align="left" style="white-space: nowrap">Create List of Existing Serials/Lots</td></tr><tr valign="top"><td align="right">31</td><td>=</td><td align="left" style="white-space: nowrap">Post Serials/Lots to IC Inventory</td></tr><tr valign="top"><td align="right">32</td><td>=</td><td align="left" style="white-space: nowrap">Verify Serials/Lots</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HASJOB">HASJOB</a>&nbsp;</td>
+         <td>9&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Job Related&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EXTCOST">EXTCOST</a>&nbsp;</td>
+         <td>10&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Extended Cost&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MCCOSTEXP">MCCOSTEXP</a>&nbsp;</td>
+         <td>11&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Misc. Charge Expense Account&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-45C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MCCLEARING">MCCLEARING</a>&nbsp;</td>
+         <td>12&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Misc. Charge Clearing Account&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-45C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CSTEXPDESC">CSTEXPDESC</a>&nbsp;</td>
+         <td>13&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Misc. Charge Cost Expense Account Desc&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MCCLRDESC">MCCLRDESC</a>&nbsp;</td>
+         <td>14&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Misc. Charge Clearing Account Desc&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FUNCCURR">FUNCCURR</a>&nbsp;</td>
+         <td>15&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Functional Currency&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-3N</td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

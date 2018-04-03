@@ -1,0 +1,235 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="IC IC0470 ICPRCU" />
+<title>Update Item Pricing</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Update Item Pricing</h1>
+<b>RotoID:</b> IC0470<br />
+<b>Protocol:</b> Superview<br />
+<b>DLL:</b> ICPRCU
+<h2>Compositions: 3</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Tables&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">DLL&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td><a href="IC0390.HTM" title="View: Price List Codes">IC0390</a>&nbsp;</td>
+         <td><a href="ICPCOD.HTM" title="Table: Price List Codes">ICPCOD</a>&nbsp;</td>
+         <td>Price List Codes&nbsp;</td>
+         <td>ICPCOD</td>
+      </tr>
+      <tr align="left">
+         <td><a href="IC0395.HTM" title="View: Price List Code Tax Authorities">IC0395</a>&nbsp;</td>
+         <td><a href="ICPCTX.HTM" title="Table: Price List Code Tax Authorities">ICPCTX</a>&nbsp;</td>
+         <td>Price List Code Tax Authorities&nbsp;</td>
+         <td>ICPCTX</td>
+      </tr>
+      <tr align="left">
+         <td><a href="IC0392.HTM" title="View: Price List Codes Checks">IC0392</a>&nbsp;</td>
+         <td><a href="ICPCODC.HTM" title="Table: Price List Codes Checks">ICPCODC</a>&nbsp;</td>
+         <td>Price List Codes Checks&nbsp;</td>
+         <td>ICPCODC</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Keys: 0</h2>
+<h2>Fields: 21</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="SELECTBY">SELECTBY</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Select Price List by&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Item Number</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Category</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Item Segment</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Vendor Number</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SEGMENT">SEGMENT</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Segment Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 0 entries<br /><table border="0" cellspacing="0" cellpadding="0"></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FROMSELECT">FROMSELECT</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Select Range From&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Presentation" title="Presentation">P</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-24C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOSELECT">TOSELECT</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Select Range To&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Presentation" title="Presentation">P</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-24C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FROMCURR">FROMCURR</a>&nbsp;</td>
+         <td>5&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">From Currency Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-3N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOCURR">TOCURR</a>&nbsp;</td>
+         <td>6&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">To Currency Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-3N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FROMPRICE">FROMPRICE</a>&nbsp;</td>
+         <td>7&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">From Price List Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TOPRICE">TOPRICE</a>&nbsp;</td>
+         <td>8&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">To Price List Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CRITERIA">CRITERIA</a>&nbsp;</td>
+         <td>9&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Update Price List Based on&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Presentation" title="Presentation">P</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Percentage</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Amount</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Markup</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Margin</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="UPDATEFLD">UPDATEFLD</a>&nbsp;</td>
+         <td>10&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Update Field&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 5 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Base Price</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Sale Price</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Markup Cost</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Price Check</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Price List Dates</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DIRECTION">DIRECTION</a>&nbsp;</td>
+         <td>11&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Direction&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Increase</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Decrease</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PERCNTMRGN">PERCNTMRGN</a>&nbsp;</td>
+         <td>12&nbsp;</td>
+         <td>BCD*5.5&nbsp;</td>
+         <td style="white-space: nowrap">Percent/Margin&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMOUNT">AMOUNT</a>&nbsp;</td>
+         <td>13&nbsp;</td>
+         <td>BCD*10.6&nbsp;</td>
+         <td style="white-space: nowrap">Amount&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RATETYPE">RATETYPE</a>&nbsp;</td>
+         <td>14&nbsp;</td>
+         <td>String*2&nbsp;</td>
+         <td style="white-space: nowrap">Rate Type&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-2N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EXCHRATE">EXCHRATE</a>&nbsp;</td>
+         <td>15&nbsp;</td>
+         <td>BCD*8.7&nbsp;</td>
+         <td style="white-space: nowrap">Exchange Rate&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SALESTART">SALESTART</a>&nbsp;</td>
+         <td>16&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Sale Start Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SALEEND">SALEEND</a>&nbsp;</td>
+         <td>17&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Sale End Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OPTFIELD">OPTFIELD</a>&nbsp;</td>
+         <td>18&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">Optional Field&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PCHECKFLD">PCHECKFLD</a>&nbsp;</td>
+         <td>19&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Price Check Type&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">None</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Warning</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Error</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Approval</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRICESTART">PRICESTART</a>&nbsp;</td>
+         <td>20&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Price List Start Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PRICEEND">PRICEEND</a>&nbsp;</td>
+         <td>21&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Price List End Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

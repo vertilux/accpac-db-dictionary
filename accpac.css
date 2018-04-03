@@ -1,0 +1,452 @@
+/* accpac.com CSS */
+
+body
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+H1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 22px;
+    COLOR: #000000;
+    TEXT-DECORATION: none;
+
+}
+H2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+}
+H3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 15px;
+}
+H4
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+}
+H5
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #006699;
+}
+H6
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 22px;
+    COLOR: white;
+    BACKGROUND-COLOR: #FF0000;
+    TEXT-ALIGN: left;
+    TEXT-DECORATION: none;
+}
+
+.tenpx
+{
+    FONT-SIZE: 10px;
+}
+.tenpx A
+{
+    FONT-SIZE: 10px;
+    COLOR: #003366;
+}
+.tenpx A:hover
+{
+    COLOR: #003366;
+    TEXT-DECORATION: none;
+}
+.tenpx A:active
+{
+    FONT-SIZE: 10px;
+    COLOR: #003366;
+}
+.tenpx A:visited
+{
+    FONT-SIZE: 10px;
+    COLOR: #003366;
+}
+A:link
+{
+    COLOR: #003366;
+}
+A:visited
+{
+    COLOR: #003366;
+}
+A:hover
+{
+    COLOR: #003366;
+    BACKGROUND-COLOR: #F9E200;
+    TEXT-DECORATION: none;
+}
+A:active
+{
+    COLOR: #003366;
+}
+A.footerlink:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #003366;
+}
+A.footerlink:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #003366;
+}
+A.footerlink:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #003366;
+    BACKGROUND-COLOR: #efefef;
+    TEXT-DECORATION: none;
+}
+
+/* table-menu */
+.table-menu
+{
+    FONT-SIZE: 11px;
+    WIDTH: 168px;
+    COLOR: #006699;
+    BACKGROUND-COLOR: #006699;
+    TEXT-DECORATION: none
+}
+.table-menu TABLE
+{
+    BACKGROUND-COLOR: #006699;
+}
+.table-menu TR
+{
+    BACKGROUND-COLOR: #006699;
+}
+.table-menu TD
+{
+    BACKGROUND-COLOR: #006699;
+}
+.table-menu A:link
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+.table-menu A:visited
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: none;
+}
+.table-menu A:active
+{
+    COLOR: ffffff;
+    TEXT-DECORATION: none
+}
+.table-menu A:hover
+{
+    COLOR: #F9E200;
+    BACKGROUND-COLOR: #006699;
+    TEXT-DECORATION: none;
+}
+.table-menu TH A:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    BACKGROUND-COLOR: #006699;
+    TEXT-DECORATION: none
+}
+.table-menu TH A:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+.table-menu TH A:active
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+.table-menu TH A:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #F9E200;
+    BACKGROUND-COLOR: #006699;
+    TEXT-DECORATION: none
+}
+/* Colored Tables */
+.table-black
+{
+    BACKGROUND-COLOR: #000000;
+; color: #FFFFFF
+}
+.table-grey
+{
+    BACKGROUND-COLOR: #efefef;
+}
+.table-blue
+{
+    BACKGROUND-COLOR: #006699;
+; color: #FFFFFF
+}
+.table-pink
+{
+    BACKGROUND-COLOR: #f9eeef;
+}
+.table-green
+{
+    BACKGROUND-COLOR: #edfaf5;
+}
+.table-yellow
+{
+    BACKGROUND-COLOR: #fffde8;
+}
+.table-tan
+{
+    BACKGROUND-COLOR: #fbefc6;
+}
+/* MenuHead */
+.MenuHead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    BACKGROUND-COLOR: #006699;
+}
+A.MenuHead:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    TEXT-DECORATION: none;
+}
+A.MenuHead:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #F9E200;
+    TEXT-DECORATION: none;
+}
+A.MenuHead:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    TEXT-DECORATION: none;
+}
+A.MenuHead:active
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    TEXT-DECORATION: none;
+}
+/* Menu Levels */
+.level1
+{
+    FONT-SIZE: 12px;
+    TEXT-DECORATION: none;
+    COLOR: #FFFFFF;
+}
+.level2
+{
+    MARGIN-TOP: 2px;
+    PADDING-LEFT: 15px;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: -4px;
+    TEXT-DECORATION: none;
+    TEXT-DECORATION: none;
+    COLOR: #FFFFFF;
+}
+.level3
+{
+    MARGIN-TOP: 2px;
+    PADDING-LEFT: 25px;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: -4px;
+    TEXT-DECORATION: none;
+    TEXT-DECORATION: none;
+    COLOR: #FFFFFF;
+}
+.level1 A
+{
+    TEXT-DECORATION: none;
+    FONT-SIZE: 12px;
+    COLOR: #FFFFFF;
+}
+.level2 A
+{
+    MARGIN-TOP: 3px;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: -1px;
+    TEXT-DECORATION: none;
+    COLOR: #FFFFFF;
+}
+.level3 A
+{
+    MARGIN-TOP: 6px;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: -1px;
+    TEXT-DECORATION: none;
+}
+.level1 A:hover
+{
+    MARGIN-TOP: 6px;
+    FONT-SIZE: 12px;
+    MARGIN-BOTTOM: -1px;
+    TEXT-DECORATION: none;
+}
+.level2 A:hover
+{
+    MARGIN-TOP: 3px;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: -1px;
+    TEXT-DECORATION: none;
+}
+.level3 A:hover
+{
+    MARGIN-TOP: 6px;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: -1px;
+    TEXT-DECORATION: none;
+}
+.level1 A:active
+{
+    MARGIN-TOP: 6px;
+    FONT-SIZE: 12px;
+    MARGIN-BOTTOM: -1px;
+    TEXT-DECORATION: none;
+}
+.level2 A:active
+{
+    MARGIN-TOP: 3px;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: -1px;
+    TEXT-DECORATION: none;
+}
+.level3 A:active
+{
+    MARGIN-TOP: 6px;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: -1px;
+    TEXT-DECORATION: none;
+}
+.level1 A:visited
+{
+    FONT-SIZE: 12px;
+}
+.level2 A:visited
+{
+    FONT-SIZE: 11px;
+}
+.level3 A:visited
+{
+    FONT-SIZE: 11px;
+    TEXT-DECORATION: none;
+}
+.RecordTitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: black;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    BACKGROUND-COLOR: #F9E200;
+}
+/*****************************************************/
+/* Redundant selectors to help Netscape 4 not forget */
+/*****************************************************/
+b, strong
+{
+    FONT-WEIGHT: bold;
+}
+
+div, p, th, td, li, dd, dl, dt
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.menuhead {  color: #FFFFFF}
+.Arrow {  list-style-type: none; list-style-image: url(/images/arrows/go9.gif)}
+.input1 {  font-family: Arial, Helvetica, sans-serif; font-size: 9px; height: 15px; width: 50px; clip:   rect(   )}
+
+.table_standard
+{
+    BORDER-RIGHT: #006699 thin solid;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: #006699 thin solid;
+    PADDING-LEFT: 5px;
+    MARGIN-BOTTOM: 0px;
+    PADDING-BOTTOM: 5px;
+    BORDER-LEFT: #006699 thin solid;
+    COLOR: black;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: #006699 thin solid;
+    TEXT-ALIGN: left
+}
+.table_standard TH
+{
+    BORDER-RIGHT: white thin;
+    BORDER-TOP: white thin;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    BORDER-LEFT: white thin;
+    COLOR: white;
+    BORDER-BOTTOM: white thin;
+    BACKGROUND-COLOR: #006699
+}
+.table_standard TD
+{
+    BORDER-RIGHT: #006699 1px;
+    BORDER-TOP: #006699 1px solid;
+    BORDER-LEFT: #006699 1px;
+    BORDER-BOTTOM: #006699 1px
+}
+.table_standard TD P
+{
+}
+
+
+
+
+/* table-menu */
+.table-menu2
+{
+    FONT-SIZE: 19px;
+    WIDTH: 168px;
+ 
+    TEXT-DECORATION: none
+}
+.table-menu2 A:link
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.table-menu2 A:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none;
+}
+.table-menu2 A:active
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.table-menu2 A:hover
+{
+    COLOR: #006699;
+    BACKGROUND-COLOR: #F1DD59;
+    TEXT-DECORATION: none;
+}
+
+/* For Paul Goertz's AOM */
+
+THEAD.aom { display: table-header-group }
+TH.aom { font-weight: bold; background-color: #006699; color: #ffffff; }
+HR.aom { color: #006699; height: 1px; }
+

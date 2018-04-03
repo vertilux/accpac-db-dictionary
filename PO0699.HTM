@@ -1,0 +1,187 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="PO PO0699 PORCPG" />
+<title>Receipt Functions</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Receipt Functions</h1>
+<b>RotoID:</b> PO0699<br />
+<b>Protocol:</b> Superview<br />
+<b>DLL:</b> PORCPG
+<h2>Compositions: 7</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Tables&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">DLL&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td><a href="PO0700.HTM" title="View: Receipts">PO0700</a>&nbsp;</td>
+         <td><a href="PORCPH1.HTM" title="Table: Receipts">PORCPH1</a>,&nbsp;<a href="PORCPH2.HTM" title="Table: Receipts">PORCPH2</a>&nbsp;</td>
+         <td>Receipts&nbsp;</td>
+         <td>PORCPH</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PO0695.HTM" title="View: Receipt Comments">PO0695</a>&nbsp;</td>
+         <td><a href="PORCPC.HTM" title="Table: Receipt Comments">PORCPC</a>&nbsp;</td>
+         <td>Receipt Comments&nbsp;</td>
+         <td>PORCPC</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PO0710.HTM" title="View: Receipt Lines">PO0710</a>&nbsp;</td>
+         <td><a href="PORCPL.HTM" title="Table: Receipt Lines">PORCPL</a>&nbsp;</td>
+         <td>Receipt Lines&nbsp;</td>
+         <td>PORCPL</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PO0714.HTM" title="View: Receipt Additional Costs">PO0714</a>&nbsp;</td>
+         <td><a href="PORCPS.HTM" title="Table: Receipt Additional Costs">PORCPS</a>&nbsp;</td>
+         <td>Receipt Additional Costs&nbsp;</td>
+         <td>PORCPS</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PO0718.HTM" title="View: Receipt Vendors">PO0718</a>&nbsp;</td>
+         <td><a href="PORCPV.HTM" title="Table: Receipt Vendors">PORCPV</a>&nbsp;</td>
+         <td>Receipt Vendors&nbsp;</td>
+         <td>PORCPV</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PO0705.HTM" title="View: Receipt Purchase Orders">PO0705</a>&nbsp;</td>
+         <td><a href="PORCPR.HTM" title="Table: Receipt Purchase Orders">PORCPR</a>&nbsp;</td>
+         <td>Receipt Purchase Orders&nbsp;</td>
+         <td>PORCPR</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PO0696.HTM" title="View: Receipt Cost Distributions">PO0696</a>&nbsp;</td>
+         <td><a href="PORCPD.HTM" title="Table: Receipt Cost Distributions">PORCPD</a>&nbsp;</td>
+         <td>Receipt Cost Distributions&nbsp;</td>
+         <td>PORCPD</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Keys: 0</h2>
+<h2>Fields: 12</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="RCPHSEQ">RCPHSEQ</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Sequence Key&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LOADSEQ">LOADSEQ</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Sequence to Retrieve&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LOADPORNUM">LOADPORNUM</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-22C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TEMPLATE">TEMPLATE</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">Template Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-6N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="PREADTSTMP">PREADTSTMP</a>&nbsp;</td>
+         <td>5&nbsp;</td>
+         <td>String*24&nbsp;</td>
+         <td style="white-space: nowrap">Predecessor Time-stamp&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FUNCTION">FUNCTION</a>&nbsp;</td>
+         <td>6&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Function&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DISTREFS">DISTREFS</a>&nbsp;</td>
+         <td>7&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Distribution References Exist&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTDSTREFS">AMTDSTREFS</a>&nbsp;</td>
+         <td>8&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Amount Distribution Refs. Exist&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BRTDSTREFS">BRTDSTREFS</a>&nbsp;</td>
+         <td>9&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Billing Rate Distr. Refs. Exist&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AMTPRORAT">AMTPRORAT</a>&nbsp;</td>
+         <td>10&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Amount Prorateable&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BRTPRORAT">BRTPRORAT</a>&nbsp;</td>
+         <td>11&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Billing Rate Prorateable&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FOUND">FOUND</a>&nbsp;</td>
+         <td>12&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Line Node Found&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

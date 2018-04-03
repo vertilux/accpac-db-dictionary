@@ -1,0 +1,1042 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="TX TX0014 TXSTATED TXSTATED" />
+<title>Tax State Details</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Table: Tax State Details</h1>
+<b>Table:</b> TXSTATED<br />
+<b>View:</b> <a href="TX0014.HTM" title="View: Tax State Details">TX0014</a><br />
+<b>Record length:</b> 2347<br />
+<b>Flags:</b> <a href="EndNotes.HTM#Table_Audit-stamp" title="Audit-stamp">A</a>&nbsp;<a href="EndNotes.HTM#Table_Record-structure" title="Record-structure">R</a>&nbsp;
+<h2>Keys: 1</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Flags&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td>Tax Group/Tran. Type/Version&nbsp;</td>
+         <td></td>
+
+         <td><a href="#GROUPID">GROUPID</a>, <a href="#TTYPE">TTYPE</a>, <a href="#VERSION">VERSION</a>, <a href="#TXAUTHNUM">TXAUTHNUM</a></td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 165</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Presentation&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="GROUPID">GROUPID</a>&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">Tax Group&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TTYPE">TTYPE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Transaction Type&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Sales</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Purchases</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="VERSION">VERSION</a>&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Version&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXAUTHNUM">TXAUTHNUM</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Tax Authority Line Number&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTDATE">AUDTDATE</a>&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTTIME">AUDTTIME</a>&nbsp;</td>
+         <td>Time&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTUSER">AUDTUSER</a>&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDTORG">AUDTORG</a>&nbsp;</td>
+         <td>String*6&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUTHORITY">AUTHORITY</a>&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">Tax Authority&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DESC">DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="AUDITLEVEL">AUDITLEVEL</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Report Level&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">At invoice level</td></tr><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No reporting</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TAXABLE">TAXABLE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Taxable&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SURTAX">SURTAX</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Surtax&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SURAUTH">SURAUTH</a>&nbsp;</td>
+         <td>String*12&nbsp;</td>
+         <td style="white-space: nowrap">Surtax On Authority&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-12N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MINTAX">MINTAX</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">Maximum Tax Allowable&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="MAXTAX">MAXTAX</a>&nbsp;</td>
+         <td>BCD*10.3&nbsp;</td>
+         <td style="white-space: nowrap">No Tax Charged Below&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXBASE">TXBASE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Tax Base&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 5 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Selling price</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Standard cost</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Most recent cost</td></tr><tr valign="top"><td align="right">4</td><td>=</td><td align="left" style="white-space: nowrap">Alternate amount 1</td></tr><tr valign="top"><td align="right">5</td><td>=</td><td align="left" style="white-space: nowrap">Alternate amount 2</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="INCLUDABLE">INCLUDABLE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Allow Tax In Price&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRTGCTL">TXRTGCTL</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Report Tax on Retainage Document&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No Reporting</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">At Time of Retainage Document</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">At Time of Original Document</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RECOVERABL">RECOVERABL</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Tax Recoverable&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RATERECOV">RATERECOV</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Recoverable Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ACCTRECOV">ACCTRECOV</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Recoverable Tax Account&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-45C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EXPSEPARTE">EXPSEPARTE</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Expense Separately&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">No</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Yes</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ACCTEXP">ACCTEXP</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Expense Account&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-45C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LIABILITY">LIABILITY</a>&nbsp;</td>
+         <td>String*45&nbsp;</td>
+         <td style="white-space: nowrap">Tax Liability Account&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-45C</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS01">HCLASS01</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 1&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS02">HCLASS02</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 2&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS03">HCLASS03</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 3&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS04">HCLASS04</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 4&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS05">HCLASS05</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 5&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS06">HCLASS06</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 6&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS07">HCLASS07</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 7&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS08">HCLASS08</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 8&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS09">HCLASS09</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 9&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLASS10">HCLASS10</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Header Class10&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 4 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr><tr valign="top"><td align="right">3</td><td>=</td><td align="left" style="white-space: nowrap">Rates Defined</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS01">DCLASS01</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 1&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS02">DCLASS02</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 2&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS03">DCLASS03</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 3&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS04">DCLASS04</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 4&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS05">DCLASS05</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 5&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS06">DCLASS06</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 6&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS07">DCLASS07</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 7&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS08">DCLASS08</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 8&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS09">DCLASS09</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 9&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLASS10">DCLASS10</a>&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class10&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap">Undefined</td></tr><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">Exists</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">Exempt</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS01DESC">HCLS01DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 1 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS02DESC">HCLS02DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 2 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS03DESC">HCLS03DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 3 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS04DESC">HCLS04DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 4 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS05DESC">HCLS05DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 5 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS06DESC">HCLS06DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 6 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS07DESC">HCLS07DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 7 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS08DESC">HCLS08DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 8 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS09DESC">HCLS09DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class 9 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="HCLS10DESC">HCLS10DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Header Class10 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS01DESC">DCLS01DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 1 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS02DESC">DCLS02DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 2 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS03DESC">DCLS03DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 3 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS04DESC">DCLS04DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 4 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS05DESC">DCLS05DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 5 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS06DESC">DCLS06DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 6 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS07DESC">DCLS07DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 7 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS08DESC">DCLS08DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 8 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS09DESC">DCLS09DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class 9 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DCLS10DESC">DCLS10DESC</a>&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Detail Class10 Description&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0101">TXRATE0101</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0102">TXRATE0102</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0103">TXRATE0103</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0104">TXRATE0104</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0105">TXRATE0105</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0106">TXRATE0106</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0107">TXRATE0107</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0108">TXRATE0108</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0109">TXRATE0109</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0110">TXRATE0110</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 1 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0201">TXRATE0201</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0202">TXRATE0202</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0203">TXRATE0203</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0204">TXRATE0204</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0205">TXRATE0205</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0206">TXRATE0206</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0207">TXRATE0207</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0208">TXRATE0208</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0209">TXRATE0209</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0210">TXRATE0210</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 2 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0301">TXRATE0301</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0302">TXRATE0302</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0303">TXRATE0303</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0304">TXRATE0304</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0305">TXRATE0305</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0306">TXRATE0306</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0307">TXRATE0307</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0308">TXRATE0308</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0309">TXRATE0309</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0310">TXRATE0310</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 3 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0401">TXRATE0401</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0402">TXRATE0402</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0403">TXRATE0403</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0404">TXRATE0404</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0405">TXRATE0405</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0406">TXRATE0406</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0407">TXRATE0407</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0408">TXRATE0408</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0409">TXRATE0409</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0410">TXRATE0410</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 4 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0501">TXRATE0501</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0502">TXRATE0502</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0503">TXRATE0503</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0504">TXRATE0504</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0505">TXRATE0505</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0506">TXRATE0506</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0507">TXRATE0507</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0508">TXRATE0508</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0509">TXRATE0509</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0510">TXRATE0510</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 5 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0601">TXRATE0601</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0602">TXRATE0602</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0603">TXRATE0603</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0604">TXRATE0604</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0605">TXRATE0605</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0606">TXRATE0606</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0607">TXRATE0607</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0608">TXRATE0608</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0609">TXRATE0609</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0610">TXRATE0610</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 6 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0701">TXRATE0701</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0702">TXRATE0702</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0703">TXRATE0703</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0704">TXRATE0704</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0705">TXRATE0705</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0706">TXRATE0706</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0707">TXRATE0707</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0708">TXRATE0708</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0709">TXRATE0709</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0710">TXRATE0710</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 7 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0801">TXRATE0801</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0802">TXRATE0802</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0803">TXRATE0803</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0804">TXRATE0804</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0805">TXRATE0805</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0806">TXRATE0806</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0807">TXRATE0807</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0808">TXRATE0808</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0809">TXRATE0809</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0810">TXRATE0810</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 8 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0901">TXRATE0901</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0902">TXRATE0902</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0903">TXRATE0903</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0904">TXRATE0904</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0905">TXRATE0905</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0906">TXRATE0906</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0907">TXRATE0907</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0908">TXRATE0908</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0909">TXRATE0909</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE0910">TXRATE0910</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class 9 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1001">TXRATE1001</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class 1 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1002">TXRATE1002</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class 2 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1003">TXRATE1003</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class 3 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1004">TXRATE1004</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class 4 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1005">TXRATE1005</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class 5 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1006">TXRATE1006</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class 6 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1007">TXRATE1007</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class 7 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1008">TXRATE1008</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class 8 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1009">TXRATE1009</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class 9 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="TXRATE1010">TXRATE1010</a>&nbsp;</td>
+         <td>BCD*8.5&nbsp;</td>
+         <td style="white-space: nowrap">Buyer Class10 Item Class10 Rate&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

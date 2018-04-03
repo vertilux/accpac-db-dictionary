@@ -1,0 +1,152 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.4A" />
+<title>End Notes</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">End Notes</h1>
+<a name="Attributes"></a>
+<h2>Attributes</h2>
+<p>Attributes indicate the current status of various characteristics of a field. Bit numbers 0 to 15 are assigned specific meaning by the view API. Bit numbers 16 to 31 are reserved for view implementers to assign their own meaning.</p><p>The state of a static attribute does not change for the duration of the view handle instance being open. The state of a dynamic attribute can change at any time.</p><p>The mask equals 1 shifted left by the bit number.</p>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left" valign="top">
+         <TH>Attribute&nbsp;</TH>
+         <TH>Kind&nbsp;</TH>
+         <TH>Bit&nbsp;</TH>
+         <TH>Mask&nbsp;</TH>
+         <TH>Meaning When Set&nbsp;</TH>
+      </tr>
+      <tr><td colspan="5"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left" valign="top">
+         <a name="Attribute_Calculated"></a>
+         <TD>Calculated&nbsp;</TD>
+         <TD>Static&nbsp;</TD>
+         <TD>4&nbsp;</TD>
+         <TD>0x010&nbsp;</TD>
+         <TD>Value is calculated non-interactively.&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Attribute_Changed"></a>
+         <TD>Changed&nbsp;</TD>
+         <TD>Dynamic&nbsp;</TD>
+         <TD>0&nbsp;</TD>
+         <TD>0x001&nbsp;</TD>
+         <TD>Value been changed since the last operation that retrieved or initialized the view's current record.&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Attribute_Check-editability"></a>
+         <TD>Check-editability&nbsp;</TD>
+         <TD>Static&nbsp;</TD>
+         <TD>8&nbsp;</TD>
+         <TD>0x100&nbsp;</TD>
+         <TD><a href="#Attribute_Editable">Editable</a> attribute can change dynamically.&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Attribute_Editable"></a>
+         <TD>Editable&nbsp;</TD>
+         <TD>Static/Dynamic&nbsp;</TD>
+         <TD>2&nbsp;</TD>
+         <TD>0x004&nbsp;</TD>
+         <TD>Value can be changed. This is a static attribute by default, and dynamic if the <a href="#Attribute_Check-editability">Check-editability</a> is on.&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Attribute_Enabled"></a>
+         <TD>Enabled&nbsp;</TD>
+         <TD>Dynamic&nbsp;</TD>
+         <TD>1&nbsp;</TD>
+         <TD>0x002&nbsp;</TD>
+         <TD>Field can be meaningfully used. In it absence most field operations are not permitted, and return an error.&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Attribute_Key"></a>
+         <TD>Key&nbsp;</TD>
+         <TD>Dynamic&nbsp;</TD>
+         <TD>3&nbsp;</TD>
+         <TD>0x008&nbsp;</TD>
+         <TD>This field is a segment of the current key.&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Attribute_Presentation"></a>
+         <TD>Presentation&nbsp;</TD>
+         <TD>Static&nbsp;</TD>
+         <TD>6&nbsp;</TD>
+         <TD>0x040&nbsp;</TD>
+         <TD>Presentation information can change dynamically.&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Attribute_Required"></a>
+         <TD>Required&nbsp;</TD>
+         <TD>Dynamic&nbsp;</TD>
+         <TD>7&nbsp;</TD>
+         <TD>0x080&nbsp;</TD>
+         <TD>Value must be changed interactively before the record can be inserted.&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Attribute_Type"></a>
+         <TD>Type&nbsp;</TD>
+         <TD>Static&nbsp;</TD>
+         <TD>5&nbsp;</TD>
+         <TD>0x020&nbsp;</TD>
+         <TD>Type information can change dynamically.&nbsp;</TD>
+      </tr>
+      <tr><td colspan="5"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Protocols</h2>
+<p></p>
+<h2>Table Flags</h2>
+<p></p>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left" valign="top">
+         <TH>Flag&nbsp;</TH>
+         <TH>Meaning When Set&nbsp;</TH>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left" valign="top">
+         <a name="Table_Audit-stamp"></a>
+         <TD>Audit-stamp&nbsp;</TD>
+         <TD>???&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Table_Record-structure"></a>
+         <TD>Record-structure&nbsp;</TD>
+         <TD>???&nbsp;</TD>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Key Flags</h2>
+<p></p>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left" valign="top">
+         <TH>Flag&nbsp;</TH>
+         <TH>Meaning When Set&nbsp;</TH>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left" valign="top">
+         <a name="Key_Duplicates"></a>
+         <TD>Duplicates&nbsp;</TD>
+         <TD>???&nbsp;</TD>
+      </tr>
+      <tr align="left" valign="top">
+         <a name="Key_Modifiable"></a>
+         <TD>Modifiable&nbsp;</TD>
+         <TD>???&nbsp;</TD>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

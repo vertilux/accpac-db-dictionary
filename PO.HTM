@@ -1,0 +1,2936 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="PO 56A" />
+<title>Purchase Orders</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">Application: Purchase Orders 5.6A</h1>
+<a href="#Views">Views</a><br />
+<a href="#Tables">Tables</a><br />
+<a href="#Objects">Objects</a>
+<h2 align="left"><a name="Views">Views: 231</a></h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Tables&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">DLL&nbsp;</th>
+         <th class="aom">Compositions</th>
+      </tr>
+      <tr><td colspan="5"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left" valign="top">
+         <td><a href="PO0123.HTM" title="View: Item Lot Optional Fields">PO0123</a>&nbsp;</td>
+         <td><a href="ICITEMLO.HTM" title="Table: Item Lot Optional Fields">ICITEMLO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Item Lot Optional Fields&nbsp;</td>
+         <td>POITEMLO&nbsp;</td>
+         <td><a href="PO0124.HTM" title="Items">PO0124</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0126.HTM" title="View: Item Serial Optional Fields">PO0126</a>&nbsp;</td>
+         <td><a href="ICITEMSO.HTM" title="Table: Item Serial Optional Fields">ICITEMSO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Item Serial Optional Fields&nbsp;</td>
+         <td>POITEMSO&nbsp;</td>
+         <td><a href="PO0124.HTM" title="Items">PO0124</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0129.HTM" title="View: Customer Item Numbers">PO0129</a>&nbsp;</td>
+         <td><a href="ICITMC.HTM" title="Table: Customer Item Numbers">ICITMC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Customer Item Numbers&nbsp;</td>
+         <td>POITMC&nbsp;</td>
+         <td><a href="PO0124.HTM" title="Items">PO0124</a>, <a href="AR0024.HTM" title="Customers">AR0024</a>, <a href="PO0178.HTM" title="Units of Measure">PO0178</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0149.HTM" title="View: Price List Codes Checks">PO0149</a>&nbsp;</td>
+         <td><a href="ICPCODC.HTM" title="Table: Price List Codes Checks">ICPCODC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Price List Codes Checks&nbsp;</td>
+         <td>POPCODC&nbsp;</td>
+         <td><a href="IC0390.HTM" title="Price List Codes">IC0390</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0155.HTM" title="View: Pricing Price Checks">PO0155</a>&nbsp;</td>
+         <td><a href="ICPRICC.HTM" title="Table: Pricing Price Checks">ICPRICC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Pricing Price Checks&nbsp;</td>
+         <td>POPRICC&nbsp;</td>
+         <td><a href="IC0480.HTM" title="Item Pricing">IC0480</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0156.HTM" title="View: Item Pricing Details">PO0156</a>&nbsp;</td>
+         <td><a href="ICPRICP.HTM" title="Table: Item Pricing Details">ICPRICP</a>&nbsp;</td>
+         <td style="white-space: nowrap">Item Pricing Details&nbsp;</td>
+         <td>POPRICP&nbsp;</td>
+         <td><a href="IC0480.HTM" title="Item Pricing">IC0480</a>, <a href="IC0750.HTM" title="Units of Measure">IC0750</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0177.HTM" title="View: Units of Measure">PO0177</a>&nbsp;</td>
+         <td><a href="ICUCOD.HTM" title="Table: Units of Measure">ICUCOD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Units of Measure&nbsp;</td>
+         <td>POUCOD&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0180.HTM" title="View: Vendor Contract Pricing Table">PO0180</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Vendor Contract Pricing Table&nbsp;</td>
+         <td>POVUDL&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0181.HTM" title="View: Vendor Contract Costs">PO0181</a>&nbsp;</td>
+         <td><a href="POVUPR.HTM" title="Table: Vendor Contract Costs">POVUPR</a>&nbsp;</td>
+         <td style="white-space: nowrap">Vendor Contract Costs&nbsp;</td>
+         <td>POVUPR&nbsp;</td>
+         <td><a href="PO0191.HTM" title="Vendor Contract Cost Base Units">PO0191</a>, <a href="PO0192.HTM" title="Vendor Contract Cost Sale Units">PO0192</a>, <a href="PO0183.HTM" title="Vendor Contract Included Taxes">PO0183</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0183.HTM" title="View: Vendor Contract Included Taxes">PO0183</a>&nbsp;</td>
+         <td><a href="POVUTX.HTM" title="Table: Vendor Contract Included Taxes">POVUTX</a>&nbsp;</td>
+         <td style="white-space: nowrap">Vendor Contract Included Taxes&nbsp;</td>
+         <td>POVUTX&nbsp;</td>
+         <td><a href="PO0181.HTM" title="Vendor Contract Costs">PO0181</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0184.HTM" title="View: Update Vendor Cont. Conv. Factor">PO0184</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Update Vendor Cont. Conv. Factor&nbsp;</td>
+         <td>POVUUT&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0185.HTM" title="View: Weight Units of Measure">PO0185</a>&nbsp;</td>
+         <td><a href="ICWCOD.HTM" title="Table: Weight Units of Measure">ICWCOD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Weight Units of Measure&nbsp;</td>
+         <td>POWCOD&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0191.HTM" title="View: Vendor Contract Cost Base Units">PO0191</a>&nbsp;</td>
+         <td><a href="POVUMB.HTM" title="Table: Vendor Contract Cost Base Units">POVUMB</a>&nbsp;</td>
+         <td style="white-space: nowrap">Vendor Contract Cost Base Units&nbsp;</td>
+         <td>POVUMB&nbsp;</td>
+         <td><a href="PO0181.HTM" title="Vendor Contract Costs">PO0181</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0192.HTM" title="View: Vendor Contract Cost Sale Units">PO0192</a>&nbsp;</td>
+         <td><a href="POVUMS.HTM" title="Table: Vendor Contract Cost Sale Units">POVUMS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Vendor Contract Cost Sale Units&nbsp;</td>
+         <td>POVUMS&nbsp;</td>
+         <td><a href="PO0181.HTM" title="Vendor Contract Costs">PO0181</a>, <a href="PO0191.HTM" title="Vendor Contract Cost Base Units">PO0191</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0250.HTM" title="View: Payables Clearing Audit">PO0250</a>&nbsp;</td>
+         <td><a href="POAAPC.HTM" title="Table: Payables Clearing Audit">POAAPC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Payables Clearing Audit&nbsp;</td>
+         <td>POAAPC&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0290.HTM" title="View: Additional Cost Taxes">PO0290</a>&nbsp;</td>
+         <td><a href="POACD.HTM" title="Table: Additional Cost Taxes">POACD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Additional Cost Taxes&nbsp;</td>
+         <td>POACD&nbsp;</td>
+         <td><a href="PO0300.HTM" title="Additional Costs">PO0300</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0293.HTM" title="View: Committed Costs Audit">PO0293</a>&nbsp;</td>
+         <td><a href="POCOCA.HTM" title="Table: Committed Costs Audit">POCOCA</a>&nbsp;</td>
+         <td style="white-space: nowrap">Committed Costs Audit&nbsp;</td>
+         <td>POCOCA&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0294.HTM" title="View: Create Order from Existing Orders">PO0294</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Create Order from Existing Orders&nbsp;</td>
+         <td>POCOPR&nbsp;</td>
+         <td><a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0610.HTM" title="Purchase Order Comments">PO0610</a>, <a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a>, <a href="PO0632.HTM" title="Purchase Order Requisitions">PO0632</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a>, <a href="PO0623.HTM" title="Purchase Order Hdr Opt. Fields">PO0623</a>, <a href="PO0633.HTM" title="Purchase Order Det. Opt. Fields">PO0633</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0295.HTM" title="View: Generic Cost Data">PO0295</a>&nbsp;</td>
+         <td><a href="POCOSTZ.HTM" title="Table: Generic Cost Data">POCOSTZ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Generic Cost Data&nbsp;</td>
+         <td>POCOSTZ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0297.HTM" title="View: Costs">PO0297</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Costs&nbsp;</td>
+         <td>POCOSV&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0299.HTM" title="View: Additional Cost Optional Fields">PO0299</a>&nbsp;</td>
+         <td><a href="POACSTO.HTM" title="Table: Additional Cost Optional Fields">POACSTO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Additional Cost Optional Fields&nbsp;</td>
+         <td>POACSTO&nbsp;</td>
+         <td><a href="PO0300.HTM" title="Additional Costs">PO0300</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0300.HTM" title="View: Additional Costs">PO0300</a>&nbsp;</td>
+         <td><a href="POACST.HTM" title="Table: Additional Costs">POACST</a>&nbsp;</td>
+         <td style="white-space: nowrap">Additional Costs&nbsp;</td>
+         <td>POACST&nbsp;</td>
+         <td><a href="PO0290.HTM" title="Additional Cost Taxes">PO0290</a>, <a href="PO0299.HTM" title="Additional Cost Optional Fields">PO0299</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0302.HTM" title="View: PO Clear History Superview">PO0302</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">PO Clear History Superview&nbsp;</td>
+         <td>POCH&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0304.HTM" title="View: Credit/Debit Note Audit Headers">PO0304</a>&nbsp;</td>
+         <td><a href="POCRNAH.HTM" title="Table: Credit/Debit Note Audit Headers">POCRNAH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Audit Headers&nbsp;</td>
+         <td>POCRNAH&nbsp;</td>
+         <td><a href="PO0305.HTM" title="Credit/Debit Note Audit Lines">PO0305</a>, <a href="PO0306.HTM" title="CR/DR Note Audit Prorate Lines">PO0306</a>, <a href="PO0307.HTM" title="CR/DR Note Audit Costs">PO0307</a>, <a href="PO0331.HTM" title="CR/DR Note Audit Hdr. Opt. Flds">PO0331</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0305.HTM" title="View: Credit/Debit Note Audit Lines">PO0305</a>&nbsp;</td>
+         <td><a href="POCRNAL.HTM" title="Table: Credit/Debit Note Audit Lines">POCRNAL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Audit Lines&nbsp;</td>
+         <td>POCRNAL&nbsp;</td>
+         <td><a href="PO0304.HTM" title="Credit/Debit Note Audit Headers">PO0304</a>, <a href="PO0332.HTM" title="CR/DR Note Audit Line Opt. Flds">PO0332</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0306.HTM" title="View: CR/DR Note Audit Prorate Lines">PO0306</a>&nbsp;</td>
+         <td><a href="POCRNAQ.HTM" title="Table: CR/DR Note Audit Prorate Lines">POCRNAQ</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Audit Prorate Lines&nbsp;</td>
+         <td>POCRNAQ&nbsp;</td>
+         <td><a href="PO0304.HTM" title="Credit/Debit Note Audit Headers">PO0304</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0307.HTM" title="View: CR/DR Note Audit Costs">PO0307</a>&nbsp;</td>
+         <td><a href="POCRNAS.HTM" title="Table: CR/DR Note Audit Costs">POCRNAS</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Audit Costs&nbsp;</td>
+         <td>POCRNAS&nbsp;</td>
+         <td><a href="PO0304.HTM" title="Credit/Debit Note Audit Headers">PO0304</a>, <a href="PO0333.HTM" title="CR/DR Note Audit Cost Opt. Flds">PO0333</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0308.HTM" title="View: Duplicate Credit/Debit Notes">PO0308</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Duplicate Credit/Debit Notes&nbsp;</td>
+         <td>POCRNB&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0309.HTM" title="View: Credit/Debit Note Comments">PO0309</a>&nbsp;</td>
+         <td><a href="POCRNC.HTM" title="Table: Credit/Debit Note Comments">POCRNC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Comments&nbsp;</td>
+         <td>POCRNC&nbsp;</td>
+         <td><a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a>, <a href="PO0315.HTM" title="Credit/Debit Note Lines">PO0315</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0310.HTM" title="View: Credit/Debit Note Functions">PO0310</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Credit/Debit Note Functions&nbsp;</td>
+         <td>POCRNG&nbsp;</td>
+         <td><a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a>, <a href="PO0309.HTM" title="Credit/Debit Note Comments">PO0309</a>, <a href="PO0315.HTM" title="Credit/Debit Note Lines">PO0315</a>, <a href="PO0320.HTM" title="CR/DR Note Additional Costs">PO0320</a>, <a href="PO0316.HTM" title="Credit/Debit Note Posting Lines">PO0316</a>, <a href="PO0325.HTM" title="CR/DR Add. Costs Superview">PO0325</a>, <a href="PO0326.HTM" title="CR/DR Note Cost Distributions">PO0326</a>, <a href="PO0829.HTM" title="Credit/Debit Note Line Lots">PO0829</a>, <a href="PO0820.HTM" title="Credit/Debit Note Line Serials">PO0820</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0311.HTM" title="View: Credit/Debit Notes">PO0311</a>&nbsp;</td>
+         <td><a href="POCRNH1.HTM" title="Table: Credit/Debit Notes">POCRNH1</a>&nbsp;<br /><a href="POCRNH2.HTM" title="Table: Credit/Debit Notes">POCRNH2</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Notes&nbsp;</td>
+         <td>POCRNH&nbsp;</td>
+         <td><a href="PO0309.HTM" title="Credit/Debit Note Comments">PO0309</a>, <a href="PO0315.HTM" title="Credit/Debit Note Lines">PO0315</a>, <a href="PO0320.HTM" title="CR/DR Note Additional Costs">PO0320</a>, <a href="PO0310.HTM" title="Credit/Debit Note Functions">PO0310</a>, <a href="PO0325.HTM" title="CR/DR Add. Costs Superview">PO0325</a>, <a href="PO0314.HTM" title="Credit/Debit Note Opt. Fields">PO0314</a>, <a href="PO0326.HTM" title="CR/DR Note Cost Distributions">PO0326</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0312.HTM" title="View: Credit/Debit Note Postings">PO0312</a>&nbsp;</td>
+         <td><a href="POCRNI.HTM" title="Table: Credit/Debit Note Postings">POCRNI</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Postings&nbsp;</td>
+         <td>POCRNI&nbsp;</td>
+         <td><a href="PO0316.HTM" title="Credit/Debit Note Posting Lines">PO0316</a>, <a href="PO0321.HTM" title="CR/DR Note Posting Add. Costs">PO0321</a>, <a href="PO0310.HTM" title="Credit/Debit Note Functions">PO0310</a>, <a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a>, <a href="PO0315.HTM" title="Credit/Debit Note Lines">PO0315</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a>, <a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0430.HTM" title="Invoice Lines">PO0430</a>, <a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a>, <a href="PO0730.HTM" title="Return Functions">PO0730</a>, <a href="PO0731.HTM" title="Returns">PO0731</a>, <a href="PO0735.HTM" title="Return Lines">PO0735</a>, <a href="PO0327.HTM" title="CR/DR Note Posting Cost Dists.">PO0327</a>, <a href="PO0828.HTM" title="Return Posting Lines Lots">PO0828</a>, <a href="PO0821.HTM" title="Return Posting Lines Serials">PO0821</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0313.HTM" title="View: Credit/Debit Note Day-ends">PO0313</a>&nbsp;</td>
+         <td><a href="POCRNJ.HTM" title="Table: Credit/Debit Note Day-ends">POCRNJ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Day-ends&nbsp;</td>
+         <td>POCRNJ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0314.HTM" title="View: Credit/Debit Note Opt. Fields">PO0314</a>&nbsp;</td>
+         <td><a href="POCRNHO.HTM" title="Table: Credit/Debit Note Opt. Fields">POCRNHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Opt. Fields&nbsp;</td>
+         <td>POCRNHO&nbsp;</td>
+         <td><a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0315.HTM" title="View: Credit/Debit Note Lines">PO0315</a>&nbsp;</td>
+         <td><a href="POCRNL.HTM" title="Table: Credit/Debit Note Lines">POCRNL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Lines&nbsp;</td>
+         <td>POCRNL&nbsp;</td>
+         <td><a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a>, <a href="PO0309.HTM" title="Credit/Debit Note Comments">PO0309</a>, <a href="PO0310.HTM" title="Credit/Debit Note Functions">PO0310</a>, <a href="PO0312.HTM" title="Credit/Debit Note Postings">PO0312</a>, <a href="PO0316.HTM" title="Credit/Debit Note Posting Lines">PO0316</a>, <a href="PO0318.HTM" title="CR/DR Note Line Optional Fields">PO0318</a>, <a href="PO0829.HTM" title="Credit/Debit Note Line Lots">PO0829</a>, <a href="PO0820.HTM" title="Credit/Debit Note Line Serials">PO0820</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0316.HTM" title="View: Credit/Debit Note Posting Lines">PO0316</a>&nbsp;</td>
+         <td><a href="POCRNM.HTM" title="Table: Credit/Debit Note Posting Lines">POCRNM</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Posting Lines&nbsp;</td>
+         <td>POCRNM&nbsp;</td>
+         <td><a href="PO0312.HTM" title="Credit/Debit Note Postings">PO0312</a>, <a href="PO0310.HTM" title="Credit/Debit Note Functions">PO0310</a>, <a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a>, <a href="PO0315.HTM" title="Credit/Debit Note Lines">PO0315</a>, <a href="PO0730.HTM" title="Return Functions">PO0730</a>, <a href="PO0731.HTM" title="Returns">PO0731</a>, <a href="PO0735.HTM" title="Return Lines">PO0735</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0317.HTM" title="View: Credit/Debit Note Day-end Lines">PO0317</a>&nbsp;</td>
+         <td><a href="POCRNN.HTM" title="Table: Credit/Debit Note Day-end Lines">POCRNN</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Day-end Lines&nbsp;</td>
+         <td>POCRNN&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0318.HTM" title="View: CR/DR Note Line Optional Fields">PO0318</a>&nbsp;</td>
+         <td><a href="POCRNLO.HTM" title="Table: CR/DR Note Line Optional Fields">POCRNLO</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Line Optional Fields&nbsp;</td>
+         <td>POCRNLO&nbsp;</td>
+         <td><a href="PO0315.HTM" title="Credit/Debit Note Lines">PO0315</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0319.HTM" title="View: CR/DR Note Distribute Proration">PO0319</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">CR/DR Note Distribute Proration&nbsp;</td>
+         <td>POCRNK&nbsp;</td>
+         <td><a href="PO0320.HTM" title="CR/DR Note Additional Costs">PO0320</a>, <a href="PO0326.HTM" title="CR/DR Note Cost Distributions">PO0326</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0320.HTM" title="View: CR/DR Note Additional Costs">PO0320</a>&nbsp;</td>
+         <td><a href="POCRNS.HTM" title="Table: CR/DR Note Additional Costs">POCRNS</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Additional Costs&nbsp;</td>
+         <td>POCRNS&nbsp;</td>
+         <td><a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a>, <a href="PO0310.HTM" title="Credit/Debit Note Functions">PO0310</a>, <a href="PO0312.HTM" title="Credit/Debit Note Postings">PO0312</a>, <a href="PO0321.HTM" title="CR/DR Note Posting Add. Costs">PO0321</a>, <a href="PO0325.HTM" title="CR/DR Add. Costs Superview">PO0325</a>, <a href="PO0323.HTM" title="CR/DR Note Add. Cost Opt. Fields">PO0323</a>, <a href="PO0326.HTM" title="CR/DR Note Cost Distributions">PO0326</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0321.HTM" title="View: CR/DR Note Posting Add. Costs">PO0321</a>&nbsp;</td>
+         <td><a href="POCRNT.HTM" title="Table: CR/DR Note Posting Add. Costs">POCRNT</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Posting Add. Costs&nbsp;</td>
+         <td>POCRNT&nbsp;</td>
+         <td><a href="PO0312.HTM" title="Credit/Debit Note Postings">PO0312</a>, <a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a>, <a href="PO0320.HTM" title="CR/DR Note Additional Costs">PO0320</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0322.HTM" title="View: CR/DR Note Day-end Additional Costs">PO0322</a>&nbsp;</td>
+         <td><a href="POCRNU.HTM" title="Table: CR/DR Note Day-end Additional Costs">POCRNU</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Day-end Additional Costs&nbsp;</td>
+         <td>POCRNU&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0323.HTM" title="View: CR/DR Note Add. Cost Opt. Fields">PO0323</a>&nbsp;</td>
+         <td><a href="POCRNSO.HTM" title="Table: CR/DR Note Add. Cost Opt. Fields">POCRNSO</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Add. Cost Opt. Fields&nbsp;</td>
+         <td>POCRNSO&nbsp;</td>
+         <td><a href="PO0320.HTM" title="CR/DR Note Additional Costs">PO0320</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0325.HTM" title="View: CR/DR Add. Costs Superview">PO0325</a>&nbsp;</td>
+         <td><a href="POCRNS.HTM" title="Table: CR/DR Add. Costs Superview">POCRNS</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Add. Costs Superview&nbsp;</td>
+         <td>POCRNW&nbsp;</td>
+         <td><a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a>, <a href="PO0310.HTM" title="Credit/Debit Note Functions">PO0310</a>, <a href="PO0312.HTM" title="Credit/Debit Note Postings">PO0312</a>, <a href="PO0321.HTM" title="CR/DR Note Posting Add. Costs">PO0321</a>, <a href="PO0320.HTM" title="CR/DR Note Additional Costs">PO0320</a>, <a href="PO0315.HTM" title="Credit/Debit Note Lines">PO0315</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0326.HTM" title="View: CR/DR Note Cost Distributions">PO0326</a>&nbsp;</td>
+         <td><a href="POCRND.HTM" title="Table: CR/DR Note Cost Distributions">POCRND</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Cost Distributions&nbsp;</td>
+         <td>POCRND&nbsp;</td>
+         <td><a href="PO0320.HTM" title="CR/DR Note Additional Costs">PO0320</a>, <a href="PO0311.HTM" title="Credit/Debit Notes">PO0311</a>, <a href="PO0310.HTM" title="Credit/Debit Note Functions">PO0310</a>, <a href="PO0327.HTM" title="CR/DR Note Posting Cost Dists.">PO0327</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0327.HTM" title="View: CR/DR Note Posting Cost Dists.">PO0327</a>&nbsp;</td>
+         <td><a href="POCRNE.HTM" title="Table: CR/DR Note Posting Cost Dists.">POCRNE</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Posting Cost Dists.&nbsp;</td>
+         <td>POCRNE&nbsp;</td>
+         <td><a href="PO0312.HTM" title="Credit/Debit Note Postings">PO0312</a>, <a href="PO0326.HTM" title="CR/DR Note Cost Distributions">PO0326</a>, <a href="PO0320.HTM" title="CR/DR Note Additional Costs">PO0320</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0328.HTM" title="View: CR/DR Note Day-end Cost Dists.">PO0328</a>&nbsp;</td>
+         <td><a href="POCRNF.HTM" title="Table: CR/DR Note Day-end Cost Dists.">POCRNF</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Day-end Cost Dists.&nbsp;</td>
+         <td>POCRNF&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0330.HTM" title="View: P/O Credit/Debit Note Posting">PO0330</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">P/O Credit/Debit Note Posting&nbsp;</td>
+         <td>POCRNZ&nbsp;</td>
+         <td><a href="AP0020.HTM" title="Invoice Batches">AP0020</a>, <a href="AP0402.HTM" title="Invoice Optional Fields">AP0402</a>, <a href="AP0021.HTM" title="Invoices">AP0021</a>, <a href="AP0401.HTM" title="Invoice Detail Optional Fields">AP0401</a>, <a href="AP0022.HTM" title="Invoice Details">AP0022</a>, <a href="AP0023.HTM" title="Invoice Payment Schedules">AP0023</a>, <a href="GP0950.HTM" title="Transaction Posting">GP0950</a>, <a href="IC0280.HTM" title="Transaction History">IC0280</a>, <a href="IC0352.HTM" title="Item Valuation">IC0352</a>, <a href="IC0700.HTM" title="Transaction Statistics">IC0700</a>, <a href="PO0380.HTM" title="Purchase History">PO0380</a>, <a href="PO0384.HTM" title="Purchase History Detail">PO0384</a>, <a href="PO0800.HTM" title="Statistics">PO0800</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0331.HTM" title="View: CR/DR Note Audit Hdr. Opt. Flds">PO0331</a>&nbsp;</td>
+         <td><a href="POCRAHO.HTM" title="Table: CR/DR Note Audit Hdr. Opt. Flds">POCRAHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Audit Hdr. Opt. Flds&nbsp;</td>
+         <td>POCRAHO&nbsp;</td>
+         <td><a href="PO0304.HTM" title="Credit/Debit Note Audit Headers">PO0304</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0332.HTM" title="View: CR/DR Note Audit Line Opt. Flds">PO0332</a>&nbsp;</td>
+         <td><a href="POCRALO.HTM" title="Table: CR/DR Note Audit Line Opt. Flds">POCRALO</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Audit Line Opt. Flds&nbsp;</td>
+         <td>POCRALO&nbsp;</td>
+         <td><a href="PO0305.HTM" title="Credit/Debit Note Audit Lines">PO0305</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0333.HTM" title="View: CR/DR Note Audit Cost Opt. Flds">PO0333</a>&nbsp;</td>
+         <td><a href="POCRASO.HTM" title="Table: CR/DR Note Audit Cost Opt. Flds">POCRASO</a>&nbsp;</td>
+         <td style="white-space: nowrap">CR/DR Note Audit Cost Opt. Flds&nbsp;</td>
+         <td>POCRASO&nbsp;</td>
+         <td><a href="PO0307.HTM" title="CR/DR Note Audit Costs">PO0307</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0335.HTM" title="View: P/O Day End Processing">PO0335</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">P/O Day End Processing&nbsp;</td>
+         <td>PODEPR&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0336.HTM" title="View: PO Drill Down">PO0336</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">PO Drill Down&nbsp;</td>
+         <td>PODLDN&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0337.HTM" title="View: Generic Distribution Data">PO0337</a>&nbsp;</td>
+         <td><a href="PODISTZ.HTM" title="Table: Generic Distribution Data">PODISTZ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Generic Distribution Data&nbsp;</td>
+         <td>PODISTZ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0340.HTM" title="View: Mark Posting Journals Printed">PO0340</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Mark Posting Journals Printed&nbsp;</td>
+         <td>POFLAG&nbsp;</td>
+         <td><a href="PO0409.HTM" title="Invoice Audit Headers">PO0409</a>, <a href="PO0304.HTM" title="Credit/Debit Note Audit Headers">PO0304</a>, <a href="PO0724.HTM" title="Return Audit Headers">PO0724</a>, <a href="PO0686.HTM" title="Receipt Audit Headers">PO0686</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0345.HTM" title="View: Requisitions">PO0345</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Requisitions&nbsp;</td>
+         <td>POFRQNL&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0350.HTM" title="View: Create POs From I/C">PO0350</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Create POs From I/C&nbsp;</td>
+         <td>POGENIC&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0351.HTM" title="View: G/L Reference Integration">PO0351</a>&nbsp;</td>
+         <td><a href="POGLREF.HTM" title="Table: G/L Reference Integration">POGLREF</a>&nbsp;</td>
+         <td style="white-space: nowrap">G/L Reference Integration&nbsp;</td>
+         <td>POGLREF&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0352.HTM" title="View: Create POs From O/E">PO0352</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Create POs From O/E&nbsp;</td>
+         <td>POGENOE&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0353.HTM" title="View: Create Batch">PO0353</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Create Batch&nbsp;</td>
+         <td>POGLTR&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0354.HTM" title="View: Item Quantities on Hand">PO0354</a>&nbsp;</td>
+         <td><a href="POGNLOC.HTM" title="Table: Item Quantities on Hand">POGNLOC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Item Quantities on Hand&nbsp;</td>
+         <td>POGNLOC&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0355.HTM" title="View: Create POs From O/E Orders by Vendor">PO0355</a>&nbsp;</td>
+         <td><a href="POGNOE.HTM" title="Table: Create POs From O/E Orders by Vendor">POGNOE</a>&nbsp;</td>
+         <td style="white-space: nowrap">Create POs From O/E Orders by Vendor&nbsp;</td>
+         <td>POGNOE&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0357.HTM" title="View: Create POs From O/E Orders by Order">PO0357</a>&nbsp;</td>
+         <td><a href="POGNOEB.HTM" title="Table: Create POs From O/E Orders by Order">POGNOEB</a>&nbsp;</td>
+         <td style="white-space: nowrap">Create POs From O/E Orders by Order&nbsp;</td>
+         <td>POGNOEB&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0359.HTM" title="View: Create POs From Requisitions">PO0359</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Create POs From Requisitions&nbsp;</td>
+         <td>POGNRQN&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0361.HTM" title="View: Create POs From Requisitions by Vendor">PO0361</a>&nbsp;</td>
+         <td><a href="POGNVD.HTM" title="Table: Create POs From Requisitions by Vendor">POGNVD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Create POs From Requisitions by Vendor&nbsp;</td>
+         <td>POGNVD&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0380.HTM" title="View: Purchase History">PO0380</a>&nbsp;</td>
+         <td><a href="POHSTH.HTM" title="Table: Purchase History">POHSTH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase History&nbsp;</td>
+         <td>POHSTH&nbsp;</td>
+         <td><a href="PO0384.HTM" title="Purchase History Detail">PO0384</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0384.HTM" title="View: Purchase History Detail">PO0384</a>&nbsp;</td>
+         <td><a href="POHSTL.HTM" title="Table: Purchase History Detail">POHSTL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase History Detail&nbsp;</td>
+         <td>POHSTL&nbsp;</td>
+         <td><a href="PO0380.HTM" title="Purchase History">PO0380</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0405.HTM" title="View: Purchase Orders Activation">PO0405</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Purchase Orders Activation&nbsp;</td>
+         <td>POINIT&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0407.HTM" title="View: Integrity Checker">PO0407</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Integrity Checker&nbsp;</td>
+         <td>POINTCK&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0409.HTM" title="View: Invoice Audit Headers">PO0409</a>&nbsp;</td>
+         <td><a href="POINVAH.HTM" title="Table: Invoice Audit Headers">POINVAH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Audit Headers&nbsp;</td>
+         <td>POINVAH&nbsp;</td>
+         <td><a href="PO0410.HTM" title="Invoice Audit Lines">PO0410</a>, <a href="PO0411.HTM" title="Invoice Audit Prorate Lines">PO0411</a>, <a href="PO0412.HTM" title="Invoice Audit Costs">PO0412</a>, <a href="PO0447.HTM" title="Invoice Audit Hdr. Opt. Fields">PO0447</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0410.HTM" title="View: Invoice Audit Lines">PO0410</a>&nbsp;</td>
+         <td><a href="POINVAL.HTM" title="Table: Invoice Audit Lines">POINVAL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Audit Lines&nbsp;</td>
+         <td>POINVAL&nbsp;</td>
+         <td><a href="PO0409.HTM" title="Invoice Audit Headers">PO0409</a>, <a href="PO0448.HTM" title="Invoice Audit Line Opt. Fields">PO0448</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0411.HTM" title="View: Invoice Audit Prorate Lines">PO0411</a>&nbsp;</td>
+         <td><a href="POINVAQ.HTM" title="Table: Invoice Audit Prorate Lines">POINVAQ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Audit Prorate Lines&nbsp;</td>
+         <td>POINVAQ&nbsp;</td>
+         <td><a href="PO0409.HTM" title="Invoice Audit Headers">PO0409</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0412.HTM" title="View: Invoice Audit Costs">PO0412</a>&nbsp;</td>
+         <td><a href="POINVAS.HTM" title="Table: Invoice Audit Costs">POINVAS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Audit Costs&nbsp;</td>
+         <td>POINVAS&nbsp;</td>
+         <td><a href="PO0409.HTM" title="Invoice Audit Headers">PO0409</a>, <a href="PO0449.HTM" title="Invoice Audit Cost Opt. Fields">PO0449</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0414.HTM" title="View: Duplicate Invoices">PO0414</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Duplicate Invoices&nbsp;</td>
+         <td>POINVB&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0415.HTM" title="View: Invoice Cost Distributions">PO0415</a>&nbsp;</td>
+         <td><a href="POINVD.HTM" title="Table: Invoice Cost Distributions">POINVD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Cost Distributions&nbsp;</td>
+         <td>POINVD&nbsp;</td>
+         <td><a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a>, <a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a>, <a href="PO0417.HTM" title="Invoice Posting Cost Distribs.">PO0417</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0416.HTM" title="View: Invoice Comments">PO0416</a>&nbsp;</td>
+         <td><a href="POINVC.HTM" title="Table: Invoice Comments">POINVC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Comments&nbsp;</td>
+         <td>POINVC&nbsp;</td>
+         <td><a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0430.HTM" title="Invoice Lines">PO0430</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0417.HTM" title="View: Invoice Posting Cost Distribs.">PO0417</a>&nbsp;</td>
+         <td><a href="POINVE.HTM" title="Table: Invoice Posting Cost Distribs.">POINVE</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Posting Cost Distribs.&nbsp;</td>
+         <td>POINVE&nbsp;</td>
+         <td><a href="PO0421.HTM" title="Invoice Postings">PO0421</a>, <a href="PO0415.HTM" title="Invoice Cost Distributions">PO0415</a>, <a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0418.HTM" title="View: Invoice Day-end Cost Distribs.">PO0418</a>&nbsp;</td>
+         <td><a href="POINVF.HTM" title="Table: Invoice Day-end Cost Distribs.">POINVF</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Day-end Cost Distribs.&nbsp;</td>
+         <td>POINVF&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0419.HTM" title="View: Invoice Functions">PO0419</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Invoice Functions&nbsp;</td>
+         <td>POINVG&nbsp;</td>
+         <td><a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0416.HTM" title="Invoice Comments">PO0416</a>, <a href="PO0430.HTM" title="Invoice Lines">PO0430</a>, <a href="PO0436.HTM" title="Invoice Payment Schedules">PO0436</a>, <a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a>, <a href="PO0438.HTM" title="Invoice Receipts">PO0438</a>, <a href="PO0444.HTM" title="Inv. Add. Costs Superview">PO0444</a>, <a href="PO0415.HTM" title="Invoice Cost Distributions">PO0415</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0420.HTM" title="View: Invoices">PO0420</a>&nbsp;</td>
+         <td><a href="POINVH1.HTM" title="Table: Invoices">POINVH1</a>&nbsp;<br /><a href="POINVH2.HTM" title="Table: Invoices">POINVH2</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoices&nbsp;</td>
+         <td>POINVH&nbsp;</td>
+         <td><a href="PO0416.HTM" title="Invoice Comments">PO0416</a>, <a href="PO0430.HTM" title="Invoice Lines">PO0430</a>, <a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a>, <a href="PO0436.HTM" title="Invoice Payment Schedules">PO0436</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a>, <a href="PO0438.HTM" title="Invoice Receipts">PO0438</a>, <a href="PO0444.HTM" title="Inv. Add. Costs Superview">PO0444</a>, <a href="PO0423.HTM" title="Invoice Optional Fields">PO0423</a>, <a href="PO0415.HTM" title="Invoice Cost Distributions">PO0415</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0421.HTM" title="View: Invoice Postings">PO0421</a>&nbsp;</td>
+         <td><a href="POINVI.HTM" title="Table: Invoice Postings">POINVI</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Postings&nbsp;</td>
+         <td>POINVI&nbsp;</td>
+         <td><a href="PO0431.HTM" title="Invoice Posting Lines">PO0431</a>, <a href="PO0441.HTM" title="Invoice Posting Cost Lines">PO0441</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a>, <a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0430.HTM" title="Invoice Lines">PO0430</a>, <a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a>, <a href="PO0610.HTM" title="Purchase Order Comments">PO0610</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a>, <a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a>, <a href="PO0632.HTM" title="Purchase Order Requisitions">PO0632</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0417.HTM" title="Invoice Posting Cost Distribs.">PO0417</a>, <a href="PO0818.HTM" title="Invoice Posting Lines Lots">PO0818</a>, <a href="PO0811.HTM" title="Invoice Posting Lines Serials">PO0811</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0422.HTM" title="View: Invoice Day-ends">PO0422</a>&nbsp;</td>
+         <td><a href="POINVJ.HTM" title="Table: Invoice Day-ends">POINVJ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Day-ends&nbsp;</td>
+         <td>POINVJ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0423.HTM" title="View: Invoice Optional Fields">PO0423</a>&nbsp;</td>
+         <td><a href="POINVHO.HTM" title="Table: Invoice Optional Fields">POINVHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Optional Fields&nbsp;</td>
+         <td>POINVHO&nbsp;</td>
+         <td><a href="PO0420.HTM" title="Invoices">PO0420</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0424.HTM" title="View: Invoice Distribute Proration">PO0424</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Invoice Distribute Proration&nbsp;</td>
+         <td>POINVK&nbsp;</td>
+         <td><a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a>, <a href="PO0415.HTM" title="Invoice Cost Distributions">PO0415</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0430.HTM" title="View: Invoice Lines">PO0430</a>&nbsp;</td>
+         <td><a href="POINVL.HTM" title="Table: Invoice Lines">POINVL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Lines&nbsp;</td>
+         <td>POINVL&nbsp;</td>
+         <td><a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a>, <a href="PO0421.HTM" title="Invoice Postings">PO0421</a>, <a href="PO0431.HTM" title="Invoice Posting Lines">PO0431</a>, <a href="PO0433.HTM" title="Invoice Detail Optional Fields">PO0433</a>, <a href="PO0819.HTM" title="Invoice Line Lots">PO0819</a>, <a href="PO0810.HTM" title="Invoice Line Serials">PO0810</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0431.HTM" title="View: Invoice Posting Lines">PO0431</a>&nbsp;</td>
+         <td><a href="POINVM.HTM" title="Table: Invoice Posting Lines">POINVM</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Posting Lines&nbsp;</td>
+         <td>POINVM&nbsp;</td>
+         <td><a href="PO0421.HTM" title="Invoice Postings">PO0421</a>, <a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0430.HTM" title="Invoice Lines">PO0430</a>, <a href="PO0610.HTM" title="Purchase Order Comments">PO0610</a>, <a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0432.HTM" title="View: Invoice Day-end Lines">PO0432</a>&nbsp;</td>
+         <td><a href="POINVN.HTM" title="Table: Invoice Day-end Lines">POINVN</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Day-end Lines&nbsp;</td>
+         <td>POINVN&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0433.HTM" title="View: Invoice Detail Optional Fields">PO0433</a>&nbsp;</td>
+         <td><a href="POINVLO.HTM" title="Table: Invoice Detail Optional Fields">POINVLO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Detail Optional Fields&nbsp;</td>
+         <td>POINVLO&nbsp;</td>
+         <td><a href="PO0430.HTM" title="Invoice Lines">PO0430</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0436.HTM" title="View: Invoice Payment Schedules">PO0436</a>&nbsp;</td>
+         <td><a href="POINVP.HTM" title="Table: Invoice Payment Schedules">POINVP</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Payment Schedules&nbsp;</td>
+         <td>POINVP&nbsp;</td>
+         <td><a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0438.HTM" title="View: Invoice Receipts">PO0438</a>&nbsp;</td>
+         <td><a href="POINVR.HTM" title="Table: Invoice Receipts">POINVR</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Receipts&nbsp;</td>
+         <td>POINVR&nbsp;</td>
+         <td><a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0440.HTM" title="View: Invoice Additional Costs">PO0440</a>&nbsp;</td>
+         <td><a href="POINVS.HTM" title="Table: Invoice Additional Costs">POINVS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Additional Costs&nbsp;</td>
+         <td>POINVS&nbsp;</td>
+         <td><a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a>, <a href="PO0421.HTM" title="Invoice Postings">PO0421</a>, <a href="PO0441.HTM" title="Invoice Posting Cost Lines">PO0441</a>, <a href="PO0438.HTM" title="Invoice Receipts">PO0438</a>, <a href="PO0444.HTM" title="Inv. Add. Costs Superview">PO0444</a>, <a href="PO0443.HTM" title="Invoice Add. Cost Opt. Fields">PO0443</a>, <a href="PO0415.HTM" title="Invoice Cost Distributions">PO0415</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0441.HTM" title="View: Invoice Posting Cost Lines">PO0441</a>&nbsp;</td>
+         <td><a href="POINVT.HTM" title="Table: Invoice Posting Cost Lines">POINVT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Posting Cost Lines&nbsp;</td>
+         <td>POINVT&nbsp;</td>
+         <td><a href="PO0421.HTM" title="Invoice Postings">PO0421</a>, <a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0442.HTM" title="View: Invoice Day-end Additional Costs">PO0442</a>&nbsp;</td>
+         <td><a href="POINVU.HTM" title="Table: Invoice Day-end Additional Costs">POINVU</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Day-end Additional Costs&nbsp;</td>
+         <td>POINVU&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0443.HTM" title="View: Invoice Add. Cost Opt. Fields">PO0443</a>&nbsp;</td>
+         <td><a href="POINVSO.HTM" title="Table: Invoice Add. Cost Opt. Fields">POINVSO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Add. Cost Opt. Fields&nbsp;</td>
+         <td>POINVSO&nbsp;</td>
+         <td><a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0444.HTM" title="View: Inv. Add. Costs Superview">PO0444</a>&nbsp;</td>
+         <td><a href="POINVS.HTM" title="Table: Inv. Add. Costs Superview">POINVS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Inv. Add. Costs Superview&nbsp;</td>
+         <td>POINVW&nbsp;</td>
+         <td><a href="PO0420.HTM" title="Invoices">PO0420</a>, <a href="PO0419.HTM" title="Invoice Functions">PO0419</a>, <a href="PO0421.HTM" title="Invoice Postings">PO0421</a>, <a href="PO0441.HTM" title="Invoice Posting Cost Lines">PO0441</a>, <a href="PO0440.HTM" title="Invoice Additional Costs">PO0440</a>, <a href="PO0438.HTM" title="Invoice Receipts">PO0438</a>, <a href="PO0430.HTM" title="Invoice Lines">PO0430</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0445.HTM" title="View: P/O Invoice Posting">PO0445</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">P/O Invoice Posting&nbsp;</td>
+         <td>POINVZ&nbsp;</td>
+         <td><a href="AP0020.HTM" title="Invoice Batches">AP0020</a>, <a href="AP0402.HTM" title="Invoice Optional Fields">AP0402</a>, <a href="AP0021.HTM" title="Invoices">AP0021</a>, <a href="AP0401.HTM" title="Invoice Detail Optional Fields">AP0401</a>, <a href="AP0022.HTM" title="Invoice Details">AP0022</a>, <a href="AP0023.HTM" title="Invoice Payment Schedules">AP0023</a>, <a href="GP0950.HTM" title="Transaction Posting">GP0950</a>, <a href="IC0280.HTM" title="Transaction History">IC0280</a>, <a href="IC0352.HTM" title="Item Valuation">IC0352</a>, <a href="IC0700.HTM" title="Transaction Statistics">IC0700</a>, <a href="PO0380.HTM" title="Purchase History">PO0380</a>, <a href="PO0384.HTM" title="Purchase History Detail">PO0384</a>, <a href="PO0800.HTM" title="Statistics">PO0800</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0447.HTM" title="View: Invoice Audit Hdr. Opt. Fields">PO0447</a>&nbsp;</td>
+         <td><a href="POINAHO.HTM" title="Table: Invoice Audit Hdr. Opt. Fields">POINAHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Audit Hdr. Opt. Fields&nbsp;</td>
+         <td>POINAHO&nbsp;</td>
+         <td><a href="PO0409.HTM" title="Invoice Audit Headers">PO0409</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0448.HTM" title="View: Invoice Audit Line Opt. Fields">PO0448</a>&nbsp;</td>
+         <td><a href="POINALO.HTM" title="Table: Invoice Audit Line Opt. Fields">POINALO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Audit Line Opt. Fields&nbsp;</td>
+         <td>POINALO&nbsp;</td>
+         <td><a href="PO0410.HTM" title="Invoice Audit Lines">PO0410</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0449.HTM" title="View: Invoice Audit Cost Opt. Fields">PO0449</a>&nbsp;</td>
+         <td><a href="POINASO.HTM" title="Table: Invoice Audit Cost Opt. Fields">POINASO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Audit Cost Opt. Fields&nbsp;</td>
+         <td>POINASO&nbsp;</td>
+         <td><a href="PO0412.HTM" title="Invoice Audit Costs">PO0412</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0455.HTM" title="View: Receipt Optional Fields">PO0455</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Optional Fields&nbsp;</td>
+         <td>POIRCHO&nbsp;</td>
+         <td><a href="PO0462.HTM" title="Receipts">PO0462</a>, <a href="PO0703.HTM" title="Receipt Optional Fields">PO0703</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0456.HTM" title="View: Receipt Detail Optional Fields">PO0456</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Detail Optional Fields&nbsp;</td>
+         <td>POIRCLO&nbsp;</td>
+         <td><a href="PO0464.HTM" title="Receipt Lines">PO0464</a>, <a href="PO0717.HTM" title="Receipt Detail Optional Fields">PO0717</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0457.HTM" title="View: Receipt Add. Cost Opt. Field">PO0457</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Add. Cost Opt. Field&nbsp;</td>
+         <td>POIRCSO&nbsp;</td>
+         <td><a href="PO0466.HTM" title="Receipt Additional Costs">PO0466</a>, <a href="PO0719.HTM" title="Receipt Add. Cost Opt. Field">PO0719</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0458.HTM" title="View: Receipt Vendors Optional Fields">PO0458</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Vendors Optional Fields&nbsp;</td>
+         <td>POIRCVO&nbsp;</td>
+         <td><a href="PO0468.HTM" title="Receipt Vendors">PO0468</a>, <a href="PO0721.HTM" title="Receipt Vendors Optional Fields">PO0721</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0460.HTM" title="View: Receipt Comments">PO0460</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Comments&nbsp;</td>
+         <td>POIRCPC&nbsp;</td>
+         <td><a href="PO0462.HTM" title="Receipts">PO0462</a>, <a href="PO0695.HTM" title="Receipt Comments">PO0695</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0461.HTM" title="View: Receipt Cost Distributions">PO0461</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Cost Distributions&nbsp;</td>
+         <td>POIRCPD&nbsp;</td>
+         <td><a href="PO0466.HTM" title="Receipt Additional Costs">PO0466</a>, <a href="PO0696.HTM" title="Receipt Cost Distributions">PO0696</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0462.HTM" title="View: Receipts">PO0462</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipts&nbsp;</td>
+         <td>POIRCPH&nbsp;</td>
+         <td><a href="PO0464.HTM" title="Receipt Lines">PO0464</a>, <a href="PO0460.HTM" title="Receipt Comments">PO0460</a>, <a href="PO0468.HTM" title="Receipt Vendors">PO0468</a>, <a href="PO0466.HTM" title="Receipt Additional Costs">PO0466</a>, <a href="PO0455.HTM" title="Receipt Optional Fields">PO0455</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0463.HTM" title="View: Receipt Line Lots">PO0463</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Line Lots&nbsp;</td>
+         <td>POIRCLL&nbsp;</td>
+         <td><a href="PO0464.HTM" title="Receipt Lines">PO0464</a>, <a href="PO0789.HTM" title="Receipt Line Lots">PO0789</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0464.HTM" title="View: Receipt Lines">PO0464</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Lines&nbsp;</td>
+         <td>POIRCPL&nbsp;</td>
+         <td><a href="PO0462.HTM" title="Receipts">PO0462</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0456.HTM" title="Receipt Detail Optional Fields">PO0456</a>, <a href="PO0463.HTM" title="Receipt Line Lots">PO0463</a>, <a href="PO0465.HTM" title="Receipt Line Serials">PO0465</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0465.HTM" title="View: Receipt Line Serials">PO0465</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Line Serials&nbsp;</td>
+         <td>POIRCLS&nbsp;</td>
+         <td><a href="PO0464.HTM" title="Receipt Lines">PO0464</a>, <a href="PO0780.HTM" title="Receipt Line Serials">PO0780</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0466.HTM" title="View: Receipt Additional Costs">PO0466</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Additional Costs&nbsp;</td>
+         <td>POIRCPS&nbsp;</td>
+         <td><a href="PO0462.HTM" title="Receipts">PO0462</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0457.HTM" title="Receipt Add. Cost Opt. Field">PO0457</a>, <a href="PO0461.HTM" title="Receipt Cost Distributions">PO0461</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0468.HTM" title="View: Receipt Vendors">PO0468</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Vendors&nbsp;</td>
+         <td>POIRCPV&nbsp;</td>
+         <td><a href="PO0462.HTM" title="Receipts">PO0462</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0458.HTM" title="Receipt Vendors Optional Fields">PO0458</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0500.HTM" title="View: Mailing Labels">PO0500</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Mailing Labels&nbsp;</td>
+         <td>POLBLS&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0520.HTM" title="View: Generic Line Data">PO0520</a>&nbsp;</td>
+         <td><a href="POLINEZ.HTM" title="Table: Generic Line Data">POLINEZ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Generic Line Data&nbsp;</td>
+         <td>POLINEZ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0522.HTM" title="View: Lot Prorate Data">PO0522</a>&nbsp;</td>
+         <td><a href="POLOTZ.HTM" title="Table: Lot Prorate Data">POLOTZ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Lot Prorate Data&nbsp;</td>
+         <td>POLOTZ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0526.HTM" title="View: Serial Prorate Data">PO0526</a>&nbsp;</td>
+         <td><a href="POSERZ.HTM" title="Table: Serial Prorate Data">POSERZ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Serial Prorate Data&nbsp;</td>
+         <td>POSERZ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0540.HTM" title="View: E-mail Messages">PO0540</a>&nbsp;</td>
+         <td><a href="POMSG.HTM" title="Table: E-mail Messages">POMSG</a>&nbsp;</td>
+         <td style="white-space: nowrap">E-mail Messages&nbsp;</td>
+         <td>POMSG&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0575.HTM" title="View: PO Optional Field Callbacks">PO0575</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">PO Optional Field Callbacks&nbsp;</td>
+         <td>POOFCMD&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0580.HTM" title="View: P/O Optional Fields">PO0580</a>&nbsp;</td>
+         <td><a href="POOFD.HTM" title="Table: P/O Optional Fields">POOFD</a>&nbsp;</td>
+         <td style="white-space: nowrap">P/O Optional Fields&nbsp;</td>
+         <td>POOFD&nbsp;</td>
+         <td><a href="PO0585.HTM" title="P/O Optional Field Locations">PO0585</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0585.HTM" title="View: P/O Optional Field Locations">PO0585</a>&nbsp;</td>
+         <td><a href="POOFH.HTM" title="Table: P/O Optional Field Locations">POOFH</a>&nbsp;</td>
+         <td style="white-space: nowrap">P/O Optional Field Locations&nbsp;</td>
+         <td>POOFH&nbsp;</td>
+         <td><a href="PO0580.HTM" title="P/O Optional Fields">PO0580</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0600.HTM" title="View: Purchase Order Options">PO0600</a>&nbsp;</td>
+         <td><a href="POOPT.HTM" title="Table: Purchase Order Options">POOPT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Options&nbsp;</td>
+         <td>POOPT&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0604.HTM" title="View: Job Resource Validation">PO0604</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Job Resource Validation&nbsp;</td>
+         <td>POPMRES&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0605.HTM" title="View: Purchase Order Templates">PO0605</a>&nbsp;</td>
+         <td><a href="POPLAT.HTM" title="Table: Purchase Order Templates">POPLAT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Templates&nbsp;</td>
+         <td>POPLAT&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0606.HTM" title="View: Create POs Header">PO0606</a>&nbsp;</td>
+         <td><a href="POPOGH.HTM" title="Table: Create POs Header">POPOGH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Create POs Header&nbsp;</td>
+         <td>POPOGH&nbsp;</td>
+         <td><a href="PO0608.HTM" title="Create POs Detail">PO0608</a>, <a href="PO0607.HTM" title="Create POs Header Opt. Fields">PO0607</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0607.HTM" title="View: Create POs Header Opt. Fields">PO0607</a>&nbsp;</td>
+         <td><a href="POPOGHO.HTM" title="Table: Create POs Header Opt. Fields">POPOGHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Create POs Header Opt. Fields&nbsp;</td>
+         <td>POPOGHO&nbsp;</td>
+         <td><a href="PO0606.HTM" title="Create POs Header">PO0606</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0608.HTM" title="View: Create POs Detail">PO0608</a>&nbsp;</td>
+         <td><a href="POPOGL.HTM" title="Table: Create POs Detail">POPOGL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Create POs Detail&nbsp;</td>
+         <td>POPOGL&nbsp;</td>
+         <td><a href="PO0606.HTM" title="Create POs Header">PO0606</a>, <a href="PO0609.HTM" title="Create POs Detail Opt. Fields">PO0609</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0609.HTM" title="View: Create POs Detail Opt. Fields">PO0609</a>&nbsp;</td>
+         <td><a href="POPOGLO.HTM" title="Table: Create POs Detail Opt. Fields">POPOGLO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Create POs Detail Opt. Fields&nbsp;</td>
+         <td>POPOGLO&nbsp;</td>
+         <td><a href="PO0608.HTM" title="Create POs Detail">PO0608</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0610.HTM" title="View: Purchase Order Comments">PO0610</a>&nbsp;</td>
+         <td><a href="POPORC.HTM" title="Table: Purchase Order Comments">POPORC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Comments&nbsp;</td>
+         <td>POPORC&nbsp;</td>
+         <td><a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0611.HTM" title="View: PO Audit Hdr. Optional Fields">PO0611</a>&nbsp;</td>
+         <td><a href="POPOAHO.HTM" title="Table: PO Audit Hdr. Optional Fields">POPOAHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">PO Audit Hdr. Optional Fields&nbsp;</td>
+         <td>POPOAHO&nbsp;</td>
+         <td><a href="PO0612.HTM" title="Purchase Order Audit Headers">PO0612</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0612.HTM" title="View: Purchase Order Audit Headers">PO0612</a>&nbsp;</td>
+         <td><a href="POPORAH.HTM" title="Table: Purchase Order Audit Headers">POPORAH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Audit Headers&nbsp;</td>
+         <td>POPORAH&nbsp;</td>
+         <td><a href="PO0614.HTM" title="Purchase Order Audit Lines">PO0614</a>, <a href="PO0611.HTM" title="PO Audit Hdr. Optional Fields">PO0611</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0613.HTM" title="View: PO Audit Line Optional Fields">PO0613</a>&nbsp;</td>
+         <td><a href="POPOALO.HTM" title="Table: PO Audit Line Optional Fields">POPOALO</a>&nbsp;</td>
+         <td style="white-space: nowrap">PO Audit Line Optional Fields&nbsp;</td>
+         <td>POPOALO&nbsp;</td>
+         <td><a href="PO0614.HTM" title="Purchase Order Audit Lines">PO0614</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0614.HTM" title="View: Purchase Order Audit Lines">PO0614</a>&nbsp;</td>
+         <td><a href="POPORAL.HTM" title="Table: Purchase Order Audit Lines">POPORAL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Audit Lines&nbsp;</td>
+         <td>POPORAL&nbsp;</td>
+         <td><a href="PO0612.HTM" title="Purchase Order Audit Headers">PO0612</a>, <a href="PO0613.HTM" title="PO Audit Line Optional Fields">PO0613</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0619.HTM" title="View: Purchase Order Functions">PO0619</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Purchase Order Functions&nbsp;</td>
+         <td>POPORG&nbsp;</td>
+         <td><a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0610.HTM" title="Purchase Order Comments">PO0610</a>, <a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a>, <a href="PO0632.HTM" title="Purchase Order Requisitions">PO0632</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0620.HTM" title="View: Purchase Orders">PO0620</a>&nbsp;</td>
+         <td><a href="POPORH1.HTM" title="Table: Purchase Orders">POPORH1</a>&nbsp;<br /><a href="POPORH2.HTM" title="Table: Purchase Orders">POPORH2</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Orders&nbsp;</td>
+         <td>POPORH&nbsp;</td>
+         <td><a href="PO0610.HTM" title="Purchase Order Comments">PO0610</a>, <a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a>, <a href="PO0632.HTM" title="Purchase Order Requisitions">PO0632</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a>, <a href="PO0623.HTM" title="Purchase Order Hdr Opt. Fields">PO0623</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0621.HTM" title="View: Purchase Order Postings">PO0621</a>&nbsp;</td>
+         <td><a href="POPORI.HTM" title="Table: Purchase Order Postings">POPORI</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Postings&nbsp;</td>
+         <td>POPORI&nbsp;</td>
+         <td><a href="PO0631.HTM" title="Purchase Order Posting Lines">PO0631</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a>, <a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0750.HTM" title="Requisition Comments">PO0750</a>, <a href="PO0759.HTM" title="Requisition Functions">PO0759</a>, <a href="PO0760.HTM" title="Requisitions">PO0760</a>, <a href="PO0770.HTM" title="Requisition Lines">PO0770</a>, <a href="PO0777.HTM" title="Requisition Vendors">PO0777</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0622.HTM" title="View: Purchase Order Day-ends">PO0622</a>&nbsp;</td>
+         <td><a href="POPORJ.HTM" title="Table: Purchase Order Day-ends">POPORJ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Day-ends&nbsp;</td>
+         <td>POPORJ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0623.HTM" title="View: Purchase Order Hdr Opt. Fields">PO0623</a>&nbsp;</td>
+         <td><a href="POPORHO.HTM" title="Table: Purchase Order Hdr Opt. Fields">POPORHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Hdr Opt. Fields&nbsp;</td>
+         <td>POPORHO&nbsp;</td>
+         <td><a href="PO0620.HTM" title="Purchase Orders">PO0620</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0629.HTM" title="View: Purchase Order Day-end Lines">PO0629</a>&nbsp;</td>
+         <td><a href="POPORN.HTM" title="Table: Purchase Order Day-end Lines">POPORN</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Day-end Lines&nbsp;</td>
+         <td>POPORN&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0630.HTM" title="View: Purchase Order Lines">PO0630</a>&nbsp;</td>
+         <td><a href="POPORL.HTM" title="Table: Purchase Order Lines">POPORL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Lines&nbsp;</td>
+         <td>POPORL&nbsp;</td>
+         <td><a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0610.HTM" title="Purchase Order Comments">PO0610</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a>, <a href="PO0621.HTM" title="Purchase Order Postings">PO0621</a>, <a href="PO0631.HTM" title="Purchase Order Posting Lines">PO0631</a>, <a href="PO0633.HTM" title="Purchase Order Det. Opt. Fields">PO0633</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0631.HTM" title="View: Purchase Order Posting Lines">PO0631</a>&nbsp;</td>
+         <td><a href="POPORM.HTM" title="Table: Purchase Order Posting Lines">POPORM</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Posting Lines&nbsp;</td>
+         <td>POPORM&nbsp;</td>
+         <td><a href="PO0621.HTM" title="Purchase Order Postings">PO0621</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a>, <a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a>, <a href="PO0760.HTM" title="Requisitions">PO0760</a>, <a href="PO0770.HTM" title="Requisition Lines">PO0770</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0632.HTM" title="View: Purchase Order Requisitions">PO0632</a>&nbsp;</td>
+         <td><a href="POPORR.HTM" title="Table: Purchase Order Requisitions">POPORR</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Requisitions&nbsp;</td>
+         <td>POPORR&nbsp;</td>
+         <td><a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0633.HTM" title="View: Purchase Order Det. Opt. Fields">PO0633</a>&nbsp;</td>
+         <td><a href="POPORLO.HTM" title="Table: Purchase Order Det. Opt. Fields">POPORLO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Purchase Order Det. Opt. Fields&nbsp;</td>
+         <td>POPORLO&nbsp;</td>
+         <td><a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0634.HTM" title="View: Purchase Order Item Details">PO0634</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Purchase Order Item Details&nbsp;</td>
+         <td>POPORLI&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0636.HTM" title="View: P/O Order Posting">PO0636</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">P/O Order Posting&nbsp;</td>
+         <td>POPORZ&nbsp;</td>
+         <td><a href="GP0950.HTM" title="Transaction Posting">GP0950</a>, <a href="PO0800.HTM" title="Statistics">PO0800</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0640.HTM" title="View: Mark Documents Printed">PO0640</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Mark Documents Printed&nbsp;</td>
+         <td>POPRNT&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0650.HTM" title="View: Line Cost Proration Details">PO0650</a>&nbsp;</td>
+         <td><a href="POPRXC.HTM" title="Table: Line Cost Proration Details">POPRXC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Line Cost Proration Details&nbsp;</td>
+         <td>POPRXC&nbsp;</td>
+         <td><a href="PO0656.HTM" title="Cost Proration Headers">PO0656</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0653.HTM" title="View: Cost Prorations">PO0653</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Cost Prorations&nbsp;</td>
+         <td>POPRXG&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0656.HTM" title="View: Cost Proration Headers">PO0656</a>&nbsp;</td>
+         <td><a href="POPRXH.HTM" title="Table: Cost Proration Headers">POPRXH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Cost Proration Headers&nbsp;</td>
+         <td>POPRXH&nbsp;</td>
+         <td><a href="PO0658.HTM" title="Cost Proration Details">PO0658</a>, <a href="PO0650.HTM" title="Line Cost Proration Details">PO0650</a>, <a href="PO0660.HTM" title="Line Cost Proration Details">PO0660</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0658.HTM" title="View: Cost Proration Details">PO0658</a>&nbsp;</td>
+         <td><a href="POPRXL.HTM" title="Table: Cost Proration Details">POPRXL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Cost Proration Details&nbsp;</td>
+         <td>POPRXL&nbsp;</td>
+         <td><a href="PO0656.HTM" title="Cost Proration Headers">PO0656</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0660.HTM" title="View: Line Cost Proration Details">PO0660</a>&nbsp;</td>
+         <td><a href="POPRXP.HTM" title="Table: Line Cost Proration Details">POPRXP</a>&nbsp;</td>
+         <td style="white-space: nowrap">Line Cost Proration Details&nbsp;</td>
+         <td>POPRXP&nbsp;</td>
+         <td><a href="PO0656.HTM" title="Cost Proration Headers">PO0656</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0681.HTM" title="View: Receipt Audit Hdr. Opt. Fields">PO0681</a>&nbsp;</td>
+         <td><a href="PORCAHO.HTM" title="Table: Receipt Audit Hdr. Opt. Fields">PORCAHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Audit Hdr. Opt. Fields&nbsp;</td>
+         <td>PORCAHO&nbsp;</td>
+         <td><a href="PO0686.HTM" title="Receipt Audit Headers">PO0686</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0682.HTM" title="View: Receipt Audit Line Opt. Fields">PO0682</a>&nbsp;</td>
+         <td><a href="PORCALO.HTM" title="Table: Receipt Audit Line Opt. Fields">PORCALO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Audit Line Opt. Fields&nbsp;</td>
+         <td>PORCALO&nbsp;</td>
+         <td><a href="PO0688.HTM" title="Receipt Audit Lines">PO0688</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0683.HTM" title="View: Receipt Audit Cost Opt. Fields">PO0683</a>&nbsp;</td>
+         <td><a href="PORCASO.HTM" title="Table: Receipt Audit Cost Opt. Fields">PORCASO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Audit Cost Opt. Fields&nbsp;</td>
+         <td>PORCASO&nbsp;</td>
+         <td><a href="PO0692.HTM" title="Receipt Audit Costs">PO0692</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0686.HTM" title="View: Receipt Audit Headers">PO0686</a>&nbsp;</td>
+         <td><a href="PORCPAH.HTM" title="Table: Receipt Audit Headers">PORCPAH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Audit Headers&nbsp;</td>
+         <td>PORCPAH&nbsp;</td>
+         <td><a href="PO0688.HTM" title="Receipt Audit Lines">PO0688</a>, <a href="PO0690.HTM" title="Receipt Audit Prorate Lines">PO0690</a>, <a href="PO0692.HTM" title="Receipt Audit Costs">PO0692</a>, <a href="PO0681.HTM" title="Receipt Audit Hdr. Opt. Fields">PO0681</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0688.HTM" title="View: Receipt Audit Lines">PO0688</a>&nbsp;</td>
+         <td><a href="PORCPAL.HTM" title="Table: Receipt Audit Lines">PORCPAL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Audit Lines&nbsp;</td>
+         <td>PORCPAL&nbsp;</td>
+         <td><a href="PO0686.HTM" title="Receipt Audit Headers">PO0686</a>, <a href="PO0682.HTM" title="Receipt Audit Line Opt. Fields">PO0682</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0690.HTM" title="View: Receipt Audit Prorate Lines">PO0690</a>&nbsp;</td>
+         <td><a href="PORCPAQ.HTM" title="Table: Receipt Audit Prorate Lines">PORCPAQ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Audit Prorate Lines&nbsp;</td>
+         <td>PORCPAQ&nbsp;</td>
+         <td><a href="PO0686.HTM" title="Receipt Audit Headers">PO0686</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0692.HTM" title="View: Receipt Audit Costs">PO0692</a>&nbsp;</td>
+         <td><a href="PORCPAS.HTM" title="Table: Receipt Audit Costs">PORCPAS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Audit Costs&nbsp;</td>
+         <td>PORCPAS&nbsp;</td>
+         <td><a href="PO0686.HTM" title="Receipt Audit Headers">PO0686</a>, <a href="PO0683.HTM" title="Receipt Audit Cost Opt. Fields">PO0683</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0695.HTM" title="View: Receipt Comments">PO0695</a>&nbsp;</td>
+         <td><a href="PORCPC.HTM" title="Table: Receipt Comments">PORCPC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Comments&nbsp;</td>
+         <td>PORCPC&nbsp;</td>
+         <td><a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0696.HTM" title="View: Receipt Cost Distributions">PO0696</a>&nbsp;</td>
+         <td><a href="PORCPD.HTM" title="Table: Receipt Cost Distributions">PORCPD</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Cost Distributions&nbsp;</td>
+         <td>PORCPD&nbsp;</td>
+         <td><a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0697.HTM" title="Receipt Posting Cost Distribs.">PO0697</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0697.HTM" title="View: Receipt Posting Cost Distribs.">PO0697</a>&nbsp;</td>
+         <td><a href="PORCPE.HTM" title="Table: Receipt Posting Cost Distribs.">PORCPE</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Posting Cost Distribs.&nbsp;</td>
+         <td>PORCPE&nbsp;</td>
+         <td><a href="PO0701.HTM" title="Receipt Postings">PO0701</a>, <a href="PO0696.HTM" title="Receipt Cost Distributions">PO0696</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0698.HTM" title="View: Receipt Day-end Cost Distribs.">PO0698</a>&nbsp;</td>
+         <td><a href="PORCPF.HTM" title="Table: Receipt Day-end Cost Distribs.">PORCPF</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Day-end Cost Distribs.&nbsp;</td>
+         <td>PORCPF&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0699.HTM" title="View: Receipt Functions">PO0699</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Functions&nbsp;</td>
+         <td>PORCPG&nbsp;</td>
+         <td><a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0695.HTM" title="Receipt Comments">PO0695</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0705.HTM" title="Receipt Purchase Orders">PO0705</a>, <a href="PO0696.HTM" title="Receipt Cost Distributions">PO0696</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0700.HTM" title="View: Receipts">PO0700</a>&nbsp;</td>
+         <td><a href="PORCPH1.HTM" title="Table: Receipts">PORCPH1</a>&nbsp;<br /><a href="PORCPH2.HTM" title="Table: Receipts">PORCPH2</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipts&nbsp;</td>
+         <td>PORCPH&nbsp;</td>
+         <td><a href="PO0695.HTM" title="Receipt Comments">PO0695</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0705.HTM" title="Receipt Purchase Orders">PO0705</a>, <a href="PO0703.HTM" title="Receipt Optional Fields">PO0703</a>, <a href="PO0696.HTM" title="Receipt Cost Distributions">PO0696</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0701.HTM" title="View: Receipt Postings">PO0701</a>&nbsp;</td>
+         <td><a href="PORCPI.HTM" title="Table: Receipt Postings">PORCPI</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Postings&nbsp;</td>
+         <td>PORCPI&nbsp;</td>
+         <td><a href="PO0711.HTM" title="Receipt Posting Lines">PO0711</a>, <a href="PO0715.HTM" title="Receipt Posting Additional Costs">PO0715</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a>, <a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0697.HTM" title="Receipt Posting Cost Distribs.">PO0697</a>, <a href="PO0781.HTM" title="Receipt Posting Lines Lots">PO0781</a>, <a href="PO0788.HTM" title="Receipt Posting Lines Serials">PO0788</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0702.HTM" title="View: Receipt Day-ends">PO0702</a>&nbsp;</td>
+         <td><a href="PORCPJ.HTM" title="Table: Receipt Day-ends">PORCPJ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Day-ends&nbsp;</td>
+         <td>PORCPJ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0703.HTM" title="View: Receipt Optional Fields">PO0703</a>&nbsp;</td>
+         <td><a href="PORCPHO.HTM" title="Table: Receipt Optional Fields">PORCPHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Optional Fields&nbsp;</td>
+         <td>PORCPHO&nbsp;</td>
+         <td><a href="PO0700.HTM" title="Receipts">PO0700</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0704.HTM" title="View: Receipt Distribute Proration">PO0704</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Receipt Distribute Proration&nbsp;</td>
+         <td>PORCPK&nbsp;</td>
+         <td><a href="PO0696.HTM" title="Receipt Cost Distributions">PO0696</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0705.HTM" title="View: Receipt Purchase Orders">PO0705</a>&nbsp;</td>
+         <td><a href="PORCPR.HTM" title="Table: Receipt Purchase Orders">PORCPR</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Purchase Orders&nbsp;</td>
+         <td>PORCPR&nbsp;</td>
+         <td><a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0709.HTM" title="View: Receipt FAS Details">PO0709</a>&nbsp;</td>
+         <td><a href="PORCPLF.HTM" title="Table: Receipt FAS Details">PORCPLF</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt FAS Details&nbsp;</td>
+         <td>PORCPLF&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0710.HTM" title="View: Receipt Lines">PO0710</a>&nbsp;</td>
+         <td><a href="PORCPL.HTM" title="Table: Receipt Lines">PORCPL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Lines&nbsp;</td>
+         <td>PORCPL&nbsp;</td>
+         <td><a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0695.HTM" title="Receipt Comments">PO0695</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0701.HTM" title="Receipt Postings">PO0701</a>, <a href="PO0711.HTM" title="Receipt Posting Lines">PO0711</a>, <a href="PO0717.HTM" title="Receipt Detail Optional Fields">PO0717</a>, <a href="PO0789.HTM" title="Receipt Line Lots">PO0789</a>, <a href="PO0780.HTM" title="Receipt Line Serials">PO0780</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0711.HTM" title="View: Receipt Posting Lines">PO0711</a>&nbsp;</td>
+         <td><a href="PORCPM.HTM" title="Table: Receipt Posting Lines">PORCPM</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Posting Lines&nbsp;</td>
+         <td>PORCPM&nbsp;</td>
+         <td><a href="PO0701.HTM" title="Receipt Postings">PO0701</a>, <a href="PO0620.HTM" title="Purchase Orders">PO0620</a>, <a href="PO0630.HTM" title="Purchase Order Lines">PO0630</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0619.HTM" title="Purchase Order Functions">PO0619</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0712.HTM" title="View: Receipt Day-end Lines">PO0712</a>&nbsp;</td>
+         <td><a href="PORCPN.HTM" title="Table: Receipt Day-end Lines">PORCPN</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Day-end Lines&nbsp;</td>
+         <td>PORCPN&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0713.HTM" title="View: Receipt Additional Costs">PO0713</a>&nbsp;</td>
+         <td><a href="PORCPS.HTM" title="Table: Receipt Additional Costs">PORCPS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Additional Costs&nbsp;</td>
+         <td>PORCPQ&nbsp;</td>
+         <td><a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0714.HTM" title="View: Receipt Additional Costs">PO0714</a>&nbsp;</td>
+         <td><a href="PORCPS.HTM" title="Table: Receipt Additional Costs">PORCPS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Additional Costs&nbsp;</td>
+         <td>PORCPS&nbsp;</td>
+         <td><a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0701.HTM" title="Receipt Postings">PO0701</a>, <a href="PO0715.HTM" title="Receipt Posting Additional Costs">PO0715</a>, <a href="PO0719.HTM" title="Receipt Add. Cost Opt. Field">PO0719</a>, <a href="PO0696.HTM" title="Receipt Cost Distributions">PO0696</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0715.HTM" title="View: Receipt Posting Additional Costs">PO0715</a>&nbsp;</td>
+         <td><a href="PORCPT.HTM" title="Table: Receipt Posting Additional Costs">PORCPT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Posting Additional Costs&nbsp;</td>
+         <td>PORCPT&nbsp;</td>
+         <td><a href="PO0701.HTM" title="Receipt Postings">PO0701</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0716.HTM" title="View: Receipt Day-end Additional Costs">PO0716</a>&nbsp;</td>
+         <td><a href="PORCPU.HTM" title="Table: Receipt Day-end Additional Costs">PORCPU</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Day-end Additional Costs&nbsp;</td>
+         <td>PORCPU&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0717.HTM" title="View: Receipt Detail Optional Fields">PO0717</a>&nbsp;</td>
+         <td><a href="PORCPLO.HTM" title="Table: Receipt Detail Optional Fields">PORCPLO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Detail Optional Fields&nbsp;</td>
+         <td>PORCPLO&nbsp;</td>
+         <td><a href="PO0710.HTM" title="Receipt Lines">PO0710</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0718.HTM" title="View: Receipt Vendors">PO0718</a>&nbsp;</td>
+         <td><a href="PORCPV.HTM" title="Table: Receipt Vendors">PORCPV</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Vendors&nbsp;</td>
+         <td>PORCPV&nbsp;</td>
+         <td><a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0721.HTM" title="Receipt Vendors Optional Fields">PO0721</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0719.HTM" title="View: Receipt Add. Cost Opt. Field">PO0719</a>&nbsp;</td>
+         <td><a href="PORCPSO.HTM" title="Table: Receipt Add. Cost Opt. Field">PORCPSO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Add. Cost Opt. Field&nbsp;</td>
+         <td>PORCPSO&nbsp;</td>
+         <td><a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0720.HTM" title="View: P/O Receipt Posting">PO0720</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">P/O Receipt Posting&nbsp;</td>
+         <td>PORCPZ&nbsp;</td>
+         <td><a href="GP0950.HTM" title="Transaction Posting">GP0950</a>, <a href="IC0280.HTM" title="Transaction History">IC0280</a>, <a href="IC0352.HTM" title="Item Valuation">IC0352</a>, <a href="IC0700.HTM" title="Transaction Statistics">IC0700</a>, <a href="PO0380.HTM" title="Purchase History">PO0380</a>, <a href="PO0384.HTM" title="Purchase History Detail">PO0384</a>, <a href="PO0800.HTM" title="Statistics">PO0800</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0721.HTM" title="View: Receipt Vendors Optional Fields">PO0721</a>&nbsp;</td>
+         <td><a href="PORCPVO.HTM" title="Table: Receipt Vendors Optional Fields">PORCPVO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Vendors Optional Fields&nbsp;</td>
+         <td>PORCPVO&nbsp;</td>
+         <td><a href="PO0718.HTM" title="Receipt Vendors">PO0718</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0722.HTM" title="View: Pending Receipts">PO0722</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Pending Receipts&nbsp;</td>
+         <td>PORCPPI&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0723.HTM" title="View: Pending Receipt Details">PO0723</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Pending Receipt Details&nbsp;</td>
+         <td>PORCPPJ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0724.HTM" title="View: Return Audit Headers">PO0724</a>&nbsp;</td>
+         <td><a href="PORETAH.HTM" title="Table: Return Audit Headers">PORETAH</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Audit Headers&nbsp;</td>
+         <td>PORETAH&nbsp;</td>
+         <td><a href="PO0726.HTM" title="Return Audit Lines">PO0726</a>, <a href="PO0727.HTM" title="Return Audit Prorate Lines">PO0727</a>, <a href="PO0728.HTM" title="Return Audit Costs">PO0728</a>, <a href="PO0740.HTM" title="Return Audit Hdr. Opt. Fields">PO0740</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0726.HTM" title="View: Return Audit Lines">PO0726</a>&nbsp;</td>
+         <td><a href="PORETAL.HTM" title="Table: Return Audit Lines">PORETAL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Audit Lines&nbsp;</td>
+         <td>PORETAL&nbsp;</td>
+         <td><a href="PO0724.HTM" title="Return Audit Headers">PO0724</a>, <a href="PO0741.HTM" title="Return Audit Line Opt. Fields">PO0741</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0727.HTM" title="View: Return Audit Prorate Lines">PO0727</a>&nbsp;</td>
+         <td><a href="PORETAQ.HTM" title="Table: Return Audit Prorate Lines">PORETAQ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Audit Prorate Lines&nbsp;</td>
+         <td>PORETAQ&nbsp;</td>
+         <td><a href="PO0724.HTM" title="Return Audit Headers">PO0724</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0728.HTM" title="View: Return Audit Costs">PO0728</a>&nbsp;</td>
+         <td><a href="PORETAS.HTM" title="Table: Return Audit Costs">PORETAS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Audit Costs&nbsp;</td>
+         <td>PORETAS&nbsp;</td>
+         <td><a href="PO0724.HTM" title="Return Audit Headers">PO0724</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0729.HTM" title="View: Return Comments">PO0729</a>&nbsp;</td>
+         <td><a href="PORETC.HTM" title="Table: Return Comments">PORETC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Comments&nbsp;</td>
+         <td>PORETC&nbsp;</td>
+         <td><a href="PO0731.HTM" title="Returns">PO0731</a>, <a href="PO0735.HTM" title="Return Lines">PO0735</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0730.HTM" title="View: Return Functions">PO0730</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Return Functions&nbsp;</td>
+         <td>PORETG&nbsp;</td>
+         <td><a href="PO0731.HTM" title="Returns">PO0731</a>, <a href="PO0729.HTM" title="Return Comments">PO0729</a>, <a href="PO0735.HTM" title="Return Lines">PO0735</a>, <a href="PO0799.HTM" title="Return Line Lots">PO0799</a>, <a href="PO0790.HTM" title="Return Line Serials">PO0790</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0731.HTM" title="View: Returns">PO0731</a>&nbsp;</td>
+         <td><a href="PORETH1.HTM" title="Table: Returns">PORETH1</a>&nbsp;<br /><a href="PORETH2.HTM" title="Table: Returns">PORETH2</a>&nbsp;</td>
+         <td style="white-space: nowrap">Returns&nbsp;</td>
+         <td>PORETH&nbsp;</td>
+         <td><a href="PO0729.HTM" title="Return Comments">PO0729</a>, <a href="PO0735.HTM" title="Return Lines">PO0735</a>, <a href="PO0730.HTM" title="Return Functions">PO0730</a>, <a href="PO0738.HTM" title="Return Optional Fields">PO0738</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0732.HTM" title="View: Return Postings">PO0732</a>&nbsp;</td>
+         <td><a href="PORETI.HTM" title="Table: Return Postings">PORETI</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Postings&nbsp;</td>
+         <td>PORETI&nbsp;</td>
+         <td><a href="PO0736.HTM" title="Return Posting Lines">PO0736</a>, <a href="PO0695.HTM" title="Receipt Comments">PO0695</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0729.HTM" title="Return Comments">PO0729</a>, <a href="PO0730.HTM" title="Return Functions">PO0730</a>, <a href="PO0731.HTM" title="Returns">PO0731</a>, <a href="PO0735.HTM" title="Return Lines">PO0735</a>, <a href="PO0696.HTM" title="Receipt Cost Distributions">PO0696</a>, <a href="PO0703.HTM" title="Receipt Optional Fields">PO0703</a>, <a href="PO0717.HTM" title="Receipt Detail Optional Fields">PO0717</a>, <a href="PO0705.HTM" title="Receipt Purchase Orders">PO0705</a>, <a href="PO0719.HTM" title="Receipt Add. Cost Opt. Field">PO0719</a>, <a href="PO0721.HTM" title="Receipt Vendors Optional Fields">PO0721</a>, <a href="PO0798.HTM" title="Return Posting Lines Lots">PO0798</a>, <a href="PO0791.HTM" title="Return Posting Lines Serials">PO0791</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0733.HTM" title="View: Return Day-ends">PO0733</a>&nbsp;</td>
+         <td><a href="PORETJ.HTM" title="Table: Return Day-ends">PORETJ</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Day-ends&nbsp;</td>
+         <td>PORETJ&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0734.HTM" title="View: Return Day-end Lines">PO0734</a>&nbsp;</td>
+         <td><a href="PORETN.HTM" title="Table: Return Day-end Lines">PORETN</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Day-end Lines&nbsp;</td>
+         <td>PORETN&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0735.HTM" title="View: Return Lines">PO0735</a>&nbsp;</td>
+         <td><a href="PORETL.HTM" title="Table: Return Lines">PORETL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Lines&nbsp;</td>
+         <td>PORETL&nbsp;</td>
+         <td><a href="PO0731.HTM" title="Returns">PO0731</a>, <a href="PO0729.HTM" title="Return Comments">PO0729</a>, <a href="PO0730.HTM" title="Return Functions">PO0730</a>, <a href="PO0732.HTM" title="Return Postings">PO0732</a>, <a href="PO0736.HTM" title="Return Posting Lines">PO0736</a>, <a href="PO0739.HTM" title="Return Detail Optional Fields">PO0739</a>, <a href="PO0799.HTM" title="Return Line Lots">PO0799</a>, <a href="PO0790.HTM" title="Return Line Serials">PO0790</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0736.HTM" title="View: Return Posting Lines">PO0736</a>&nbsp;</td>
+         <td><a href="PORETM.HTM" title="Table: Return Posting Lines">PORETM</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Posting Lines&nbsp;</td>
+         <td>PORETM&nbsp;</td>
+         <td><a href="PO0732.HTM" title="Return Postings">PO0732</a>, <a href="PO0731.HTM" title="Returns">PO0731</a>, <a href="PO0735.HTM" title="Return Lines">PO0735</a>, <a href="PO0695.HTM" title="Receipt Comments">PO0695</a>, <a href="PO0699.HTM" title="Receipt Functions">PO0699</a>, <a href="PO0700.HTM" title="Receipts">PO0700</a>, <a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0714.HTM" title="Receipt Additional Costs">PO0714</a>, <a href="PO0718.HTM" title="Receipt Vendors">PO0718</a>, <a href="PO0696.HTM" title="Receipt Cost Distributions">PO0696</a>, <a href="PO0703.HTM" title="Receipt Optional Fields">PO0703</a>, <a href="PO0717.HTM" title="Receipt Detail Optional Fields">PO0717</a>, <a href="PO0705.HTM" title="Receipt Purchase Orders">PO0705</a>, <a href="PO0719.HTM" title="Receipt Add. Cost Opt. Field">PO0719</a>, <a href="PO0721.HTM" title="Receipt Vendors Optional Fields">PO0721</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0738.HTM" title="View: Return Optional Fields">PO0738</a>&nbsp;</td>
+         <td><a href="PORETHO.HTM" title="Table: Return Optional Fields">PORETHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Optional Fields&nbsp;</td>
+         <td>PORETHO&nbsp;</td>
+         <td><a href="PO0731.HTM" title="Returns">PO0731</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0739.HTM" title="View: Return Detail Optional Fields">PO0739</a>&nbsp;</td>
+         <td><a href="PORETLO.HTM" title="Table: Return Detail Optional Fields">PORETLO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Detail Optional Fields&nbsp;</td>
+         <td>PORETLO&nbsp;</td>
+         <td><a href="PO0735.HTM" title="Return Lines">PO0735</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0740.HTM" title="View: Return Audit Hdr. Opt. Fields">PO0740</a>&nbsp;</td>
+         <td><a href="POREAHO.HTM" title="Table: Return Audit Hdr. Opt. Fields">POREAHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Audit Hdr. Opt. Fields&nbsp;</td>
+         <td>POREAHO&nbsp;</td>
+         <td><a href="PO0724.HTM" title="Return Audit Headers">PO0724</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0741.HTM" title="View: Return Audit Line Opt. Fields">PO0741</a>&nbsp;</td>
+         <td><a href="POREALO.HTM" title="Table: Return Audit Line Opt. Fields">POREALO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Audit Line Opt. Fields&nbsp;</td>
+         <td>POREALO&nbsp;</td>
+         <td><a href="PO0726.HTM" title="Return Audit Lines">PO0726</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0744.HTM" title="View: P/O Return Posting">PO0744</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">P/O Return Posting&nbsp;</td>
+         <td>PORETZ&nbsp;</td>
+         <td><a href="GP0950.HTM" title="Transaction Posting">GP0950</a>, <a href="IC0280.HTM" title="Transaction History">IC0280</a>, <a href="IC0352.HTM" title="Item Valuation">IC0352</a>, <a href="IC0700.HTM" title="Transaction Statistics">IC0700</a>, <a href="PO0380.HTM" title="Purchase History">PO0380</a>, <a href="PO0384.HTM" title="Purchase History Detail">PO0384</a>, <a href="PO0800.HTM" title="Statistics">PO0800</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0747.HTM" title="View: Report Services">PO0747</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Report Services&nbsp;</td>
+         <td>PORPTS&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0750.HTM" title="View: Requisition Comments">PO0750</a>&nbsp;</td>
+         <td><a href="PORQNC.HTM" title="Table: Requisition Comments">PORQNC</a>&nbsp;</td>
+         <td style="white-space: nowrap">Requisition Comments&nbsp;</td>
+         <td>PORQNC&nbsp;</td>
+         <td><a href="PO0760.HTM" title="Requisitions">PO0760</a>, <a href="PO0770.HTM" title="Requisition Lines">PO0770</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0759.HTM" title="View: Requisition Functions">PO0759</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Requisition Functions&nbsp;</td>
+         <td>PORQNG&nbsp;</td>
+         <td><a href="PO0760.HTM" title="Requisitions">PO0760</a>, <a href="PO0750.HTM" title="Requisition Comments">PO0750</a>, <a href="PO0770.HTM" title="Requisition Lines">PO0770</a>, <a href="PO0777.HTM" title="Requisition Vendors">PO0777</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0760.HTM" title="View: Requisitions">PO0760</a>&nbsp;</td>
+         <td><a href="PORQNH1.HTM" title="Table: Requisitions">PORQNH1</a>&nbsp;<br /><a href="PORQNH2.HTM" title="Table: Requisitions">PORQNH2</a>&nbsp;</td>
+         <td style="white-space: nowrap">Requisitions&nbsp;</td>
+         <td>PORQNH&nbsp;</td>
+         <td><a href="PO0750.HTM" title="Requisition Comments">PO0750</a>, <a href="PO0770.HTM" title="Requisition Lines">PO0770</a>, <a href="PO0759.HTM" title="Requisition Functions">PO0759</a>, <a href="PO0763.HTM" title="Requisition Header Opt. Fields">PO0763</a>, <a href="PO0777.HTM" title="Requisition Vendors">PO0777</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0763.HTM" title="View: Requisition Header Opt. Fields">PO0763</a>&nbsp;</td>
+         <td><a href="PORQNHO.HTM" title="Table: Requisition Header Opt. Fields">PORQNHO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Requisition Header Opt. Fields&nbsp;</td>
+         <td>PORQNHO&nbsp;</td>
+         <td><a href="PO0760.HTM" title="Requisitions">PO0760</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0770.HTM" title="View: Requisition Lines">PO0770</a>&nbsp;</td>
+         <td><a href="PORQNL.HTM" title="Table: Requisition Lines">PORQNL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Requisition Lines&nbsp;</td>
+         <td>PORQNL&nbsp;</td>
+         <td><a href="PO0760.HTM" title="Requisitions">PO0760</a>, <a href="PO0750.HTM" title="Requisition Comments">PO0750</a>, <a href="PO0759.HTM" title="Requisition Functions">PO0759</a>, <a href="PO0773.HTM" title="Requisition Detail Opt. Fields">PO0773</a>, <a href="PO0777.HTM" title="Requisition Vendors">PO0777</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0773.HTM" title="View: Requisition Detail Opt. Fields">PO0773</a>&nbsp;</td>
+         <td><a href="PORQNLO.HTM" title="Table: Requisition Detail Opt. Fields">PORQNLO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Requisition Detail Opt. Fields&nbsp;</td>
+         <td>PORQNLO&nbsp;</td>
+         <td><a href="PO0770.HTM" title="Requisition Lines">PO0770</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0777.HTM" title="View: Requisition Vendors">PO0777</a>&nbsp;</td>
+         <td><a href="PORQNLV.HTM" title="Table: Requisition Vendors">PORQNLV</a>&nbsp;</td>
+         <td style="white-space: nowrap">Requisition Vendors&nbsp;</td>
+         <td>PORQNLV&nbsp;</td>
+         <td><a href="PO0760.HTM" title="Requisitions">PO0760</a>, <a href="PO0759.HTM" title="Requisition Functions">PO0759</a>, <a href="PO0770.HTM" title="Requisition Lines">PO0770</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0780.HTM" title="View: Receipt Line Serials">PO0780</a>&nbsp;</td>
+         <td><a href="PORCPLS.HTM" title="Table: Receipt Line Serials">PORCPLS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Line Serials&nbsp;</td>
+         <td>PORCPLS&nbsp;</td>
+         <td><a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0711.HTM" title="Receipt Posting Lines">PO0711</a>, <a href="PO0788.HTM" title="Receipt Posting Lines Serials">PO0788</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0781.HTM" title="View: Receipt Posting Lines Lots">PO0781</a>&nbsp;</td>
+         <td><a href="PORCPML.HTM" title="Table: Receipt Posting Lines Lots">PORCPML</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Posting Lines Lots&nbsp;</td>
+         <td>PORCPML&nbsp;</td>
+         <td><a href="PO0701.HTM" title="Receipt Postings">PO0701</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0785.HTM" title="View: Restart">PO0785</a>&nbsp;</td>
+         <td><a href="PORSTRT.HTM" title="Table: Restart">PORSTRT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Restart&nbsp;</td>
+         <td>PORSTRT&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0788.HTM" title="View: Receipt Posting Lines Serials">PO0788</a>&nbsp;</td>
+         <td><a href="PORCPMS.HTM" title="Table: Receipt Posting Lines Serials">PORCPMS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Posting Lines Serials&nbsp;</td>
+         <td>PORCPMS&nbsp;</td>
+         <td><a href="PO0701.HTM" title="Receipt Postings">PO0701</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0789.HTM" title="View: Receipt Line Lots">PO0789</a>&nbsp;</td>
+         <td><a href="PORCPLL.HTM" title="Table: Receipt Line Lots">PORCPLL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Receipt Line Lots&nbsp;</td>
+         <td>PORCPLL&nbsp;</td>
+         <td><a href="PO0710.HTM" title="Receipt Lines">PO0710</a>, <a href="PO0711.HTM" title="Receipt Posting Lines">PO0711</a>, <a href="PO0781.HTM" title="Receipt Posting Lines Lots">PO0781</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0790.HTM" title="View: Return Line Serials">PO0790</a>&nbsp;</td>
+         <td><a href="PORETLS.HTM" title="Table: Return Line Serials">PORETLS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Line Serials&nbsp;</td>
+         <td>PORETLS&nbsp;</td>
+         <td><a href="PO0735.HTM" title="Return Lines">PO0735</a>, <a href="PO0736.HTM" title="Return Posting Lines">PO0736</a>, <a href="PO0791.HTM" title="Return Posting Lines Serials">PO0791</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0791.HTM" title="View: Return Posting Lines Serials">PO0791</a>&nbsp;</td>
+         <td><a href="PORETMS.HTM" title="Table: Return Posting Lines Serials">PORETMS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Posting Lines Serials&nbsp;</td>
+         <td>PORETMS&nbsp;</td>
+         <td><a href="PO0732.HTM" title="Return Postings">PO0732</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0798.HTM" title="View: Return Posting Lines Lots">PO0798</a>&nbsp;</td>
+         <td><a href="PORETML.HTM" title="Table: Return Posting Lines Lots">PORETML</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Posting Lines Lots&nbsp;</td>
+         <td>PORETML&nbsp;</td>
+         <td><a href="PO0732.HTM" title="Return Postings">PO0732</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0799.HTM" title="View: Return Line Lots">PO0799</a>&nbsp;</td>
+         <td><a href="PORETLL.HTM" title="Table: Return Line Lots">PORETLL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Line Lots&nbsp;</td>
+         <td>PORETLL&nbsp;</td>
+         <td><a href="PO0735.HTM" title="Return Lines">PO0735</a>, <a href="PO0736.HTM" title="Return Posting Lines">PO0736</a>, <a href="PO0798.HTM" title="Return Posting Lines Lots">PO0798</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0800.HTM" title="View: Statistics">PO0800</a>&nbsp;</td>
+         <td><a href="POSTTL.HTM" title="Table: Statistics">POSTTL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Statistics&nbsp;</td>
+         <td>POSTTL&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0810.HTM" title="View: Invoice Line Serials">PO0810</a>&nbsp;</td>
+         <td><a href="POINVLS.HTM" title="Table: Invoice Line Serials">POINVLS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Line Serials&nbsp;</td>
+         <td>POINVLS&nbsp;</td>
+         <td><a href="PO0430.HTM" title="Invoice Lines">PO0430</a>, <a href="PO0431.HTM" title="Invoice Posting Lines">PO0431</a>, <a href="PO0811.HTM" title="Invoice Posting Lines Serials">PO0811</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0811.HTM" title="View: Invoice Posting Lines Serials">PO0811</a>&nbsp;</td>
+         <td><a href="POINVMS.HTM" title="Table: Invoice Posting Lines Serials">POINVMS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Posting Lines Serials&nbsp;</td>
+         <td>POINVMS&nbsp;</td>
+         <td><a href="PO0421.HTM" title="Invoice Postings">PO0421</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0818.HTM" title="View: Invoice Posting Lines Lots">PO0818</a>&nbsp;</td>
+         <td><a href="POINVML.HTM" title="Table: Invoice Posting Lines Lots">POINVML</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Posting Lines Lots&nbsp;</td>
+         <td>POINVML&nbsp;</td>
+         <td><a href="PO0421.HTM" title="Invoice Postings">PO0421</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0819.HTM" title="View: Invoice Line Lots">PO0819</a>&nbsp;</td>
+         <td><a href="POINVLL.HTM" title="Table: Invoice Line Lots">POINVLL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Line Lots&nbsp;</td>
+         <td>POINVLL&nbsp;</td>
+         <td><a href="PO0430.HTM" title="Invoice Lines">PO0430</a>, <a href="PO0431.HTM" title="Invoice Posting Lines">PO0431</a>, <a href="PO0818.HTM" title="Invoice Posting Lines Lots">PO0818</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0820.HTM" title="View: Credit/Debit Note Line Serials">PO0820</a>&nbsp;</td>
+         <td><a href="POCRNLS.HTM" title="Table: Credit/Debit Note Line Serials">POCRNLS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Line Serials&nbsp;</td>
+         <td>POCRNLS&nbsp;</td>
+         <td><a href="PO0315.HTM" title="Credit/Debit Note Lines">PO0315</a>, <a href="PO0316.HTM" title="Credit/Debit Note Posting Lines">PO0316</a>, <a href="PO0821.HTM" title="Return Posting Lines Serials">PO0821</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0821.HTM" title="View: Return Posting Lines Serials">PO0821</a>&nbsp;</td>
+         <td><a href="POCRNMS.HTM" title="Table: Return Posting Lines Serials">POCRNMS</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Posting Lines Serials&nbsp;</td>
+         <td>POCRNMS&nbsp;</td>
+         <td><a href="PO0312.HTM" title="Credit/Debit Note Postings">PO0312</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0828.HTM" title="View: Return Posting Lines Lots">PO0828</a>&nbsp;</td>
+         <td><a href="POCRNML.HTM" title="Table: Return Posting Lines Lots">POCRNML</a>&nbsp;</td>
+         <td style="white-space: nowrap">Return Posting Lines Lots&nbsp;</td>
+         <td>POCRNML&nbsp;</td>
+         <td><a href="PO0312.HTM" title="Credit/Debit Note Postings">PO0312</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0829.HTM" title="View: Credit/Debit Note Line Lots">PO0829</a>&nbsp;</td>
+         <td><a href="POCRNLL.HTM" title="Table: Credit/Debit Note Line Lots">POCRNLL</a>&nbsp;</td>
+         <td style="white-space: nowrap">Credit/Debit Note Line Lots&nbsp;</td>
+         <td>POCRNLL&nbsp;</td>
+         <td><a href="PO0315.HTM" title="Credit/Debit Note Lines">PO0315</a>, <a href="PO0316.HTM" title="Credit/Debit Note Posting Lines">PO0316</a>, <a href="PO0828.HTM" title="Return Posting Lines Lots">PO0828</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0850.HTM" title="View: Purchase Orders Activation">PO0850</a>&nbsp;</td>
+         <td></td>
+         <td style="white-space: nowrap">Purchase Orders Activation&nbsp;</td>
+         <td>POUPGD&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0900.HTM" title="View: Ship-Via Addresses">PO0900</a>&nbsp;</td>
+         <td><a href="POVIA.HTM" title="Table: Ship-Via Addresses">POVIA</a>&nbsp;</td>
+         <td style="white-space: nowrap">Ship-Via Addresses&nbsp;</td>
+         <td>POVIA&nbsp;</td>
+         <td></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0980.HTM" title="View: Inventory Lot Numbers">PO0980</a>&nbsp;</td>
+         <td><a href="ICXLOT.HTM" title="Table: Inventory Lot Numbers">ICXLOT</a>&nbsp;</td>
+         <td style="white-space: nowrap">Inventory Lot Numbers&nbsp;</td>
+         <td>POXLOT&nbsp;</td>
+         <td><a href="IC0812.HTM" title="Lot Optional Fields">IC0812</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0981.HTM" title="View: Lot Optional Fields">PO0981</a>&nbsp;</td>
+         <td><a href="ICXLOTO.HTM" title="Table: Lot Optional Fields">ICXLOTO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Lot Optional Fields&nbsp;</td>
+         <td>POXLOTO&nbsp;</td>
+         <td><a href="IC0810.HTM" title="Inventory Lot Numbers">IC0810</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0982.HTM" title="View: Inventory Serial Numbers">PO0982</a>&nbsp;</td>
+         <td><a href="ICXSER.HTM" title="Table: Inventory Serial Numbers">ICXSER</a>&nbsp;</td>
+         <td style="white-space: nowrap">Inventory Serial Numbers&nbsp;</td>
+         <td>POXSER&nbsp;</td>
+         <td><a href="IC0832.HTM" title="Serial Optional Fields">IC0832</a></td>
+      </tr>
+      <tr align="left" valign="top">
+         <td><a href="PO0983.HTM" title="View: Serial Optional Fields">PO0983</a>&nbsp;</td>
+         <td><a href="ICXSERO.HTM" title="Table: Serial Optional Fields">ICXSERO</a>&nbsp;</td>
+         <td style="white-space: nowrap">Serial Optional Fields&nbsp;</td>
+         <td>POXSERO&nbsp;</td>
+         <td><a href="IC0830.HTM" title="Inventory Serial Numbers">IC0830</a></td>
+      </tr>
+      <tr><td colspan="5"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2 align="left"><a name="Tables">Tables: 169</a></h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Table&nbsp;</th>
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Title</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td><a href="POAAPC.HTM" title="Table: Payables Clearing Audit">POAAPC</a>&nbsp;</td>
+         <td><a href="PO0250.HTM" title="View: Payables Clearing Audit">PO0250</a>&nbsp;</td>
+         <td>Payables Clearing Audit</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POACD.HTM" title="Table: Additional Cost Taxes">POACD</a>&nbsp;</td>
+         <td><a href="PO0290.HTM" title="View: Additional Cost Taxes">PO0290</a>&nbsp;</td>
+         <td>Additional Cost Taxes</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POACST.HTM" title="Table: Additional Costs">POACST</a>&nbsp;</td>
+         <td><a href="PO0300.HTM" title="View: Additional Costs">PO0300</a>&nbsp;</td>
+         <td>Additional Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POACSTO.HTM" title="Table: Additional Cost Optional Fields">POACSTO</a>&nbsp;</td>
+         <td><a href="PO0299.HTM" title="View: Additional Cost Optional Fields">PO0299</a>&nbsp;</td>
+         <td>Additional Cost Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCOCA.HTM" title="Table: Committed Costs Audit">POCOCA</a>&nbsp;</td>
+         <td><a href="PO0293.HTM" title="View: Committed Costs Audit">PO0293</a>&nbsp;</td>
+         <td>Committed Costs Audit</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCOSTZ.HTM" title="Table: Generic Cost Data">POCOSTZ</a>&nbsp;</td>
+         <td><a href="PO0295.HTM" title="View: Generic Cost Data">PO0295</a>&nbsp;</td>
+         <td>Generic Cost Data</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRAHO.HTM" title="Table: CR/DR Note Audit Hdr. Opt. Flds">POCRAHO</a>&nbsp;</td>
+         <td><a href="PO0331.HTM" title="View: CR/DR Note Audit Hdr. Opt. Flds">PO0331</a>&nbsp;</td>
+         <td>CR/DR Note Audit Hdr. Opt. Flds</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRALO.HTM" title="Table: CR/DR Note Audit Line Opt. Flds">POCRALO</a>&nbsp;</td>
+         <td><a href="PO0332.HTM" title="View: CR/DR Note Audit Line Opt. Flds">PO0332</a>&nbsp;</td>
+         <td>CR/DR Note Audit Line Opt. Flds</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRASO.HTM" title="Table: CR/DR Note Audit Cost Opt. Flds">POCRASO</a>&nbsp;</td>
+         <td><a href="PO0333.HTM" title="View: CR/DR Note Audit Cost Opt. Flds">PO0333</a>&nbsp;</td>
+         <td>CR/DR Note Audit Cost Opt. Flds</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNAH.HTM" title="Table: Credit/Debit Note Audit Headers">POCRNAH</a>&nbsp;</td>
+         <td><a href="PO0304.HTM" title="View: Credit/Debit Note Audit Headers">PO0304</a>&nbsp;</td>
+         <td>Credit/Debit Note Audit Headers</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNAL.HTM" title="Table: Credit/Debit Note Audit Lines">POCRNAL</a>&nbsp;</td>
+         <td><a href="PO0305.HTM" title="View: Credit/Debit Note Audit Lines">PO0305</a>&nbsp;</td>
+         <td>Credit/Debit Note Audit Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNAQ.HTM" title="Table: CR/DR Note Audit Prorate Lines">POCRNAQ</a>&nbsp;</td>
+         <td><a href="PO0306.HTM" title="View: CR/DR Note Audit Prorate Lines">PO0306</a>&nbsp;</td>
+         <td>CR/DR Note Audit Prorate Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNAS.HTM" title="Table: CR/DR Note Audit Costs">POCRNAS</a>&nbsp;</td>
+         <td><a href="PO0307.HTM" title="View: CR/DR Note Audit Costs">PO0307</a>&nbsp;</td>
+         <td>CR/DR Note Audit Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNC.HTM" title="Table: Credit/Debit Note Comments">POCRNC</a>&nbsp;</td>
+         <td><a href="PO0309.HTM" title="View: Credit/Debit Note Comments">PO0309</a>&nbsp;</td>
+         <td>Credit/Debit Note Comments</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRND.HTM" title="Table: CR/DR Note Cost Distributions">POCRND</a>&nbsp;</td>
+         <td><a href="PO0326.HTM" title="View: CR/DR Note Cost Distributions">PO0326</a>&nbsp;</td>
+         <td>CR/DR Note Cost Distributions</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNE.HTM" title="Table: CR/DR Note Posting Cost Dists.">POCRNE</a>&nbsp;</td>
+         <td><a href="PO0327.HTM" title="View: CR/DR Note Posting Cost Dists.">PO0327</a>&nbsp;</td>
+         <td>CR/DR Note Posting Cost Dists.</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNF.HTM" title="Table: CR/DR Note Day-end Cost Dists.">POCRNF</a>&nbsp;</td>
+         <td><a href="PO0328.HTM" title="View: CR/DR Note Day-end Cost Dists.">PO0328</a>&nbsp;</td>
+         <td>CR/DR Note Day-end Cost Dists.</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNH1.HTM" title="Table: Credit/Debit Notes">POCRNH1</a>&nbsp;</td>
+         <td><a href="PO0311.HTM" title="View: Credit/Debit Notes">PO0311</a>&nbsp;</td>
+         <td>Credit/Debit Notes</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNH2.HTM" title="Table: Credit/Debit Notes">POCRNH2</a>&nbsp;</td>
+         <td><a href="PO0311.HTM" title="View: Credit/Debit Notes">PO0311</a>&nbsp;</td>
+         <td>Credit/Debit Notes</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNHO.HTM" title="Table: Credit/Debit Note Opt. Fields">POCRNHO</a>&nbsp;</td>
+         <td><a href="PO0314.HTM" title="View: Credit/Debit Note Opt. Fields">PO0314</a>&nbsp;</td>
+         <td>Credit/Debit Note Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNI.HTM" title="Table: Credit/Debit Note Postings">POCRNI</a>&nbsp;</td>
+         <td><a href="PO0312.HTM" title="View: Credit/Debit Note Postings">PO0312</a>&nbsp;</td>
+         <td>Credit/Debit Note Postings</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNJ.HTM" title="Table: Credit/Debit Note Day-ends">POCRNJ</a>&nbsp;</td>
+         <td><a href="PO0313.HTM" title="View: Credit/Debit Note Day-ends">PO0313</a>&nbsp;</td>
+         <td>Credit/Debit Note Day-ends</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNL.HTM" title="Table: Credit/Debit Note Lines">POCRNL</a>&nbsp;</td>
+         <td><a href="PO0315.HTM" title="View: Credit/Debit Note Lines">PO0315</a>&nbsp;</td>
+         <td>Credit/Debit Note Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNLL.HTM" title="Table: Credit/Debit Note Line Lots">POCRNLL</a>&nbsp;</td>
+         <td><a href="PO0829.HTM" title="View: Credit/Debit Note Line Lots">PO0829</a>&nbsp;</td>
+         <td>Credit/Debit Note Line Lots</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNLO.HTM" title="Table: CR/DR Note Line Optional Fields">POCRNLO</a>&nbsp;</td>
+         <td><a href="PO0318.HTM" title="View: CR/DR Note Line Optional Fields">PO0318</a>&nbsp;</td>
+         <td>CR/DR Note Line Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNLS.HTM" title="Table: Credit/Debit Note Line Serials">POCRNLS</a>&nbsp;</td>
+         <td><a href="PO0820.HTM" title="View: Credit/Debit Note Line Serials">PO0820</a>&nbsp;</td>
+         <td>Credit/Debit Note Line Serials</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNM.HTM" title="Table: Credit/Debit Note Posting Lines">POCRNM</a>&nbsp;</td>
+         <td><a href="PO0316.HTM" title="View: Credit/Debit Note Posting Lines">PO0316</a>&nbsp;</td>
+         <td>Credit/Debit Note Posting Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNML.HTM" title="Table: Return Posting Lines Lots">POCRNML</a>&nbsp;</td>
+         <td><a href="PO0828.HTM" title="View: Return Posting Lines Lots">PO0828</a>&nbsp;</td>
+         <td>Return Posting Lines Lots</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNMS.HTM" title="Table: Return Posting Lines Serials">POCRNMS</a>&nbsp;</td>
+         <td><a href="PO0821.HTM" title="View: Return Posting Lines Serials">PO0821</a>&nbsp;</td>
+         <td>Return Posting Lines Serials</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNN.HTM" title="Table: Credit/Debit Note Day-end Lines">POCRNN</a>&nbsp;</td>
+         <td><a href="PO0317.HTM" title="View: Credit/Debit Note Day-end Lines">PO0317</a>&nbsp;</td>
+         <td>Credit/Debit Note Day-end Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNS.HTM" title="Table: CR/DR Note Additional Costs">POCRNS</a>&nbsp;</td>
+         <td><a href="PO0320.HTM" title="View: CR/DR Note Additional Costs">PO0320</a>&nbsp;</td>
+         <td>CR/DR Note Additional Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNSO.HTM" title="Table: CR/DR Note Add. Cost Opt. Fields">POCRNSO</a>&nbsp;</td>
+         <td><a href="PO0323.HTM" title="View: CR/DR Note Add. Cost Opt. Fields">PO0323</a>&nbsp;</td>
+         <td>CR/DR Note Add. Cost Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNT.HTM" title="Table: CR/DR Note Posting Add. Costs">POCRNT</a>&nbsp;</td>
+         <td><a href="PO0321.HTM" title="View: CR/DR Note Posting Add. Costs">PO0321</a>&nbsp;</td>
+         <td>CR/DR Note Posting Add. Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POCRNU.HTM" title="Table: CR/DR Note Day-end Additional Costs">POCRNU</a>&nbsp;</td>
+         <td><a href="PO0322.HTM" title="View: CR/DR Note Day-end Additional Costs">PO0322</a>&nbsp;</td>
+         <td>CR/DR Note Day-end Additional Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PODISTZ.HTM" title="Table: Generic Distribution Data">PODISTZ</a>&nbsp;</td>
+         <td><a href="PO0337.HTM" title="View: Generic Distribution Data">PO0337</a>&nbsp;</td>
+         <td>Generic Distribution Data</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POGLREF.HTM" title="Table: G/L Reference Integration">POGLREF</a>&nbsp;</td>
+         <td><a href="PO0351.HTM" title="View: G/L Reference Integration">PO0351</a>&nbsp;</td>
+         <td>G/L Reference Integration</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POGNLOC.HTM" title="Table: Item Quantities on Hand">POGNLOC</a>&nbsp;</td>
+         <td><a href="PO0354.HTM" title="View: Item Quantities on Hand">PO0354</a>&nbsp;</td>
+         <td>Item Quantities on Hand</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POGNOE.HTM" title="Table: Create POs From O/E Orders by Vendor">POGNOE</a>&nbsp;</td>
+         <td><a href="PO0355.HTM" title="View: Create POs From O/E Orders by Vendor">PO0355</a>&nbsp;</td>
+         <td>Create POs From O/E Orders by Vendor</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POGNOEB.HTM" title="Table: Create POs From O/E Orders by Order">POGNOEB</a>&nbsp;</td>
+         <td><a href="PO0357.HTM" title="View: Create POs From O/E Orders by Order">PO0357</a>&nbsp;</td>
+         <td>Create POs From O/E Orders by Order</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POGNVD.HTM" title="Table: Create POs From Requisitions by Vendor">POGNVD</a>&nbsp;</td>
+         <td><a href="PO0361.HTM" title="View: Create POs From Requisitions by Vendor">PO0361</a>&nbsp;</td>
+         <td>Create POs From Requisitions by Vendor</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POHSTH.HTM" title="Table: Purchase History">POHSTH</a>&nbsp;</td>
+         <td><a href="PO0380.HTM" title="View: Purchase History">PO0380</a>&nbsp;</td>
+         <td>Purchase History</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POHSTL.HTM" title="Table: Purchase History Detail">POHSTL</a>&nbsp;</td>
+         <td><a href="PO0384.HTM" title="View: Purchase History Detail">PO0384</a>&nbsp;</td>
+         <td>Purchase History Detail</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINAHO.HTM" title="Table: Invoice Audit Hdr. Opt. Fields">POINAHO</a>&nbsp;</td>
+         <td><a href="PO0447.HTM" title="View: Invoice Audit Hdr. Opt. Fields">PO0447</a>&nbsp;</td>
+         <td>Invoice Audit Hdr. Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINALO.HTM" title="Table: Invoice Audit Line Opt. Fields">POINALO</a>&nbsp;</td>
+         <td><a href="PO0448.HTM" title="View: Invoice Audit Line Opt. Fields">PO0448</a>&nbsp;</td>
+         <td>Invoice Audit Line Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINASO.HTM" title="Table: Invoice Audit Cost Opt. Fields">POINASO</a>&nbsp;</td>
+         <td><a href="PO0449.HTM" title="View: Invoice Audit Cost Opt. Fields">PO0449</a>&nbsp;</td>
+         <td>Invoice Audit Cost Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVAH.HTM" title="Table: Invoice Audit Headers">POINVAH</a>&nbsp;</td>
+         <td><a href="PO0409.HTM" title="View: Invoice Audit Headers">PO0409</a>&nbsp;</td>
+         <td>Invoice Audit Headers</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVAL.HTM" title="Table: Invoice Audit Lines">POINVAL</a>&nbsp;</td>
+         <td><a href="PO0410.HTM" title="View: Invoice Audit Lines">PO0410</a>&nbsp;</td>
+         <td>Invoice Audit Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVAQ.HTM" title="Table: Invoice Audit Prorate Lines">POINVAQ</a>&nbsp;</td>
+         <td><a href="PO0411.HTM" title="View: Invoice Audit Prorate Lines">PO0411</a>&nbsp;</td>
+         <td>Invoice Audit Prorate Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVAS.HTM" title="Table: Invoice Audit Costs">POINVAS</a>&nbsp;</td>
+         <td><a href="PO0412.HTM" title="View: Invoice Audit Costs">PO0412</a>&nbsp;</td>
+         <td>Invoice Audit Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVC.HTM" title="Table: Invoice Comments">POINVC</a>&nbsp;</td>
+         <td><a href="PO0416.HTM" title="View: Invoice Comments">PO0416</a>&nbsp;</td>
+         <td>Invoice Comments</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVD.HTM" title="Table: Invoice Cost Distributions">POINVD</a>&nbsp;</td>
+         <td><a href="PO0415.HTM" title="View: Invoice Cost Distributions">PO0415</a>&nbsp;</td>
+         <td>Invoice Cost Distributions</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVE.HTM" title="Table: Invoice Posting Cost Distribs.">POINVE</a>&nbsp;</td>
+         <td><a href="PO0417.HTM" title="View: Invoice Posting Cost Distribs.">PO0417</a>&nbsp;</td>
+         <td>Invoice Posting Cost Distribs.</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVF.HTM" title="Table: Invoice Day-end Cost Distribs.">POINVF</a>&nbsp;</td>
+         <td><a href="PO0418.HTM" title="View: Invoice Day-end Cost Distribs.">PO0418</a>&nbsp;</td>
+         <td>Invoice Day-end Cost Distribs.</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVH1.HTM" title="Table: Invoices">POINVH1</a>&nbsp;</td>
+         <td><a href="PO0420.HTM" title="View: Invoices">PO0420</a>&nbsp;</td>
+         <td>Invoices</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVH2.HTM" title="Table: Invoices">POINVH2</a>&nbsp;</td>
+         <td><a href="PO0420.HTM" title="View: Invoices">PO0420</a>&nbsp;</td>
+         <td>Invoices</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVHO.HTM" title="Table: Invoice Optional Fields">POINVHO</a>&nbsp;</td>
+         <td><a href="PO0423.HTM" title="View: Invoice Optional Fields">PO0423</a>&nbsp;</td>
+         <td>Invoice Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVI.HTM" title="Table: Invoice Postings">POINVI</a>&nbsp;</td>
+         <td><a href="PO0421.HTM" title="View: Invoice Postings">PO0421</a>&nbsp;</td>
+         <td>Invoice Postings</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVJ.HTM" title="Table: Invoice Day-ends">POINVJ</a>&nbsp;</td>
+         <td><a href="PO0422.HTM" title="View: Invoice Day-ends">PO0422</a>&nbsp;</td>
+         <td>Invoice Day-ends</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVL.HTM" title="Table: Invoice Lines">POINVL</a>&nbsp;</td>
+         <td><a href="PO0430.HTM" title="View: Invoice Lines">PO0430</a>&nbsp;</td>
+         <td>Invoice Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVLL.HTM" title="Table: Invoice Line Lots">POINVLL</a>&nbsp;</td>
+         <td><a href="PO0819.HTM" title="View: Invoice Line Lots">PO0819</a>&nbsp;</td>
+         <td>Invoice Line Lots</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVLO.HTM" title="Table: Invoice Detail Optional Fields">POINVLO</a>&nbsp;</td>
+         <td><a href="PO0433.HTM" title="View: Invoice Detail Optional Fields">PO0433</a>&nbsp;</td>
+         <td>Invoice Detail Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVLS.HTM" title="Table: Invoice Line Serials">POINVLS</a>&nbsp;</td>
+         <td><a href="PO0810.HTM" title="View: Invoice Line Serials">PO0810</a>&nbsp;</td>
+         <td>Invoice Line Serials</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVM.HTM" title="Table: Invoice Posting Lines">POINVM</a>&nbsp;</td>
+         <td><a href="PO0431.HTM" title="View: Invoice Posting Lines">PO0431</a>&nbsp;</td>
+         <td>Invoice Posting Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVML.HTM" title="Table: Invoice Posting Lines Lots">POINVML</a>&nbsp;</td>
+         <td><a href="PO0818.HTM" title="View: Invoice Posting Lines Lots">PO0818</a>&nbsp;</td>
+         <td>Invoice Posting Lines Lots</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVMS.HTM" title="Table: Invoice Posting Lines Serials">POINVMS</a>&nbsp;</td>
+         <td><a href="PO0811.HTM" title="View: Invoice Posting Lines Serials">PO0811</a>&nbsp;</td>
+         <td>Invoice Posting Lines Serials</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVN.HTM" title="Table: Invoice Day-end Lines">POINVN</a>&nbsp;</td>
+         <td><a href="PO0432.HTM" title="View: Invoice Day-end Lines">PO0432</a>&nbsp;</td>
+         <td>Invoice Day-end Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVP.HTM" title="Table: Invoice Payment Schedules">POINVP</a>&nbsp;</td>
+         <td><a href="PO0436.HTM" title="View: Invoice Payment Schedules">PO0436</a>&nbsp;</td>
+         <td>Invoice Payment Schedules</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVR.HTM" title="Table: Invoice Receipts">POINVR</a>&nbsp;</td>
+         <td><a href="PO0438.HTM" title="View: Invoice Receipts">PO0438</a>&nbsp;</td>
+         <td>Invoice Receipts</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVS.HTM" title="Table: Invoice Additional Costs">POINVS</a>&nbsp;</td>
+         <td><a href="PO0440.HTM" title="View: Invoice Additional Costs">PO0440</a>&nbsp;</td>
+         <td>Invoice Additional Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVSO.HTM" title="Table: Invoice Add. Cost Opt. Fields">POINVSO</a>&nbsp;</td>
+         <td><a href="PO0443.HTM" title="View: Invoice Add. Cost Opt. Fields">PO0443</a>&nbsp;</td>
+         <td>Invoice Add. Cost Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVT.HTM" title="Table: Invoice Posting Cost Lines">POINVT</a>&nbsp;</td>
+         <td><a href="PO0441.HTM" title="View: Invoice Posting Cost Lines">PO0441</a>&nbsp;</td>
+         <td>Invoice Posting Cost Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POINVU.HTM" title="Table: Invoice Day-end Additional Costs">POINVU</a>&nbsp;</td>
+         <td><a href="PO0442.HTM" title="View: Invoice Day-end Additional Costs">PO0442</a>&nbsp;</td>
+         <td>Invoice Day-end Additional Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POLINEZ.HTM" title="Table: Generic Line Data">POLINEZ</a>&nbsp;</td>
+         <td><a href="PO0520.HTM" title="View: Generic Line Data">PO0520</a>&nbsp;</td>
+         <td>Generic Line Data</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POLOTZ.HTM" title="Table: Lot Prorate Data">POLOTZ</a>&nbsp;</td>
+         <td><a href="PO0522.HTM" title="View: Lot Prorate Data">PO0522</a>&nbsp;</td>
+         <td>Lot Prorate Data</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POMSG.HTM" title="Table: E-mail Messages">POMSG</a>&nbsp;</td>
+         <td><a href="PO0540.HTM" title="View: E-mail Messages">PO0540</a>&nbsp;</td>
+         <td>E-mail Messages</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POOFD.HTM" title="Table: P/O Optional Fields">POOFD</a>&nbsp;</td>
+         <td><a href="PO0580.HTM" title="View: P/O Optional Fields">PO0580</a>&nbsp;</td>
+         <td>P/O Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POOFH.HTM" title="Table: P/O Optional Field Locations">POOFH</a>&nbsp;</td>
+         <td><a href="PO0585.HTM" title="View: P/O Optional Field Locations">PO0585</a>&nbsp;</td>
+         <td>P/O Optional Field Locations</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POOPT.HTM" title="Table: Purchase Order Options">POOPT</a>&nbsp;</td>
+         <td><a href="PO0600.HTM" title="View: Purchase Order Options">PO0600</a>&nbsp;</td>
+         <td>Purchase Order Options</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPLAT.HTM" title="Table: Purchase Order Templates">POPLAT</a>&nbsp;</td>
+         <td><a href="PO0605.HTM" title="View: Purchase Order Templates">PO0605</a>&nbsp;</td>
+         <td>Purchase Order Templates</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPOAHO.HTM" title="Table: PO Audit Hdr. Optional Fields">POPOAHO</a>&nbsp;</td>
+         <td><a href="PO0611.HTM" title="View: PO Audit Hdr. Optional Fields">PO0611</a>&nbsp;</td>
+         <td>PO Audit Hdr. Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPOALO.HTM" title="Table: PO Audit Line Optional Fields">POPOALO</a>&nbsp;</td>
+         <td><a href="PO0613.HTM" title="View: PO Audit Line Optional Fields">PO0613</a>&nbsp;</td>
+         <td>PO Audit Line Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPOGH.HTM" title="Table: Create POs Header">POPOGH</a>&nbsp;</td>
+         <td><a href="PO0606.HTM" title="View: Create POs Header">PO0606</a>&nbsp;</td>
+         <td>Create POs Header</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPOGHO.HTM" title="Table: Create POs Header Opt. Fields">POPOGHO</a>&nbsp;</td>
+         <td><a href="PO0607.HTM" title="View: Create POs Header Opt. Fields">PO0607</a>&nbsp;</td>
+         <td>Create POs Header Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPOGL.HTM" title="Table: Create POs Detail">POPOGL</a>&nbsp;</td>
+         <td><a href="PO0608.HTM" title="View: Create POs Detail">PO0608</a>&nbsp;</td>
+         <td>Create POs Detail</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPOGLO.HTM" title="Table: Create POs Detail Opt. Fields">POPOGLO</a>&nbsp;</td>
+         <td><a href="PO0609.HTM" title="View: Create POs Detail Opt. Fields">PO0609</a>&nbsp;</td>
+         <td>Create POs Detail Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORAH.HTM" title="Table: Purchase Order Audit Headers">POPORAH</a>&nbsp;</td>
+         <td><a href="PO0612.HTM" title="View: Purchase Order Audit Headers">PO0612</a>&nbsp;</td>
+         <td>Purchase Order Audit Headers</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORAL.HTM" title="Table: Purchase Order Audit Lines">POPORAL</a>&nbsp;</td>
+         <td><a href="PO0614.HTM" title="View: Purchase Order Audit Lines">PO0614</a>&nbsp;</td>
+         <td>Purchase Order Audit Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORC.HTM" title="Table: Purchase Order Comments">POPORC</a>&nbsp;</td>
+         <td><a href="PO0610.HTM" title="View: Purchase Order Comments">PO0610</a>&nbsp;</td>
+         <td>Purchase Order Comments</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORH1.HTM" title="Table: Purchase Orders">POPORH1</a>&nbsp;</td>
+         <td><a href="PO0620.HTM" title="View: Purchase Orders">PO0620</a>&nbsp;</td>
+         <td>Purchase Orders</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORH2.HTM" title="Table: Purchase Orders">POPORH2</a>&nbsp;</td>
+         <td><a href="PO0620.HTM" title="View: Purchase Orders">PO0620</a>&nbsp;</td>
+         <td>Purchase Orders</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORHO.HTM" title="Table: Purchase Order Hdr Opt. Fields">POPORHO</a>&nbsp;</td>
+         <td><a href="PO0623.HTM" title="View: Purchase Order Hdr Opt. Fields">PO0623</a>&nbsp;</td>
+         <td>Purchase Order Hdr Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORI.HTM" title="Table: Purchase Order Postings">POPORI</a>&nbsp;</td>
+         <td><a href="PO0621.HTM" title="View: Purchase Order Postings">PO0621</a>&nbsp;</td>
+         <td>Purchase Order Postings</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORJ.HTM" title="Table: Purchase Order Day-ends">POPORJ</a>&nbsp;</td>
+         <td><a href="PO0622.HTM" title="View: Purchase Order Day-ends">PO0622</a>&nbsp;</td>
+         <td>Purchase Order Day-ends</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORL.HTM" title="Table: Purchase Order Lines">POPORL</a>&nbsp;</td>
+         <td><a href="PO0630.HTM" title="View: Purchase Order Lines">PO0630</a>&nbsp;</td>
+         <td>Purchase Order Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORLO.HTM" title="Table: Purchase Order Det. Opt. Fields">POPORLO</a>&nbsp;</td>
+         <td><a href="PO0633.HTM" title="View: Purchase Order Det. Opt. Fields">PO0633</a>&nbsp;</td>
+         <td>Purchase Order Det. Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORM.HTM" title="Table: Purchase Order Posting Lines">POPORM</a>&nbsp;</td>
+         <td><a href="PO0631.HTM" title="View: Purchase Order Posting Lines">PO0631</a>&nbsp;</td>
+         <td>Purchase Order Posting Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORN.HTM" title="Table: Purchase Order Day-end Lines">POPORN</a>&nbsp;</td>
+         <td><a href="PO0629.HTM" title="View: Purchase Order Day-end Lines">PO0629</a>&nbsp;</td>
+         <td>Purchase Order Day-end Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPORR.HTM" title="Table: Purchase Order Requisitions">POPORR</a>&nbsp;</td>
+         <td><a href="PO0632.HTM" title="View: Purchase Order Requisitions">PO0632</a>&nbsp;</td>
+         <td>Purchase Order Requisitions</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPRXC.HTM" title="Table: Line Cost Proration Details">POPRXC</a>&nbsp;</td>
+         <td><a href="PO0650.HTM" title="View: Line Cost Proration Details">PO0650</a>&nbsp;</td>
+         <td>Line Cost Proration Details</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPRXH.HTM" title="Table: Cost Proration Headers">POPRXH</a>&nbsp;</td>
+         <td><a href="PO0656.HTM" title="View: Cost Proration Headers">PO0656</a>&nbsp;</td>
+         <td>Cost Proration Headers</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPRXL.HTM" title="Table: Cost Proration Details">POPRXL</a>&nbsp;</td>
+         <td><a href="PO0658.HTM" title="View: Cost Proration Details">PO0658</a>&nbsp;</td>
+         <td>Cost Proration Details</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POPRXP.HTM" title="Table: Line Cost Proration Details">POPRXP</a>&nbsp;</td>
+         <td><a href="PO0660.HTM" title="View: Line Cost Proration Details">PO0660</a>&nbsp;</td>
+         <td>Line Cost Proration Details</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCAHO.HTM" title="Table: Receipt Audit Hdr. Opt. Fields">PORCAHO</a>&nbsp;</td>
+         <td><a href="PO0681.HTM" title="View: Receipt Audit Hdr. Opt. Fields">PO0681</a>&nbsp;</td>
+         <td>Receipt Audit Hdr. Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCALO.HTM" title="Table: Receipt Audit Line Opt. Fields">PORCALO</a>&nbsp;</td>
+         <td><a href="PO0682.HTM" title="View: Receipt Audit Line Opt. Fields">PO0682</a>&nbsp;</td>
+         <td>Receipt Audit Line Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCASO.HTM" title="Table: Receipt Audit Cost Opt. Fields">PORCASO</a>&nbsp;</td>
+         <td><a href="PO0683.HTM" title="View: Receipt Audit Cost Opt. Fields">PO0683</a>&nbsp;</td>
+         <td>Receipt Audit Cost Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPAH.HTM" title="Table: Receipt Audit Headers">PORCPAH</a>&nbsp;</td>
+         <td><a href="PO0686.HTM" title="View: Receipt Audit Headers">PO0686</a>&nbsp;</td>
+         <td>Receipt Audit Headers</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPAL.HTM" title="Table: Receipt Audit Lines">PORCPAL</a>&nbsp;</td>
+         <td><a href="PO0688.HTM" title="View: Receipt Audit Lines">PO0688</a>&nbsp;</td>
+         <td>Receipt Audit Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPAQ.HTM" title="Table: Receipt Audit Prorate Lines">PORCPAQ</a>&nbsp;</td>
+         <td><a href="PO0690.HTM" title="View: Receipt Audit Prorate Lines">PO0690</a>&nbsp;</td>
+         <td>Receipt Audit Prorate Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPAS.HTM" title="Table: Receipt Audit Costs">PORCPAS</a>&nbsp;</td>
+         <td><a href="PO0692.HTM" title="View: Receipt Audit Costs">PO0692</a>&nbsp;</td>
+         <td>Receipt Audit Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPC.HTM" title="Table: Receipt Comments">PORCPC</a>&nbsp;</td>
+         <td><a href="PO0695.HTM" title="View: Receipt Comments">PO0695</a>&nbsp;</td>
+         <td>Receipt Comments</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPD.HTM" title="Table: Receipt Cost Distributions">PORCPD</a>&nbsp;</td>
+         <td><a href="PO0696.HTM" title="View: Receipt Cost Distributions">PO0696</a>&nbsp;</td>
+         <td>Receipt Cost Distributions</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPE.HTM" title="Table: Receipt Posting Cost Distribs.">PORCPE</a>&nbsp;</td>
+         <td><a href="PO0697.HTM" title="View: Receipt Posting Cost Distribs.">PO0697</a>&nbsp;</td>
+         <td>Receipt Posting Cost Distribs.</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPF.HTM" title="Table: Receipt Day-end Cost Distribs.">PORCPF</a>&nbsp;</td>
+         <td><a href="PO0698.HTM" title="View: Receipt Day-end Cost Distribs.">PO0698</a>&nbsp;</td>
+         <td>Receipt Day-end Cost Distribs.</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPH1.HTM" title="Table: Receipts">PORCPH1</a>&nbsp;</td>
+         <td><a href="PO0700.HTM" title="View: Receipts">PO0700</a>&nbsp;</td>
+         <td>Receipts</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPH2.HTM" title="Table: Receipts">PORCPH2</a>&nbsp;</td>
+         <td><a href="PO0700.HTM" title="View: Receipts">PO0700</a>&nbsp;</td>
+         <td>Receipts</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPHO.HTM" title="Table: Receipt Optional Fields">PORCPHO</a>&nbsp;</td>
+         <td><a href="PO0703.HTM" title="View: Receipt Optional Fields">PO0703</a>&nbsp;</td>
+         <td>Receipt Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPI.HTM" title="Table: Receipt Postings">PORCPI</a>&nbsp;</td>
+         <td><a href="PO0701.HTM" title="View: Receipt Postings">PO0701</a>&nbsp;</td>
+         <td>Receipt Postings</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPJ.HTM" title="Table: Receipt Day-ends">PORCPJ</a>&nbsp;</td>
+         <td><a href="PO0702.HTM" title="View: Receipt Day-ends">PO0702</a>&nbsp;</td>
+         <td>Receipt Day-ends</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPL.HTM" title="Table: Receipt Lines">PORCPL</a>&nbsp;</td>
+         <td><a href="PO0710.HTM" title="View: Receipt Lines">PO0710</a>&nbsp;</td>
+         <td>Receipt Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPLF.HTM" title="Table: Receipt FAS Details">PORCPLF</a>&nbsp;</td>
+         <td><a href="PO0709.HTM" title="View: Receipt FAS Details">PO0709</a>&nbsp;</td>
+         <td>Receipt FAS Details</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPLL.HTM" title="Table: Receipt Line Lots">PORCPLL</a>&nbsp;</td>
+         <td><a href="PO0789.HTM" title="View: Receipt Line Lots">PO0789</a>&nbsp;</td>
+         <td>Receipt Line Lots</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPLO.HTM" title="Table: Receipt Detail Optional Fields">PORCPLO</a>&nbsp;</td>
+         <td><a href="PO0717.HTM" title="View: Receipt Detail Optional Fields">PO0717</a>&nbsp;</td>
+         <td>Receipt Detail Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPLS.HTM" title="Table: Receipt Line Serials">PORCPLS</a>&nbsp;</td>
+         <td><a href="PO0780.HTM" title="View: Receipt Line Serials">PO0780</a>&nbsp;</td>
+         <td>Receipt Line Serials</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPM.HTM" title="Table: Receipt Posting Lines">PORCPM</a>&nbsp;</td>
+         <td><a href="PO0711.HTM" title="View: Receipt Posting Lines">PO0711</a>&nbsp;</td>
+         <td>Receipt Posting Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPML.HTM" title="Table: Receipt Posting Lines Lots">PORCPML</a>&nbsp;</td>
+         <td><a href="PO0781.HTM" title="View: Receipt Posting Lines Lots">PO0781</a>&nbsp;</td>
+         <td>Receipt Posting Lines Lots</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPMS.HTM" title="Table: Receipt Posting Lines Serials">PORCPMS</a>&nbsp;</td>
+         <td><a href="PO0788.HTM" title="View: Receipt Posting Lines Serials">PO0788</a>&nbsp;</td>
+         <td>Receipt Posting Lines Serials</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPN.HTM" title="Table: Receipt Day-end Lines">PORCPN</a>&nbsp;</td>
+         <td><a href="PO0712.HTM" title="View: Receipt Day-end Lines">PO0712</a>&nbsp;</td>
+         <td>Receipt Day-end Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPR.HTM" title="Table: Receipt Purchase Orders">PORCPR</a>&nbsp;</td>
+         <td><a href="PO0705.HTM" title="View: Receipt Purchase Orders">PO0705</a>&nbsp;</td>
+         <td>Receipt Purchase Orders</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPS.HTM" title="Table: Receipt Additional Costs">PORCPS</a>&nbsp;</td>
+         <td><a href="PO0713.HTM" title="View: Receipt Additional Costs">PO0713</a>&nbsp;</td>
+         <td>Receipt Additional Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPSO.HTM" title="Table: Receipt Add. Cost Opt. Field">PORCPSO</a>&nbsp;</td>
+         <td><a href="PO0719.HTM" title="View: Receipt Add. Cost Opt. Field">PO0719</a>&nbsp;</td>
+         <td>Receipt Add. Cost Opt. Field</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPT.HTM" title="Table: Receipt Posting Additional Costs">PORCPT</a>&nbsp;</td>
+         <td><a href="PO0715.HTM" title="View: Receipt Posting Additional Costs">PO0715</a>&nbsp;</td>
+         <td>Receipt Posting Additional Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPU.HTM" title="Table: Receipt Day-end Additional Costs">PORCPU</a>&nbsp;</td>
+         <td><a href="PO0716.HTM" title="View: Receipt Day-end Additional Costs">PO0716</a>&nbsp;</td>
+         <td>Receipt Day-end Additional Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPV.HTM" title="Table: Receipt Vendors">PORCPV</a>&nbsp;</td>
+         <td><a href="PO0718.HTM" title="View: Receipt Vendors">PO0718</a>&nbsp;</td>
+         <td>Receipt Vendors</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORCPVO.HTM" title="Table: Receipt Vendors Optional Fields">PORCPVO</a>&nbsp;</td>
+         <td><a href="PO0721.HTM" title="View: Receipt Vendors Optional Fields">PO0721</a>&nbsp;</td>
+         <td>Receipt Vendors Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POREAHO.HTM" title="Table: Return Audit Hdr. Opt. Fields">POREAHO</a>&nbsp;</td>
+         <td><a href="PO0740.HTM" title="View: Return Audit Hdr. Opt. Fields">PO0740</a>&nbsp;</td>
+         <td>Return Audit Hdr. Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POREALO.HTM" title="Table: Return Audit Line Opt. Fields">POREALO</a>&nbsp;</td>
+         <td><a href="PO0741.HTM" title="View: Return Audit Line Opt. Fields">PO0741</a>&nbsp;</td>
+         <td>Return Audit Line Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETAH.HTM" title="Table: Return Audit Headers">PORETAH</a>&nbsp;</td>
+         <td><a href="PO0724.HTM" title="View: Return Audit Headers">PO0724</a>&nbsp;</td>
+         <td>Return Audit Headers</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETAL.HTM" title="Table: Return Audit Lines">PORETAL</a>&nbsp;</td>
+         <td><a href="PO0726.HTM" title="View: Return Audit Lines">PO0726</a>&nbsp;</td>
+         <td>Return Audit Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETAQ.HTM" title="Table: Return Audit Prorate Lines">PORETAQ</a>&nbsp;</td>
+         <td><a href="PO0727.HTM" title="View: Return Audit Prorate Lines">PO0727</a>&nbsp;</td>
+         <td>Return Audit Prorate Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETAS.HTM" title="Table: Return Audit Costs">PORETAS</a>&nbsp;</td>
+         <td><a href="PO0728.HTM" title="View: Return Audit Costs">PO0728</a>&nbsp;</td>
+         <td>Return Audit Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETC.HTM" title="Table: Return Comments">PORETC</a>&nbsp;</td>
+         <td><a href="PO0729.HTM" title="View: Return Comments">PO0729</a>&nbsp;</td>
+         <td>Return Comments</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETH1.HTM" title="Table: Returns">PORETH1</a>&nbsp;</td>
+         <td><a href="PO0731.HTM" title="View: Returns">PO0731</a>&nbsp;</td>
+         <td>Returns</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETH2.HTM" title="Table: Returns">PORETH2</a>&nbsp;</td>
+         <td><a href="PO0731.HTM" title="View: Returns">PO0731</a>&nbsp;</td>
+         <td>Returns</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETHO.HTM" title="Table: Return Optional Fields">PORETHO</a>&nbsp;</td>
+         <td><a href="PO0738.HTM" title="View: Return Optional Fields">PO0738</a>&nbsp;</td>
+         <td>Return Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETI.HTM" title="Table: Return Postings">PORETI</a>&nbsp;</td>
+         <td><a href="PO0732.HTM" title="View: Return Postings">PO0732</a>&nbsp;</td>
+         <td>Return Postings</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETJ.HTM" title="Table: Return Day-ends">PORETJ</a>&nbsp;</td>
+         <td><a href="PO0733.HTM" title="View: Return Day-ends">PO0733</a>&nbsp;</td>
+         <td>Return Day-ends</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETL.HTM" title="Table: Return Lines">PORETL</a>&nbsp;</td>
+         <td><a href="PO0735.HTM" title="View: Return Lines">PO0735</a>&nbsp;</td>
+         <td>Return Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETLL.HTM" title="Table: Return Line Lots">PORETLL</a>&nbsp;</td>
+         <td><a href="PO0799.HTM" title="View: Return Line Lots">PO0799</a>&nbsp;</td>
+         <td>Return Line Lots</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETLO.HTM" title="Table: Return Detail Optional Fields">PORETLO</a>&nbsp;</td>
+         <td><a href="PO0739.HTM" title="View: Return Detail Optional Fields">PO0739</a>&nbsp;</td>
+         <td>Return Detail Optional Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETLS.HTM" title="Table: Return Line Serials">PORETLS</a>&nbsp;</td>
+         <td><a href="PO0790.HTM" title="View: Return Line Serials">PO0790</a>&nbsp;</td>
+         <td>Return Line Serials</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETM.HTM" title="Table: Return Posting Lines">PORETM</a>&nbsp;</td>
+         <td><a href="PO0736.HTM" title="View: Return Posting Lines">PO0736</a>&nbsp;</td>
+         <td>Return Posting Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETML.HTM" title="Table: Return Posting Lines Lots">PORETML</a>&nbsp;</td>
+         <td><a href="PO0798.HTM" title="View: Return Posting Lines Lots">PO0798</a>&nbsp;</td>
+         <td>Return Posting Lines Lots</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETMS.HTM" title="Table: Return Posting Lines Serials">PORETMS</a>&nbsp;</td>
+         <td><a href="PO0791.HTM" title="View: Return Posting Lines Serials">PO0791</a>&nbsp;</td>
+         <td>Return Posting Lines Serials</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORETN.HTM" title="Table: Return Day-end Lines">PORETN</a>&nbsp;</td>
+         <td><a href="PO0734.HTM" title="View: Return Day-end Lines">PO0734</a>&nbsp;</td>
+         <td>Return Day-end Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORQNC.HTM" title="Table: Requisition Comments">PORQNC</a>&nbsp;</td>
+         <td><a href="PO0750.HTM" title="View: Requisition Comments">PO0750</a>&nbsp;</td>
+         <td>Requisition Comments</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORQNH1.HTM" title="Table: Requisitions">PORQNH1</a>&nbsp;</td>
+         <td><a href="PO0760.HTM" title="View: Requisitions">PO0760</a>&nbsp;</td>
+         <td>Requisitions</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORQNH2.HTM" title="Table: Requisitions">PORQNH2</a>&nbsp;</td>
+         <td><a href="PO0760.HTM" title="View: Requisitions">PO0760</a>&nbsp;</td>
+         <td>Requisitions</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORQNHO.HTM" title="Table: Requisition Header Opt. Fields">PORQNHO</a>&nbsp;</td>
+         <td><a href="PO0763.HTM" title="View: Requisition Header Opt. Fields">PO0763</a>&nbsp;</td>
+         <td>Requisition Header Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORQNL.HTM" title="Table: Requisition Lines">PORQNL</a>&nbsp;</td>
+         <td><a href="PO0770.HTM" title="View: Requisition Lines">PO0770</a>&nbsp;</td>
+         <td>Requisition Lines</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORQNLO.HTM" title="Table: Requisition Detail Opt. Fields">PORQNLO</a>&nbsp;</td>
+         <td><a href="PO0773.HTM" title="View: Requisition Detail Opt. Fields">PO0773</a>&nbsp;</td>
+         <td>Requisition Detail Opt. Fields</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORQNLV.HTM" title="Table: Requisition Vendors">PORQNLV</a>&nbsp;</td>
+         <td><a href="PO0777.HTM" title="View: Requisition Vendors">PO0777</a>&nbsp;</td>
+         <td>Requisition Vendors</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PORSTRT.HTM" title="Table: Restart">PORSTRT</a>&nbsp;</td>
+         <td><a href="PO0785.HTM" title="View: Restart">PO0785</a>&nbsp;</td>
+         <td>Restart</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POSERZ.HTM" title="Table: Serial Prorate Data">POSERZ</a>&nbsp;</td>
+         <td><a href="PO0526.HTM" title="View: Serial Prorate Data">PO0526</a>&nbsp;</td>
+         <td>Serial Prorate Data</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POSTTL.HTM" title="Table: Statistics">POSTTL</a>&nbsp;</td>
+         <td><a href="PO0800.HTM" title="View: Statistics">PO0800</a>&nbsp;</td>
+         <td>Statistics</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POVIA.HTM" title="Table: Ship-Via Addresses">POVIA</a>&nbsp;</td>
+         <td><a href="PO0900.HTM" title="View: Ship-Via Addresses">PO0900</a>&nbsp;</td>
+         <td>Ship-Via Addresses</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POVUMB.HTM" title="Table: Vendor Contract Cost Base Units">POVUMB</a>&nbsp;</td>
+         <td><a href="PO0191.HTM" title="View: Vendor Contract Cost Base Units">PO0191</a>&nbsp;</td>
+         <td>Vendor Contract Cost Base Units</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POVUMS.HTM" title="Table: Vendor Contract Cost Sale Units">POVUMS</a>&nbsp;</td>
+         <td><a href="PO0192.HTM" title="View: Vendor Contract Cost Sale Units">PO0192</a>&nbsp;</td>
+         <td>Vendor Contract Cost Sale Units</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POVUPR.HTM" title="Table: Vendor Contract Costs">POVUPR</a>&nbsp;</td>
+         <td><a href="PO0181.HTM" title="View: Vendor Contract Costs">PO0181</a>&nbsp;</td>
+         <td>Vendor Contract Costs</td>
+      </tr>
+      <tr align="left">
+         <td><a href="POVUTX.HTM" title="Table: Vendor Contract Included Taxes">POVUTX</a>&nbsp;</td>
+         <td><a href="PO0183.HTM" title="View: Vendor Contract Included Taxes">PO0183</a>&nbsp;</td>
+         <td>Vendor Contract Included Taxes</td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2 align="left"><a name="Objects">Objects: 39</a></h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Object&nbsp;</th>
+         <th class="aom">Protocol&nbsp;</th>
+         <th class="aom">Views</th>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left" valign="top">
+         <td>POAAPC&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="PO0250.HTM" title="View: Payables Clearing Audit">PO0250</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POACCT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="PO0100.HTM" title="View: Account Sets">PO0100</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POACST&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORD2" title="ORD2">ORD2</a>&nbsp;</td>
+         <td>
+            <a href="PO0300.HTM" title="View: Additional Costs">PO0300</a>,
+            <a href="PO0290.HTM" title="View: Additional Cost Taxes">PO0290</a>,
+            <a href="PO0299.HTM" title="View: Additional Cost Optional Fields">PO0299</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POCH&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="PO0302.HTM" title="View: PO Clear History Superview">PO0302</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POCOPR&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ7" title="SEQ7">SEQ7</a>&nbsp;</td>
+         <td>
+            <a href="PO0620.HTM" title="View: Purchase Orders">PO0620</a>,
+            <a href="PO0630.HTM" title="View: Purchase Order Lines">PO0630</a>,
+            <a href="PO0610.HTM" title="View: Purchase Order Comments">PO0610</a>,
+            <a href="PO0632.HTM" title="View: Purchase Order Requisitions">PO0632</a>,
+            <a href="PO0619.HTM" title="View: Purchase Order Functions">PO0619</a>,
+            <a href="PO0623.HTM" title="View: Purchase Order Hdr Opt. Fields">PO0623</a>,
+            <a href="PO0633.HTM" title="View: Purchase Order Det. Opt. Fields">PO0633</a>,
+            <a href="PO0294.HTM" title="View: Create Order from Existing Orders">PO0294</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POCRN&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ13" title="SEQ13">SEQ13</a>&nbsp;</td>
+         <td>
+            <a href="PO0311.HTM" title="View: Credit/Debit Notes">PO0311</a>,
+            <a href="PO0315.HTM" title="View: Credit/Debit Note Lines">PO0315</a>,
+            <a href="PO0309.HTM" title="View: Credit/Debit Note Comments">PO0309</a>,
+            <a href="PO0320.HTM" title="View: CR/DR Note Additional Costs">PO0320</a>,
+            <a href="PO0310.HTM" title="View: Credit/Debit Note Functions">PO0310</a>,
+            <a href="PO0325.HTM" title="View: CR/DR Add. Costs Superview">PO0325</a>,
+            <a href="PO0314.HTM" title="View: Credit/Debit Note Opt. Fields">PO0314</a>,
+            <a href="PO0318.HTM" title="View: CR/DR Note Line Optional Fields">PO0318</a>,
+            <a href="PO0323.HTM" title="View: CR/DR Note Add. Cost Opt. Fields">PO0323</a>,
+            <a href="PO0327.HTM" title="View: CR/DR Note Posting Cost Dists.">PO0327</a>,
+            <a href="PO0326.HTM" title="View: CR/DR Note Cost Distributions">PO0326</a>,
+            <a href="PO0319.HTM" title="View: CR/DR Note Distribute Proration">PO0319</a>,
+            <a href="PO0829.HTM" title="View: Credit/Debit Note Line Lots">PO0829</a>,
+            <a href="PO0820.HTM" title="View: Credit/Debit Note Line Serials">PO0820</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POCRNIE&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ9" title="SEQ9">SEQ9</a>&nbsp;</td>
+         <td>
+            <a href="PO0311.HTM" title="View: Credit/Debit Notes">PO0311</a>,
+            <a href="PO0315.HTM" title="View: Credit/Debit Note Lines">PO0315</a>,
+            <a href="PO0309.HTM" title="View: Credit/Debit Note Comments">PO0309</a>,
+            <a href="PO0320.HTM" title="View: CR/DR Note Additional Costs">PO0320</a>,
+            <a href="PO0314.HTM" title="View: Credit/Debit Note Opt. Fields">PO0314</a>,
+            <a href="PO0318.HTM" title="View: CR/DR Note Line Optional Fields">PO0318</a>,
+            <a href="PO0323.HTM" title="View: CR/DR Note Add. Cost Opt. Fields">PO0323</a>,
+            <a href="PO0326.HTM" title="View: CR/DR Note Cost Distributions">PO0326</a>,
+            <a href="PO0829.HTM" title="View: Credit/Debit Note Line Lots">PO0829</a>,
+            <a href="PO0820.HTM" title="View: Credit/Debit Note Line Serials">PO0820</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POGENIC&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="PO0350.HTM" title="View: Create POs From I/C">PO0350</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POGENOE&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="PO0352.HTM" title="View: Create POs From O/E">PO0352</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POGLREF&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SET" title="SET">SET</a>&nbsp;</td>
+         <td>
+            <a href="PO0351.HTM" title="View: G/L Reference Integration">PO0351</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POGLTR&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="PO0353.HTM" title="View: Create Batch">PO0353</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POGNRQN&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="PO0359.HTM" title="View: Create POs From Requisitions">PO0359</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POHIST&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORDERED" title="ORDERED">ORDERED</a>&nbsp;</td>
+         <td>
+            <a href="PO0380.HTM" title="View: Purchase History">PO0380</a>,
+            <a href="PO0384.HTM" title="View: Purchase History Detail">PO0384</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POINTCK&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="PO0407.HTM" title="View: Integrity Checker">PO0407</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POINV&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ15" title="SEQ15">SEQ15</a>&nbsp;</td>
+         <td>
+            <a href="PO0420.HTM" title="View: Invoices">PO0420</a>,
+            <a href="PO0430.HTM" title="View: Invoice Lines">PO0430</a>,
+            <a href="PO0416.HTM" title="View: Invoice Comments">PO0416</a>,
+            <a href="PO0440.HTM" title="View: Invoice Additional Costs">PO0440</a>,
+            <a href="PO0436.HTM" title="View: Invoice Payment Schedules">PO0436</a>,
+            <a href="PO0419.HTM" title="View: Invoice Functions">PO0419</a>,
+            <a href="PO0438.HTM" title="View: Invoice Receipts">PO0438</a>,
+            <a href="PO0444.HTM" title="View: Inv. Add. Costs Superview">PO0444</a>,
+            <a href="PO0423.HTM" title="View: Invoice Optional Fields">PO0423</a>,
+            <a href="PO0433.HTM" title="View: Invoice Detail Optional Fields">PO0433</a>,
+            <a href="PO0443.HTM" title="View: Invoice Add. Cost Opt. Fields">PO0443</a>,
+            <a href="PO0417.HTM" title="View: Invoice Posting Cost Distribs.">PO0417</a>,
+            <a href="PO0415.HTM" title="View: Invoice Cost Distributions">PO0415</a>,
+            <a href="PO0424.HTM" title="View: Invoice Distribute Proration">PO0424</a>,
+            <a href="PO0819.HTM" title="View: Invoice Line Lots">PO0819</a>,
+            <a href="PO0810.HTM" title="View: Invoice Line Serials">PO0810</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POINVIE&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ11" title="SEQ11">SEQ11</a>&nbsp;</td>
+         <td>
+            <a href="PO0420.HTM" title="View: Invoices">PO0420</a>,
+            <a href="PO0430.HTM" title="View: Invoice Lines">PO0430</a>,
+            <a href="PO0416.HTM" title="View: Invoice Comments">PO0416</a>,
+            <a href="PO0440.HTM" title="View: Invoice Additional Costs">PO0440</a>,
+            <a href="PO0436.HTM" title="View: Invoice Payment Schedules">PO0436</a>,
+            <a href="PO0438.HTM" title="View: Invoice Receipts">PO0438</a>,
+            <a href="PO0423.HTM" title="View: Invoice Optional Fields">PO0423</a>,
+            <a href="PO0433.HTM" title="View: Invoice Detail Optional Fields">PO0433</a>,
+            <a href="PO0443.HTM" title="View: Invoice Add. Cost Opt. Fields">PO0443</a>,
+            <a href="PO0415.HTM" title="View: Invoice Cost Distributions">PO0415</a>,
+            <a href="PO0819.HTM" title="View: Invoice Line Lots">PO0819</a>,
+            <a href="PO0810.HTM" title="View: Invoice Line Serials">PO0810</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POITEM&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORD3" title="ORD3">ORD3</a>&nbsp;</td>
+         <td>
+            <a href="PO0124.HTM" title="View: Items">PO0124</a>,
+            <a href="PO0178.HTM" title="View: Units of Measure">PO0178</a>,
+            <a href="PO0133.HTM" title="View: Item Tax Authorities">PO0133</a>,
+            <a href="PO0125.HTM" title="View: Item Optional Fields">PO0125</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POITMV&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORDERED" title="ORDERED">ORDERED</a>&nbsp;</td>
+         <td>
+            <a href="PO0124.HTM" title="View: Items">PO0124</a>,
+            <a href="PO0136.HTM" title="View: Vendor Item Numbers">PO0136</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POLBLS&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="PO0500.HTM" title="View: Mailing Labels">PO0500</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POMSG&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="PO0540.HTM" title="View: E-mail Messages">PO0540</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POOPT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="PO0600.HTM" title="View: Purchase Order Options">PO0600</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POOPTFLDS&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORDERED" title="ORDERED">ORDERED</a>&nbsp;</td>
+         <td>
+            <a href="PO0585.HTM" title="View: P/O Optional Field Locations">PO0585</a>,
+            <a href="PO0580.HTM" title="View: P/O Optional Fields">PO0580</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POPLAT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="PO0605.HTM" title="View: Purchase Order Templates">PO0605</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POPOG&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORD3" title="ORD3">ORD3</a>&nbsp;</td>
+         <td>
+            <a href="PO0606.HTM" title="View: Create POs Header">PO0606</a>,
+            <a href="PO0608.HTM" title="View: Create POs Detail">PO0608</a>,
+            <a href="PO0607.HTM" title="View: Create POs Header Opt. Fields">PO0607</a>,
+            <a href="PO0609.HTM" title="View: Create POs Detail Opt. Fields">PO0609</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POPOR&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ6" title="SEQ6">SEQ6</a>&nbsp;</td>
+         <td>
+            <a href="PO0620.HTM" title="View: Purchase Orders">PO0620</a>,
+            <a href="PO0630.HTM" title="View: Purchase Order Lines">PO0630</a>,
+            <a href="PO0610.HTM" title="View: Purchase Order Comments">PO0610</a>,
+            <a href="PO0632.HTM" title="View: Purchase Order Requisitions">PO0632</a>,
+            <a href="PO0619.HTM" title="View: Purchase Order Functions">PO0619</a>,
+            <a href="PO0623.HTM" title="View: Purchase Order Hdr Opt. Fields">PO0623</a>,
+            <a href="PO0633.HTM" title="View: Purchase Order Det. Opt. Fields">PO0633</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POPORIE&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ5" title="SEQ5">SEQ5</a>&nbsp;</td>
+         <td>
+            <a href="PO0620.HTM" title="View: Purchase Orders">PO0620</a>,
+            <a href="PO0630.HTM" title="View: Purchase Order Lines">PO0630</a>,
+            <a href="PO0610.HTM" title="View: Purchase Order Comments">PO0610</a>,
+            <a href="PO0632.HTM" title="View: Purchase Order Requisitions">PO0632</a>,
+            <a href="PO0623.HTM" title="View: Purchase Order Hdr Opt. Fields">PO0623</a>,
+            <a href="PO0633.HTM" title="View: Purchase Order Det. Opt. Fields">PO0633</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POPRNT&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="PO0640.HTM" title="View: Mark Documents Printed">PO0640</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>PORCP&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ15" title="SEQ15">SEQ15</a>&nbsp;</td>
+         <td>
+            <a href="PO0700.HTM" title="View: Receipts">PO0700</a>,
+            <a href="PO0710.HTM" title="View: Receipt Lines">PO0710</a>,
+            <a href="PO0695.HTM" title="View: Receipt Comments">PO0695</a>,
+            <a href="PO0718.HTM" title="View: Receipt Vendors">PO0718</a>,
+            <a href="PO0714.HTM" title="View: Receipt Additional Costs">PO0714</a>,
+            <a href="PO0699.HTM" title="View: Receipt Functions">PO0699</a>,
+            <a href="PO0705.HTM" title="View: Receipt Purchase Orders">PO0705</a>,
+            <a href="PO0703.HTM" title="View: Receipt Optional Fields">PO0703</a>,
+            <a href="PO0696.HTM" title="View: Receipt Cost Distributions">PO0696</a>,
+            <a href="PO0717.HTM" title="View: Receipt Detail Optional Fields">PO0717</a>,
+            <a href="PO0721.HTM" title="View: Receipt Vendors Optional Fields">PO0721</a>,
+            <a href="PO0719.HTM" title="View: Receipt Add. Cost Opt. Field">PO0719</a>,
+            <a href="PO0697.HTM" title="View: Receipt Posting Cost Distribs.">PO0697</a>,
+            <a href="PO0704.HTM" title="View: Receipt Distribute Proration">PO0704</a>,
+            <a href="PO0789.HTM" title="View: Receipt Line Lots">PO0789</a>,
+            <a href="PO0780.HTM" title="View: Receipt Line Serials">PO0780</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>PORCPIE&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ11" title="SEQ11">SEQ11</a>&nbsp;</td>
+         <td>
+            <a href="PO0700.HTM" title="View: Receipts">PO0700</a>,
+            <a href="PO0710.HTM" title="View: Receipt Lines">PO0710</a>,
+            <a href="PO0695.HTM" title="View: Receipt Comments">PO0695</a>,
+            <a href="PO0718.HTM" title="View: Receipt Vendors">PO0718</a>,
+            <a href="PO0714.HTM" title="View: Receipt Additional Costs">PO0714</a>,
+            <a href="PO0703.HTM" title="View: Receipt Optional Fields">PO0703</a>,
+            <a href="PO0696.HTM" title="View: Receipt Cost Distributions">PO0696</a>,
+            <a href="PO0717.HTM" title="View: Receipt Detail Optional Fields">PO0717</a>,
+            <a href="PO0721.HTM" title="View: Receipt Vendors Optional Fields">PO0721</a>,
+            <a href="PO0719.HTM" title="View: Receipt Add. Cost Opt. Field">PO0719</a>,
+            <a href="PO0789.HTM" title="View: Receipt Line Lots">PO0789</a>,
+            <a href="PO0780.HTM" title="View: Receipt Line Serials">PO0780</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>PORCPIEPO&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ11" title="SEQ11">SEQ11</a>&nbsp;</td>
+         <td>
+            <a href="PO0462.HTM" title="View: Receipts">PO0462</a>,
+            <a href="PO0464.HTM" title="View: Receipt Lines">PO0464</a>,
+            <a href="PO0460.HTM" title="View: Receipt Comments">PO0460</a>,
+            <a href="PO0468.HTM" title="View: Receipt Vendors">PO0468</a>,
+            <a href="PO0466.HTM" title="View: Receipt Additional Costs">PO0466</a>,
+            <a href="PO0455.HTM" title="View: Receipt Optional Fields">PO0455</a>,
+            <a href="PO0461.HTM" title="View: Receipt Cost Distributions">PO0461</a>,
+            <a href="PO0456.HTM" title="View: Receipt Detail Optional Fields">PO0456</a>,
+            <a href="PO0457.HTM" title="View: Receipt Add. Cost Opt. Field">PO0457</a>,
+            <a href="PO0458.HTM" title="View: Receipt Vendors Optional Fields">PO0458</a>,
+            <a href="PO0463.HTM" title="View: Receipt Line Lots">PO0463</a>,
+            <a href="PO0465.HTM" title="View: Receipt Line Serials">PO0465</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>PORCPPI&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SUPER" title="SUPER">SUPER</a>&nbsp;</td>
+         <td>
+            <a href="PO0722.HTM" title="View: Pending Receipts">PO0722</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>PORET&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ7" title="SEQ7">SEQ7</a>&nbsp;</td>
+         <td>
+            <a href="PO0731.HTM" title="View: Returns">PO0731</a>,
+            <a href="PO0735.HTM" title="View: Return Lines">PO0735</a>,
+            <a href="PO0729.HTM" title="View: Return Comments">PO0729</a>,
+            <a href="PO0730.HTM" title="View: Return Functions">PO0730</a>,
+            <a href="PO0738.HTM" title="View: Return Optional Fields">PO0738</a>,
+            <a href="PO0739.HTM" title="View: Return Detail Optional Fields">PO0739</a>,
+            <a href="PO0799.HTM" title="View: Return Line Lots">PO0799</a>,
+            <a href="PO0790.HTM" title="View: Return Line Serials">PO0790</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>PORETIE&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ6" title="SEQ6">SEQ6</a>&nbsp;</td>
+         <td>
+            <a href="PO0731.HTM" title="View: Returns">PO0731</a>,
+            <a href="PO0735.HTM" title="View: Return Lines">PO0735</a>,
+            <a href="PO0729.HTM" title="View: Return Comments">PO0729</a>,
+            <a href="PO0738.HTM" title="View: Return Optional Fields">PO0738</a>,
+            <a href="PO0739.HTM" title="View: Return Detail Optional Fields">PO0739</a>,
+            <a href="PO0799.HTM" title="View: Return Line Lots">PO0799</a>,
+            <a href="PO0790.HTM" title="View: Return Line Serials">PO0790</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>PORQN&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ6" title="SEQ6">SEQ6</a>&nbsp;</td>
+         <td>
+            <a href="PO0760.HTM" title="View: Requisitions">PO0760</a>,
+            <a href="PO0770.HTM" title="View: Requisition Lines">PO0770</a>,
+            <a href="PO0750.HTM" title="View: Requisition Comments">PO0750</a>,
+            <a href="PO0759.HTM" title="View: Requisition Functions">PO0759</a>,
+            <a href="PO0763.HTM" title="View: Requisition Header Opt. Fields">PO0763</a>,
+            <a href="PO0773.HTM" title="View: Requisition Detail Opt. Fields">PO0773</a>,
+            <a href="PO0777.HTM" title="View: Requisition Vendors">PO0777</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>PORQNIE&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_SEQ5" title="SEQ5">SEQ5</a>&nbsp;</td>
+         <td>
+            <a href="PO0760.HTM" title="View: Requisitions">PO0760</a>,
+            <a href="PO0770.HTM" title="View: Requisition Lines">PO0770</a>,
+            <a href="PO0750.HTM" title="View: Requisition Comments">PO0750</a>,
+            <a href="PO0763.HTM" title="View: Requisition Header Opt. Fields">PO0763</a>,
+            <a href="PO0773.HTM" title="View: Requisition Detail Opt. Fields">PO0773</a>,
+            <a href="PO0777.HTM" title="View: Requisition Vendors">PO0777</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POSTTL&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="PO0800.HTM" title="View: Statistics">PO0800</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POVIA&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="PO0900.HTM" title="View: Ship-Via Addresses">PO0900</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POVUP&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_ORD3" title="ORD3">ORD3</a>&nbsp;</td>
+         <td>
+            <a href="PO0181.HTM" title="View: Vendor Contract Costs">PO0181</a>,
+            <a href="PO0191.HTM" title="View: Vendor Contract Cost Base Units">PO0191</a>,
+            <a href="PO0192.HTM" title="View: Vendor Contract Cost Sale Units">PO0192</a>,
+            <a href="PO0183.HTM" title="View: Vendor Contract Included Taxes">PO0183</a>
+         </td>
+      </tr>
+      <tr align="left" valign="top">
+         <td>POWCOD&nbsp;</td>
+         <td><a href="EndNotes.HTM#Protocol_FLAT" title="FLAT">FLAT</a>&nbsp;</td>
+         <td>
+            <a href="PO0185.HTM" title="View: Weight Units of Measure">PO0185</a>
+         </td>
+      </tr>
+      <tr><td colspan="3"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

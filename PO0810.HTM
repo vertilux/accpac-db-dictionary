@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="PO PO0810 POINVLS POINVLS" />
+<title>Invoice Line Serials</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Invoice Line Serials</h1>
+<b>RotoID:</b> PO0810<br />
+<b>Table:</b> <a href="POINVLS.HTM" title="Table: Invoice Line Serials">POINVLS</a><br />
+<b>Protocol:</b> Detail, Ordered revisions<br />
+<b>DLL:</b> POINVLS
+<h2>Compositions: 3</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">RotoID&nbsp;</th>
+         <th class="aom">Tables&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">DLL&nbsp;</th>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr align="left">
+         <td><a href="PO0430.HTM" title="View: Invoice Lines">PO0430</a>&nbsp;</td>
+         <td><a href="POINVL.HTM" title="Table: Invoice Lines">POINVL</a>&nbsp;</td>
+         <td>Invoice Lines&nbsp;</td>
+         <td>POINVL</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PO0431.HTM" title="View: Invoice Posting Lines">PO0431</a>&nbsp;</td>
+         <td><a href="POINVM.HTM" title="Table: Invoice Posting Lines">POINVM</a>&nbsp;</td>
+         <td>Invoice Posting Lines&nbsp;</td>
+         <td>POINVM</td>
+      </tr>
+      <tr align="left">
+         <td><a href="PO0811.HTM" title="View: Invoice Posting Lines Serials">PO0811</a>&nbsp;</td>
+         <td><a href="POINVMS.HTM" title="Table: Invoice Posting Lines Serials">POINVMS</a>&nbsp;</td>
+         <td>Invoice Posting Lines Serials&nbsp;</td>
+         <td>POINVMS</td>
+      </tr>
+      <tr><td colspan="4"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Keys: 2</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td>Detail Key&nbsp;</td>
+         <td><a href="#INVHSEQ">INVHSEQ</a>, <a href="#INVLREV">INVLREV</a>, <a href="#SERIALNUMF">SERIALNUMF</a></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td>Serial Number Key&nbsp;</td>
+         <td><a href="#SERIALNUMF">SERIALNUMF</a>, <a href="#INVHSEQ">INVHSEQ</a>, <a href="#INVLREV">INVLREV</a></td>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 5</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="INVHSEQ">INVHSEQ</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Sequence Key&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Key" title="Key">K</a>&nbsp;<a href="EndNotes.HTM#Attribute_Required" title="Required">R</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="INVLREV">INVLREV</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Line Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Key" title="Key">K</a>&nbsp;<a href="EndNotes.HTM#Attribute_Required" title="Required">R</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SERIALNUMF">SERIALNUMF</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>String*40&nbsp;</td>
+         <td style="white-space: nowrap">Serial Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Key" title="Key">K</a>&nbsp;<a href="EndNotes.HTM#Attribute_Required" title="Required">R</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="INVLSEQ">INVLSEQ</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>BCD*10.0&nbsp;</td>
+         <td style="white-space: nowrap">Invoice Line Sequence&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SCOUNT">SCOUNT</a>&nbsp;</td>
+         <td>50&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Serial Count&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>

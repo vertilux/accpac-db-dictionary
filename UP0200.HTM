@@ -1,0 +1,396 @@
+<html>
+<head>
+<meta name="generator" content="Sage Accpac SDK 5.5A" />
+<meta name="keywords" content="UP UP0200 UPCOBK UPCOBK" />
+<title>Company EFT Banks</title>
+<link rel="stylesheet" href="accpac.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<h1 align="left">View: Company EFT Banks</h1>
+<b>RotoID:</b> UP0200<br />
+<b>Table:</b> <a href="UPCOBK.HTM" title="Table: Company EFT Banks">UPCOBK</a><br />
+<b>Protocol:</b> Flat<br />
+<b>DLL:</b> UPCOBK
+<h2>Compositions: 0</h2>
+<h2>Keys: 1</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Fields</th>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td>Company EFT Bank&nbsp;</td>
+         <td><a href="#BANKID">BANKID</a></td>
+      </tr>
+      <tr><td colspan="2"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<h2>Fields: 43</h2>
+<table border="0" cellpadding="2" cellspacing="0">
+   <thead class="aom">
+      <tr align="left">
+         <th class="aom">Field&nbsp;</th>
+         <th class="aom">Index&nbsp;</th>
+         <th class="aom">Type&nbsp;</th>
+         <th class="aom">Title&nbsp;</th>
+         <th class="aom">Attributes&nbsp;</th>
+         <th class="aom">Presentation</th>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </thead>
+   <tbody>
+      <tr valign="top" align="left">
+         <td><a name="BANKID">BANKID</a>&nbsp;</td>
+         <td>1&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Company EFT Bank&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Key" title="Key">K</a>&nbsp;<a href="EndNotes.HTM#Attribute_Required" title="Required">R</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-8N</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKFORMAT">BANKFORMAT</a>&nbsp;</td>
+         <td>2&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Bank Format&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">21</td><td>=</td><td align="left" style="white-space: nowrap">ACH (NACHA) Standard</td></tr><tr valign="top"><td align="right">22</td><td>=</td><td align="left" style="white-space: nowrap">ACH (NACHA) Non Standard with Offset Record</td></tr><tr valign="top"><td align="right">23</td><td>=</td><td align="left" style="white-space: nowrap">CSB CoreState Bank</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ORIGNUM">ORIGNUM</a>&nbsp;</td>
+         <td>3&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Originator Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COMPABREV">COMPABREV</a>&nbsp;</td>
+         <td>4&nbsp;</td>
+         <td>String*16&nbsp;</td>
+         <td style="white-space: nowrap">Company Abbreviated Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-16c</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="COMPLNAME">COMPLNAME</a>&nbsp;</td>
+         <td>5&nbsp;</td>
+         <td>String*30&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DATACENTER">DATACENTER</a>&nbsp;</td>
+         <td>6&nbsp;</td>
+         <td>String*5&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="INSTIDRTN">INSTIDRTN</a>&nbsp;</td>
+         <td>7&nbsp;</td>
+         <td>String*9&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ACCTNORTN">ACCTNORTN</a>&nbsp;</td>
+         <td>8&nbsp;</td>
+         <td>String*18&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RESERVDORG">RESERVDORG</a>&nbsp;</td>
+         <td>9&nbsp;</td>
+         <td>String*15&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ELEMENTID">ELEMENTID</a>&nbsp;</td>
+         <td>10&nbsp;</td>
+         <td>String*11&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="REGLECODE">REGLECODE</a>&nbsp;</td>
+         <td>11&nbsp;</td>
+         <td>String*2&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CPATRNCODE">CPATRNCODE</a>&nbsp;</td>
+         <td>12&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">RESERVED - Cdn Only&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CODISCDATA">CODISCDATA</a>&nbsp;</td>
+         <td>13&nbsp;</td>
+         <td>String*20&nbsp;</td>
+         <td style="white-space: nowrap">Company Discretionary Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="SERVCLASS">SERVCLASS</a>&nbsp;</td>
+         <td>14&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Service Class Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ORIGSTATUS">ORIGSTATUS</a>&nbsp;</td>
+         <td>15&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Originator Status Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 2 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">1</td><td>=</td><td align="left" style="white-space: nowrap">1 - Bound</td></tr><tr valign="top"><td align="right">2</td><td>=</td><td align="left" style="white-space: nowrap">2 - Unbound</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ORIGDFIID">ORIGDFIID</a>&nbsp;</td>
+         <td>16&nbsp;</td>
+         <td>String*9&nbsp;</td>
+         <td style="white-space: nowrap">Originator DFI ID&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-9d</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ALTIMMDEST">ALTIMMDEST</a>&nbsp;</td>
+         <td>17&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Use Alternative Imm. Dest. ID?&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IMMDESTID">IMMDESTID</a>&nbsp;</td>
+         <td>18&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Immediate Destination ID&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-9d</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IMMDESTNAM">IMMDESTNAM</a>&nbsp;</td>
+         <td>19&nbsp;</td>
+         <td>String*23&nbsp;</td>
+         <td style="white-space: nowrap">Immediate Destination Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ALTIMMORIG">ALTIMMORIG</a>&nbsp;</td>
+         <td>20&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Use Alternative Imm. Origin No.?&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IMMORIGNUM">IMMORIGNUM</a>&nbsp;</td>
+         <td>21&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Immediate Origin No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-9d</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="IMMORIGNAM">IMMORIGNAM</a>&nbsp;</td>
+         <td>22&nbsp;</td>
+         <td>String*23&nbsp;</td>
+         <td style="white-space: nowrap">Immediate Origin Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OFFRECTYPE">OFFRECTYPE</a>&nbsp;</td>
+         <td>23&nbsp;</td>
+         <td>String*1&nbsp;</td>
+         <td style="white-space: nowrap">Offset Record Type Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OFFTRNCODE">OFFTRNCODE</a>&nbsp;</td>
+         <td>24&nbsp;</td>
+         <td>Integer&nbsp;</td>
+         <td style="white-space: nowrap">Offset Transaction Code&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>List:</b> 3 entries<br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="right">0</td><td>=</td><td align="left" style="white-space: nowrap"> </td></tr><tr valign="top"><td align="right">27</td><td>=</td><td align="left" style="white-space: nowrap">27 - Checking</td></tr><tr valign="top"><td align="right">37</td><td>=</td><td align="left" style="white-space: nowrap">37 - Savings</td></tr></table></td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OFFRDFIID">OFFRDFIID</a>&nbsp;</td>
+         <td>25&nbsp;</td>
+         <td>String*9&nbsp;</td>
+         <td style="white-space: nowrap">Offset Receiving DFI ID&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-9d</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OFFRDFIACC">OFFRDFIACC</a>&nbsp;</td>
+         <td>26&nbsp;</td>
+         <td>String*17&nbsp;</td>
+         <td style="white-space: nowrap">Offset DFI Account No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap"><b>Mask:</b> %-17c</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OFFINDVID">OFFINDVID</a>&nbsp;</td>
+         <td>27&nbsp;</td>
+         <td>String*15&nbsp;</td>
+         <td style="white-space: nowrap">Offset Individual ID No.&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OFFINDVNAM">OFFINDVNAM</a>&nbsp;</td>
+         <td>28&nbsp;</td>
+         <td>String*22&nbsp;</td>
+         <td style="white-space: nowrap">Offset Individual Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="OFFDISDATA">OFFDISDATA</a>&nbsp;</td>
+         <td>29&nbsp;</td>
+         <td>String*2&nbsp;</td>
+         <td style="white-space: nowrap">Offset Discretionary Data&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="APPENDCRLF">APPENDCRLF</a>&nbsp;</td>
+         <td>30&nbsp;</td>
+         <td>Boolean&nbsp;</td>
+         <td style="white-space: nowrap">Append CR/LF to Each Record?&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FILEHEADER">FILEHEADER</a>&nbsp;</td>
+         <td>31&nbsp;</td>
+         <td>String*250&nbsp;</td>
+         <td style="white-space: nowrap">Deposit File Header&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FILEFOOTER">FILEFOOTER</a>&nbsp;</td>
+         <td>32&nbsp;</td>
+         <td>String*250&nbsp;</td>
+         <td style="white-space: nowrap">Deposit File Footer&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DPFILENAME">DPFILENAME</a>&nbsp;</td>
+         <td>33&nbsp;</td>
+         <td>String*8&nbsp;</td>
+         <td style="white-space: nowrap">Deposit File Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="DPFILEEXT">DPFILEEXT</a>&nbsp;</td>
+         <td>34&nbsp;</td>
+         <td>String*3&nbsp;</td>
+         <td style="white-space: nowrap">Deposit File Extension&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="EFTRUNSEQ">EFTRUNSEQ</a>&nbsp;</td>
+         <td>35&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Last EFT Run Sequence&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="RERUNSEQ">RERUNSEQ</a>&nbsp;</td>
+         <td>36&nbsp;</td>
+         <td>Long&nbsp;</td>
+         <td style="white-space: nowrap">Last EFT Rerun Sequence&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CREATDATE">CREATDATE</a>&nbsp;</td>
+         <td>37&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Last File Creation Date&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FILCREATNO">FILCREATNO</a>&nbsp;</td>
+         <td>38&nbsp;</td>
+         <td>String*4&nbsp;</td>
+         <td style="white-space: nowrap">Last File Creation Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="FILIDMODIF">FILIDMODIF</a>&nbsp;</td>
+         <td>39&nbsp;</td>
+         <td>String*1&nbsp;</td>
+         <td style="white-space: nowrap">Last File ID Modifier&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="ENTRYDESC">ENTRYDESC</a>&nbsp;</td>
+         <td>40&nbsp;</td>
+         <td>String*10&nbsp;</td>
+         <td style="white-space: nowrap">Last File Entry Description&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="LASTMAINT">LASTMAINT</a>&nbsp;</td>
+         <td>41&nbsp;</td>
+         <td>Date&nbsp;</td>
+         <td style="white-space: nowrap">Last Maintained&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="CMBFILECNO">CMBFILECNO</a>&nbsp;</td>
+         <td>42&nbsp;</td>
+         <td>String*4&nbsp;</td>
+         <td style="white-space: nowrap">Last Combine File Creation Number&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Check-editability" title="Check-editability">X</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr valign="top" align="left">
+         <td><a name="BANKNAME">BANKNAME</a>&nbsp;</td>
+         <td>100&nbsp;</td>
+         <td>String*60&nbsp;</td>
+         <td style="white-space: nowrap">Bank Name&nbsp;</td>
+         <td><a href="EndNotes.HTM#Attribute_Editable" title="Editable">E</a>&nbsp;<a href="EndNotes.HTM#Attribute_Enabled" title="Enabled">A</a>&nbsp;<a href="EndNotes.HTM#Attribute_Calculated" title="Calculated">C</a>&nbsp;</td>
+         <td style="white-space: nowrap">&nbsp;</td>
+      </tr>
+      <tr><td colspan="6"><hr class="aom" /></td></tr>
+   </tbody>
+</table>
+<div align="center"><p>This page was generated on 2009-Nov-19</p></div>
+<div align="center"><p>Copyright &copy; 2001&ndash;2009 Sage Software, Inc.  All rights reserved.</p></div>
+</body>
+</html>
